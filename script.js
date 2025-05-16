@@ -1,3 +1,4 @@
+le
 let extractedSentences = [];
 let githubInfo = {
   username: '', // 네 깃허브 아이디
@@ -23,15 +24,21 @@ document.getElementById('parseBtn').onclick = async function() {
   }
   console.log('PDF 추출 전체:', allText);
 
-  // 줄별 영어문장 추출 (번호+마침표+공백 옵션 허용, 다양한 작은따옴표 포함)
+  // 줄별 영어문장 추출
+  // 번호+마침표+공백 옵션 허용, 다양한 작은따옴표 포함 (ASCII ', ‘ ’ ′)
   const lines = allText.split('\n');
-  const EnglishSentencePattern = /^(#+\d+.)?\s*[A-Z][A-Za-z0-9 ., '"\u2018\u2019\u2032#\-?!;“”—%()$@\[\]/]+[.?!]$/;
+  const englishSentencePattern = /^(#?\d+\.?\s*)?[A-Z][A-Za-z0-9 ., '"‘’′#\-?!;“”—%()$@\[\]/]+[.?!]$/;
 
-  .map(s => s.trim())
-  .filter(s => s.length > 7 && englishSentencePattern.test(s));
-const cleaned = sentences.map(s => s.replace(/^(\d+\.)\s*/, ''));
-extractedSentences = [...new Set(cleaned)];
+  // 조건에 맞는 문장 필터링 및 공백 제거
+  const sentences = lines
+    .map(s => s.trim())
+    .filter(s => s.length > 7 && englishSentencePattern.test(s));
 
+  // 문장 번호(예: '1. ') 제거
+  const cleaned = sentences.map(s => s.replace(/^(\d+\.)\s*/, ''));
+
+  // 중복 제거
+  extractedSentences = [...new Set(cleaned)];
 
   console.log('최종 분리된 문장:', extractedSentences.length, extractedSentences);
 
