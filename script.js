@@ -1,99 +1,156 @@
-/* ---------- script.js (번호 제거 포함 완성) ---------- */
+/* ---------- script.js (2025-05-16 수정본) ---------- */
 let extractedSentences = [];
-const githubInfo = { username: '', repo: '', branch: 'main', filePath: 'wfd.json' };
 
-document.getElementById('parseBtn').onclick = async () => {
+const githubInfo = {
+  username: '',
+  repo: '',
+  branch: 'main',
+  filePath: 'wfd.json'
+};
+
+/* ───── PDF → 문장 추출 ───── */
+document.getElementById('parseBtn').addEventListener('click', async () => {
   const file = document.getElementById('pdfFile').files[0];
-  if (!file) return showStatus('PDF 파일을 선택하세요!');
+  if (!file) { showStatus('PDF 파일을 선택하세요!'); return; }
+
   showStatus('PDF 분석 중…');
 
-  /* 1. PDF → 텍스트 */
+  /* 1. PDF → raw text */
   const pdf = await pdfjsLib.getDocument(await file.arrayBuffer()).promise;
   let raw = '';
-  for (let i = 1; i <= pdf.numPages; i++) {
-    const page = await pdf.getPage(i);
+  for (let p = 1; p <= pdf.numPages; p++) {
+    const page = await pdf.getPage(p);
     const txt  = await page.getTextContent();
     raw += txt.items.map(t => t.str).join('\n') + '\n';
   }
 
-  /* 2. 문자 통일 */
+  /* 2. 구두점 통일 */
   raw = raw
-    .replace(/[\u2018\u2019\u02BB\u02BC\u2032]/g, "'")
-    .replace(/[\u201C\u201D]/g, '"')
-    .replace(/[\u2013\u2014]/g, '-')
-    .replace(/\r\n|\r/g, '\n');
+    .replace(/[\u2018\u2019\u02BB\u02BC\u2032]/g, "'") // ’ 등 → '
+    .replace(/[\u201C\u201D]/g, '"')                  // “ ” → "
+    .replace(/[\u2013\u2014]/g, '-')                  // – — → -
+    .replace(/\r\n?|\n/g, '\n');                      // 개행 통일
 
-  /* 3. 줄 합치기 */
-  const merged = [];
+  /* 3. 줄 합치기(행 갈라진 부분 복원) */
+  const mergedLines = [];
   for (const lineRaw of raw.split('\n')) {
     const line = lineRaw.trim();
     if (!line) continue;
-    const prev = merged[merged.length - 1] || '';
-    const needMerge = merged.length && !/[.!?]$/.test(prev) && /^[a-z'’]/.test(line);
-    needMerge ? merged[merged.length - 1] += ' ' + line : merged.push(line);
+
+    const prev = mergedLines[mergedLines.length - 1] || '';
+    const shouldMerge =                    // 앞줄이 .!? 로 끝나지 않고
+      mergedLines.length &&                // 이번 줄이 소문자/’ 로 시작
+      !/[.!?]$/.test(prev) &&
+      /^[a-z'’]/.test(line);
+
+    shouldMerge
+      ? mergedLines[mergedLines.length - 1] = prev + ' ' + line
+      : mergedLines.push(line);
   }
 
   /* 4. 필터 조건 */
-  const hasCJK = /[\u4E00-\u9FFF]/;
+  const hasCJK = /[\u4E00-\u9FFF]/;        // 중국어‧한자 포함 여부
   const isSentence = s =>
-    s.length >= 10 &&
-    /[A-Za-z]/.test(s) &&
-    !hasCJK.test(s) &&
-    !/WRITE FROM DICTATION/i.test(s);
+    s.length >= 10 &&                      // 최소 길이
+    /[A-Za-z]/.test(s) &&                  // 영문자 포함
+    !hasCJK.test(s) &&                     // CJK 제외
+    !/WRITE FROM DICTATION/i.test(s);      // 제목 제외
 
   /* 5. 한 줄 → 여러 문장 분리 + 마침표 보강 */
-  const pieces = merged.flatMap(l => {
+  const pieces = mergedLines.flatMap(l => {
     const line = /[.!?]$/.test(l) ? l : l + '.';
-    return line.split(/(?<=[.!?])\s+(?=[A-Z])/);
+    return line.split(/(?<=[.!?])\s+(?=[A-Z])/); // .!? 뒤 + 대문자에서 분리
   });
 
-  /* 6. 다듬기 + 중복 제거 + 번호 삭제 */
+  /* 6. 다듬기 + 번호 제거 + 중복 제거 */
   extractedSentences = [...new Set(
     pieces
       .map(s =>
         s
-          .replace(/^["'(]+|["')]+$/g, '')       // 양쪽 특수문자
-          .replace(/^\d+\s*[\.)]?\s*/, '')       // ★ 앞 번호/점/괄호
+          .replace(/^["'(]+|["')]+$/g, '') // 양쪽 따옴표/괄호
+          .replace(/^\d+\s*[\.)]?\s*/, '') // 맨 앞 숫자·점·괄호
           .trim()
       )
       .filter(isSentence)
   )];
 
   preview();
-};
+});
 
-/* ----------- preview / download / upload / showStatus 그대로 ----------- */
+/* ───── 미리보기 ───── */
 function preview() {
-  document.getElementById('preview').innerHTML =
+  const previewEl = document.getElementById('preview');
+  previewEl.innerHTML =
     `<b>문장 개수: ${extractedSentences.length}</b><br><br>` +
     extractedSentences.map((s, i) => `<div>${i + 1}. ${s}</div>`).join('');
-  ['downloadBtn', 'uploadBtn', 'tokenInput']
-    .forEach(id => document.getElementById(id).style.display = 'inline-block');
+
+  ['downloadBtn', 'uploadBtn', 'tokenInput'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'inline-block';
+  });
 }
 
-document.getElementById('downloadBtn').onclick = () => {
-  const blob = new Blob([JSON.stringify(extractedSentences, null, 2)],
-                       { type: 'application/json' });
+/* ───── JSON 다운로드 ───── */
+document.getElementById('downloadBtn').addEventListener('click', () => {
+  const blob = new Blob(
+    [JSON.stringify(extractedSentences, null, 2)],
+    { type: 'application/json' }
+  );
   const url = URL.createObjectURL(blob);
-  Object.assign(document.createElement('a'), { href: url, download: 'wfd.json' }).click();
+  Object.assign(document.createElement('a'), {
+    href: url,
+    download: 'wfd.json'
+  }).click();
   URL.revokeObjectURL(url);
-};
+});
 
-document.getElementById('uploadBtn').onclick = async () => {
+/* ───── GitHub 업로드 ───── */
+document.getElementById('uploadBtn').addEventListener('click', async () => {
   const token = document.getElementById('tokenInput').value.trim();
-  if (!token) return showStatus('GitHub 토큰을 입력하세요!');
+  if (!token) { showStatus('GitHub 토큰을 입력하세요!'); return; }
+
   if (!githubInfo.username || !githubInfo.repo) {
     githubInfo.username = prompt('깃허브 아이디?');
-    githubInfo.repo    = prompt('저장소 이름?');
+    githubInfo.repo     = prompt('저장소 이름?');
   }
+
   showStatus('GitHub에 업로드 중…');
 
+  const apiURL = `https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`;
+
+  /* 1) 기존 파일 SHA 확인 */
   let sha = '';
   try {
-    const r = await fetch(
-      `https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`);
-    if (r.ok) sha = (await r.json()).sha;
-  } catch {}
+    const infoRes = await fetch(apiURL);
+    if (infoRes.ok) sha = (await infoRes.json()).sha;
+  } catch (e) {
+    /* 파일이 없으면 404 → sha = '' 그대로 */
+  }
 
-  const res = await fetch(
-    `https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo
+  /* 2) PUT 업로드 */
+  const putRes = await fetch(apiURL, {
+    method: 'PUT',
+    headers: {
+      Authorization: `token ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: 'WFD 자동 업로드',
+      content: btoa(
+        unescape(encodeURIComponent(JSON.stringify(extractedSentences, null, 2)))
+      ),
+      sha
+    })
+  });
+
+  showStatus(putRes.ok
+    ? '✅ GitHub 업로드 성공!'
+    : '❌ 업로드 실패: ' + await putRes.text());
+});
+
+/* ───── 상태 출력 ───── */
+function showStatus(msg) {
+  const statusEl = document.getElementById('status');
+  if (statusEl) statusEl.textContent = msg;
+}
+/* ---------- 끝 ---------- */
