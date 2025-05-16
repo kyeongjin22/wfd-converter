@@ -21,12 +21,14 @@ document.getElementById('parseBtn').onclick = async function() {
     const txt = await page.getTextContent();
     allText += txt.items.map(t => t.str).join('\n') + '\n';
   }
-  // 문장 추출 규칙 (영어만, 번호 제거)
+  // 문장 추출 (정규식 동일)
   const sentenceRegex = /([A-Z][^.?!\n]+[.?!])/g;
   let matches = allText.match(sentenceRegex) || [];
-  // 중복, 공백, 숫자제거 등 추가 처리
+  // 특수문자/유니코드 따옴표 포함 모든 영어문장 허용
+  // ’ ‘ “ ” — – … 등 모두 허용
+  const allowedChars = /^[a-zA-Z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+$/;
   extractedSentences = [...new Set(matches.map(s => s.trim()))]
-    .filter(s => /^[a-zA-Z0-9 ,.'"-?!:;]+$/.test(s) && s.length > 7);
+    .filter(s => allowedChars.test(s) && s.length > 7);
   preview();
 };
 
@@ -50,19 +52,16 @@ document.getElementById('downloadBtn').onclick = function() {
 document.getElementById('uploadBtn').onclick = async function() {
   const token = document.getElementById('tokenInput').value.trim();
   if (!token) return showStatus('GitHub 토큰을 입력하세요!');
-  // 최초 1회 저장소 정보 입력
   if (!githubInfo.username || !githubInfo.repo) {
     githubInfo.username = prompt('깃허브 아이디?');
     githubInfo.repo = prompt('저장소 이름?');
   }
   showStatus('GitHub에 업로드 중...');
-  // 최신 SHA 조회
   let sha = '';
   try {
     const r = await fetch(`https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`);
     if (r.ok) sha = (await r.json()).sha;
   } catch {}
-  // 업로드
   const res = await fetch(`https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`, {
     method: 'PUT',
     headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
