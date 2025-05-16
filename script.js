@@ -19,14 +19,24 @@ document.getElementById('parseBtn').onclick = async function() {
   for (let i = 1; i <= pdf.numPages; i++) {
     const page = await pdf.getPage(i);
     const txt = await page.getTextContent();
+    // 디버깅: 각 페이지별 추출 결과 콘솔에 찍기
+    console.log(`페이지 ${i}:`, txt.items.map(t => t.str).join('\n'));
     allText += txt.items.map(t => t.str).join('\n') + '\n';
   }
-  // NEW! 더 유연한 문장 분리
+  // 디버깅: 전체 추출 텍스트 콘솔에 출력
+  console.log('추출된 전체 텍스트:', allText);
+
+  // 문장 분리 - 더 유연하게 (마침표, 느낌표, 물음표 뒤 + 대문자 시작)
   const sentences = allText
     .split(/(?<=[.?!])\s+(?=[A-Z])/g)
     .map(s => s.trim())
     .filter(s => s.length > 7 && /^[a-zA-Z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+$/.test(s));
+  // 중복 제거
   extractedSentences = [...new Set(sentences)];
+
+  // 디버깅: 분리된 문장 수/샘플 콘솔에 출력
+  console.log('최종 분리된 문장:', extractedSentences.length, extractedSentences.slice(0,5));
+
   preview();
 };
 
