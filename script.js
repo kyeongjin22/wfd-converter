@@ -25,13 +25,13 @@ document.getElementById('parseBtn').onclick = async function() {
 
   // 줄별 영어문장 추출 (번호+마침표+공백 옵션 허용, 다양한 작은따옴표 포함)
   const lines = allText.split('\n');
-  const englishSentencePattern = /^(\d+\.)?\s*[A-Z][A-Za-z0-9 ,.'’‘"\-?!:;“”—–…%()$@&[\]/\\]+[.?!]$/;
-  const sentences = lines
-    .map(s => s.trim())
-    .filter(s => s.length > 7 && englishSentencePattern.test(s));
-  // 앞 번호(예: "47.")는 제거하고 영어문장만 남기기
-  const cleaned = sentences.map(s => s.replace(/^(\d+\.)\s*/, ''));
-  extractedSentences = [...new Set(cleaned)];
+  const englishSentencePattern = /^(\d+\.)?\s*[A-Z][A-Za-z0-9 ,.'’‘′`´"\\-?!:;“”—–…%()$@&[\]/\\]+[.?!]$/;
+const sentences = lines
+  .map(s => s.trim())
+  .filter(s => s.length > 7 && englishSentencePattern.test(s));
+const cleaned = sentences.map(s => s.replace(/^(\d+\.)\s*/, ''));
+extractedSentences = [...new Set(cleaned)];
+
 
   console.log('최종 분리된 문장:', extractedSentences.length, extractedSentences);
 
