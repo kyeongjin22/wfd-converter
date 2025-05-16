@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PDF → JSON 변환툴</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WFD Extractor</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { margin: 5px 0; }
+    #preview { margin-top: 20px; white-space: pre-line; }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>PDF → JSON 변환툴</h1>
-    <input type="file" id="pdfFile" accept=".pdf">
-    <button id="parseBtn">변환 시작</button>
-<div id="status" style="margin-top:10px;color:#e24a4a;"></div>
-    <div id="preview"></div>
-    <button id="downloadBtn" style="display:none;">JSON 다운로드</button>
-    <button id="uploadBtn" style="display:none;">GitHub 업로드</button>
-    <input type="password" id="tokenInput" placeholder="GitHub Token" style="display:none;">
-    <div id="status"></div>
-  </div>
-  <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+  <h1>WFD PDF Extractor</h1>
+  <input type="file" id="pdfFile" accept=".pdf" />
+  <button id="parseBtn">Extract Sentences</button>
+  <br/>
+  <input type="text" id="tokenInput" placeholder="GitHub Token" style="display:none;" />
+  <button id="uploadBtn" style="display:none;">Upload to GitHub</button>
+  <button id="downloadBtn" style="display:none;">Download JSON</button>
+  <p id="status"></p>
+  <div id="preview"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
