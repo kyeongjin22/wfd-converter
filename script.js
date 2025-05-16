@@ -25,8 +25,8 @@ document.getElementById('parseBtn').onclick = async function() {
 
   // 줄별 영어문장 추출 (번호+마침표+공백 옵션 허용, 다양한 작은따옴표 포함)
   const lines = allText.split('\n');
-  const englishSentencePattern = /^(\d+\.)?\s*[A-Z][A-Za-z0-9 ,.'’‘′`´"\\-?!:;“”—–…%()$@&[\]/\\]+[.?!]$/;
-const sentences = lines
+  const EnglishSentencePattern = /^(#+\d+.)?\s*[A-Z][A-Za-z0-9 ., '"\u2018\u2019\u2032#\-?!;“”—%()$@\[\]/]+[.?!]$/;
+
   .map(s => s.trim())
   .filter(s => s.length > 7 && englishSentencePattern.test(s));
 const cleaned = sentences.map(s => s.replace(/^(\d+\.)\s*/, ''));
