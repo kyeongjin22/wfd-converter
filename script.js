@@ -6,7 +6,7 @@ let githubInfo = {
   filePath: 'wfd.json' // 저장할 파일명
 };
 
-document.getElementById('parseBtn').onclick = async function() {
+document.getElementById('parseBtn').onclick = async function () {
   const file = document.getElementById('pdfFile').files[0];
   if (!file) {
     showStatus('PDF 파일을 선택하세요!');
@@ -23,14 +23,15 @@ document.getElementById('parseBtn').onclick = async function() {
   }
   console.log('PDF 추출 전체:', allText);
 
-  // 줄별 영어문장 추출
-  // 번호+마침표+공백 옵션 허용, 다양한 작은따옴표 포함 (ASCII ', ‘ ’ ′)
-  const lines = allText.split('\n');
-  const englishSentencePattern = /^(\#?\d+\.?)?\s*[A-Z][A-Za-z0-9\s.,'"‘’′\-#?!;“”—%()$@\[\]/]+[.?!]$/;
+  // ✅ 전처리: 다양한 어퍼스트로피/작은따옴표들을 ASCII '로 통일
+  allText = allText.replace(/[‘’′ʻʽꞌ]/g, "'");
 
+  // 줄별 영어문장 추출
+  const lines = allText.split('\n');
+  const englishSentencePattern = /^(\#?\d+\.?)?\s*[A-Z][A-Za-z0-9\s.,'"\-#?!;“”—%()$@\[\]/]+[.?!]$/;
 
   // 조건에 맞는 문장 필터링 및 공백 제거
-   const sentences = lines
+  const sentences = lines
     .map(s => s.trim())
     .filter(s => s.length > 7 && englishSentencePattern.test(s));
 
@@ -48,21 +49,23 @@ document.getElementById('parseBtn').onclick = async function() {
 function preview() {
   document.getElementById('preview').innerHTML =
     `<b>문장 개수: ${extractedSentences.length}</b><br><br>` +
-    extractedSentences.map((s,i)=>`<div>${i+1}. ${s}</div>`).join('');
+    extractedSentences.map((s, i) => `<div>${i + 1}. ${s}</div>`).join('');
   document.getElementById('downloadBtn').style.display = 'inline-block';
   document.getElementById('uploadBtn').style.display = 'inline-block';
   document.getElementById('tokenInput').style.display = 'inline-block';
 }
 
-document.getElementById('downloadBtn').onclick = function() {
-  const blob = new Blob([JSON.stringify(extractedSentences, null, 2)], {type:'application/json'});
+document.getElementById('downloadBtn').onclick = function () {
+  const blob = new Blob([JSON.stringify(extractedSentences, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
-  a.href = url; a.download = 'wfd.json';
-  a.click(); URL.revokeObjectURL(url);
+  a.href = url;
+  a.download = 'wfd.json';
+  a.click();
+  URL.revokeObjectURL(url);
 };
 
-document.getElementById('uploadBtn').onclick = async function() {
+document.getElementById('uploadBtn').onclick = async function () {
   const token = document.getElementById('tokenInput').value.trim();
   if (!token) return showStatus('GitHub 토큰을 입력하세요!');
   if (!githubInfo.username || !githubInfo.repo) {
@@ -74,13 +77,13 @@ document.getElementById('uploadBtn').onclick = async function() {
   try {
     const r = await fetch(`https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`);
     if (r.ok) sha = (await r.json()).sha;
-  } catch {}
+  } catch { }
   const res = await fetch(`https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`, {
     method: 'PUT',
     headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
       message: 'WFD 문제 자동 업로드',
-      content: btoa(unescape(encodeURIComponent(JSON.stringify(extractedSentences,null,2)))),
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(extractedSentences, null, 2)))),
       sha
     })
   });
