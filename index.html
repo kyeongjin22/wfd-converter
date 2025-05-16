@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF → JSON 변환툴</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PDF → JSON 변환툴</h1>
+    <input type="file" id="pdfFile" accept=".pdf">
+    <button id="parseBtn">변환 시작</button>
+    <div id="preview"></div>
+    <button id="downloadBtn" style="display:none;">JSON 다운로드</button>
+    <button id="uploadBtn" style="display:none;">GitHub 업로드</button>
+    <input type="password" id="tokenInput" placeholder="GitHub Token" style="display:none;">
+    <div id="status"></div>
+  </div>
+  <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
