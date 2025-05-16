@@ -1,3 +1,4 @@
+
 let extractedSentences = [];
 let githubInfo = {
   username: '', // 네 깃허브 아이디
@@ -19,23 +20,19 @@ document.getElementById('parseBtn').onclick = async function() {
   for (let i = 1; i <= pdf.numPages; i++) {
     const page = await pdf.getPage(i);
     const txt = await page.getTextContent();
-    // 디버깅: 각 페이지별 추출 결과 콘솔에 찍기
-    console.log(`페이지 ${i}:`, txt.items.map(t => t.str).join('\n'));
     allText += txt.items.map(t => t.str).join('\n') + '\n';
   }
-  // 디버깅: 전체 추출 텍스트 콘솔에 출력
-  console.log('추출된 전체 텍스트:', allText);
+  console.log('PDF 추출 전체:', allText);
 
-  // 문장 분리 - 더 유연하게 (마침표, 느낌표, 물음표 뒤 + 대문자 시작)
-  const sentences = allText
-    .split(/(?<=[.?!])\s+(?=[A-Z])/g)
+  // 한 줄씩 영어문장만 추출 (번호/중국어/기타 무시)
+  const lines = allText.split('\n');
+  const englishSentencePattern = /^[A-Z][A-Za-z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+[.?!]$/;
+  const sentences = lines
     .map(s => s.trim())
-    .filter(s => s.length > 7 && /^[a-zA-Z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+$/.test(s));
-  // 중복 제거
+    .filter(s => s.length > 7 && englishSentencePattern.test(s));
   extractedSentences = [...new Set(sentences)];
 
-  // 디버깅: 분리된 문장 수/샘플 콘솔에 출력
-  console.log('최종 분리된 문장:', extractedSentences.length, extractedSentences.slice(0,5));
+  console.log('최종 분리된 문장:', extractedSentences.length, extractedSentences);
 
   preview();
 };
