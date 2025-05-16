@@ -21,14 +21,12 @@ document.getElementById('parseBtn').onclick = async function() {
     const txt = await page.getTextContent();
     allText += txt.items.map(t => t.str).join('\n') + '\n';
   }
-  // 문장 추출 (정규식 동일)
-  const sentenceRegex = /([A-Z][^.?!\n]+[.?!])/g;
-  let matches = allText.match(sentenceRegex) || [];
-  // 특수문자/유니코드 따옴표 포함 모든 영어문장 허용
-  // ’ ‘ “ ” — – … 등 모두 허용
-  const allowedChars = /^[a-zA-Z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+$/;
-  extractedSentences = [...new Set(matches.map(s => s.trim()))]
-    .filter(s => allowedChars.test(s) && s.length > 7);
+  // NEW! 더 유연한 문장 분리
+  const sentences = allText
+    .split(/(?<=[.?!])\s+(?=[A-Z])/g)
+    .map(s => s.trim())
+    .filter(s => s.length > 7 && /^[a-zA-Z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+$/.test(s));
+  extractedSentences = [...new Set(sentences)];
   preview();
 };
 
