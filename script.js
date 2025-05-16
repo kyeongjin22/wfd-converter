@@ -27,10 +27,11 @@ document.getElementById('parseBtn').onclick = async function() {
   // 줄별 영어문장 추출
   // 번호+마침표+공백 옵션 허용, 다양한 작은따옴표 포함 (ASCII ', ‘ ’ ′)
   const lines = allText.split('\n');
-  const englishSentencePattern = /^(#?\d+\.?\s*)?[A-Z][A-Za-z0-9 ., '"‘’′#\-?!;“”—%()$@\[\]/]+[.?!]$/;
+  const englishSentencePattern = /^(\#?\d+\.?)?\s*[A-Z][A-Za-z0-9\s.,'"‘’′\-#?!;“”—%()$@\[\]/]+[.?!]$/;
+
 
   // 조건에 맞는 문장 필터링 및 공백 제거
-  const sentences = lines
+   const sentences = lines
     .map(s => s.trim())
     .filter(s => s.length > 7 && englishSentencePattern.test(s));
 
