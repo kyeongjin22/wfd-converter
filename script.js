@@ -1,4 +1,5 @@
-/* ---------- script.js (2025-05-16 수정본) ---------- */
+
+/* ---------- script.js (번호 + 단문 줄바꿈 복원 포함) ---------- */
 let extractedSentences = [];
 
 const githubInfo = {
@@ -38,28 +39,37 @@ document.getElementById('parseBtn').addEventListener('click', async () => {
     if (!line) continue;
 
     const prev = mergedLines[mergedLines.length - 1] || '';
-    const shouldMerge =                    // 앞줄이 .!? 로 끝나지 않고
-      mergedLines.length &&                // 이번 줄이 소문자/’ 로 시작
-      !/[.!?]$/.test(prev) &&
-      /^[a-z'’]/.test(line);
+
+    /* ▸ 개선된 shouldMerge
+       ① 앞줄이 .!? 로 안 끝나고 다음 줄이 소문자/’ 로 시작
+       ② 앞줄이 ‘단어 1–3개 + 점(.)’ 이고 다음 줄이 소문자/’ 로 시작
+          (Parents. / you. / undergraduates. 같은 경우) */
+    const shortWordDot = /^[A-Za-z']{1,25}\.$/.test(prev);
+    const startsLower  = /^[a-z'’]/.test(line);
+    const shouldMerge =
+      mergedLines.length &&
+      (
+        (!/[.!?]$/.test(prev) && startsLower) ||
+        (shortWordDot && startsLower)
+      );
 
     shouldMerge
-      ? mergedLines[mergedLines.length - 1] = prev + ' ' + line
+      ? mergedLines[mergedLines.length - 1] = prev.replace(/\.$/, '') + ' ' + line
       : mergedLines.push(line);
   }
 
   /* 4. 필터 조건 */
   const hasCJK = /[\u4E00-\u9FFF]/;        // 중국어‧한자 포함 여부
   const isSentence = s =>
-    s.length >= 10 &&                      // 최소 길이
-    /[A-Za-z]/.test(s) &&                  // 영문자 포함
-    !hasCJK.test(s) &&                     // CJK 제외
-    !/WRITE FROM DICTATION/i.test(s);      // 제목 제외
+    s.length >= 10 &&
+    /[A-Za-z]/.test(s) &&
+    !hasCJK.test(s) &&
+    !/WRITE FROM DICTATION/i.test(s);
 
   /* 5. 한 줄 → 여러 문장 분리 + 마침표 보강 */
   const pieces = mergedLines.flatMap(l => {
     const line = /[.!?]$/.test(l) ? l : l + '.';
-    return line.split(/(?<=[.!?])\s+(?=[A-Z])/); // .!? 뒤 + 대문자에서 분리
+    return line.split(/(?<=[.!?])\s+(?=[A-Z])/);
   });
 
   /* 6. 다듬기 + 번호 제거 + 중복 제거 */
@@ -67,8 +77,8 @@ document.getElementById('parseBtn').addEventListener('click', async () => {
     pieces
       .map(s =>
         s
-          .replace(/^["'(]+|["')]+$/g, '') // 양쪽 따옴표/괄호
-          .replace(/^\d+\s*[\.)]?\s*/, '') // 맨 앞 숫자·점·괄호
+          .replace(/^["'(]+|["')]+$/g, '')   // 양쪽 따옴표/괄호
+          .replace(/^\d+\s*[\.)]?\s*/, '')   // 맨 앞 숫자·점·괄호
           .trim()
       )
       .filter(isSentence)
@@ -118,16 +128,14 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
 
   const apiURL = `https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`;
 
-  /* 1) 기존 파일 SHA 확인 */
+  /* 기존 파일 SHA 조회 */
   let sha = '';
   try {
     const infoRes = await fetch(apiURL);
     if (infoRes.ok) sha = (await infoRes.json()).sha;
-  } catch (e) {
-    /* 파일이 없으면 404 → sha = '' 그대로 */
-  }
+  } catch {}
 
-  /* 2) PUT 업로드 */
+  /* PUT 업로드 */
   const putRes = await fetch(apiURL, {
     method: 'PUT',
     headers: {
@@ -143,9 +151,11 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
     })
   });
 
-  showStatus(putRes.ok
-    ? '✅ GitHub 업로드 성공!'
-    : '❌ 업로드 실패: ' + await putRes.text());
+  showStatus(
+    putRes.ok
+      ? '✅ GitHub 업로드 성공!'
+      : '❌ 업로드 실패: ' + await putRes.text()
+  );
 });
 
 /* ───── 상태 출력 ───── */
