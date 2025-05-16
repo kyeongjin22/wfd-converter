@@ -23,8 +23,10 @@ document.getElementById('parseBtn').onclick = async function () {
   }
   console.log('PDF 추출 전체:', allText);
 
-  // ✅ 전처리: 다양한 어퍼스트로피/작은따옴표들을 ASCII '로 통일
+   // ✅ 전처리: 어퍼스트로피 통일 + 비표준 문자 제거
   allText = allText.replace(/[‘’′ʻʽꞌ]/g, "'");
+  allText = allText.replace(/[^\x00-\x7F]+/g, "");  // 비 ASCII 문자 제거
+
 
   // 줄별 영어문장 추출
   const lines = allText.split('\n');
