@@ -1,4 +1,3 @@
-
 let extractedSentences = [];
 let githubInfo = {
   username: '', // 네 깃허브 아이디
@@ -24,13 +23,15 @@ document.getElementById('parseBtn').onclick = async function() {
   }
   console.log('PDF 추출 전체:', allText);
 
-  // 한 줄씩 영어문장만 추출 (번호/중국어/기타 무시)
+  // 한 줄씩 영어문장만 추출 (앞에 번호+마침표+공백 옵션 허용)
   const lines = allText.split('\n');
-  const englishSentencePattern = /^[A-Z][A-Za-z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+[.?!]$/;
+  const englishSentencePattern = /^(\d+\.)?\s*[A-Z][A-Za-z0-9 ,.'"\-?!:;‘’“”—–…%()$@&[\]/\\]+[.?!]$/;
   const sentences = lines
     .map(s => s.trim())
     .filter(s => s.length > 7 && englishSentencePattern.test(s));
-  extractedSentences = [...new Set(sentences)];
+  // 앞 번호(예: "47.")는 제거하고 영어문장만 남기기
+  const cleaned = sentences.map(s => s.replace(/^(\d+\.)\s*/, ''));
+  extractedSentences = [...new Set(cleaned)];
 
   console.log('최종 분리된 문장:', extractedSentences.length, extractedSentences);
 
