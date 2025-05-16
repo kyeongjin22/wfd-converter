@@ -1,4 +1,3 @@
-le
 let extractedSentences = [];
 let githubInfo = {
   username: '', // 네 깃허브 아이디
