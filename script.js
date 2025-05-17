@@ -102,8 +102,14 @@ function preview() {
 
 /* ───── JSON 다운로드 ───── */
 document.getElementById('downloadBtn').addEventListener('click', () => {
+  const now = new Date().toISOString().slice(0, 10); // 'YYYY-MM-DD'
+  const output = {
+    date: now,
+    data: extractedSentences
+  };
+
   const blob = new Blob(
-    [JSON.stringify(extractedSentences, null, 2)],
+    [JSON.stringify(output, null, 2)],
     { type: 'application/json' }
   );
   const url = URL.createObjectURL(blob);
@@ -113,6 +119,7 @@ document.getElementById('downloadBtn').addEventListener('click', () => {
   }).click();
   URL.revokeObjectURL(url);
 });
+
 
 /* ───── GitHub 업로드 ───── */
 document.getElementById('uploadBtn').addEventListener('click', async () => {
@@ -135,6 +142,13 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
     if (infoRes.ok) sha = (await infoRes.json()).sha;
   } catch {}
 
+  /* ✅ 업로드할 JSON 구조 변경 */
+  const now = new Date().toISOString().slice(0, 10);
+  const output = {
+    date: now,
+    data: extractedSentences
+  };
+
   /* PUT 업로드 */
   const putRes = await fetch(apiURL, {
     method: 'PUT',
@@ -144,9 +158,7 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
     },
     body: JSON.stringify({
       message: 'WFD 자동 업로드',
-      content: btoa(
-        unescape(encodeURIComponent(JSON.stringify(extractedSentences, null, 2)))
-      ),
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(output, null, 2)))),
       sha
     })
   });
@@ -157,6 +169,7 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
       : '❌ 업로드 실패: ' + await putRes.text()
   );
 });
+
 
 /* ───── 상태 출력 ───── */
 function showStatus(msg) {
