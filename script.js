@@ -58,6 +58,12 @@ document.getElementById('parseBtn').addEventListener('click', async () => {
       : mergedLines.push(line);
   }
 
+  // 3.5. 아포스트로피(') 앞뒤 공백 보정
+const cleanedLines = mergedLines.map(
+  l => l.replace(/(\w)\s+'\s+(\w)/g, "$1'$2")
+);
+
+
   /* 4. 필터 조건 */
   const hasCJK = /[\u4E00-\u9FFF]/;        // 중국어‧한자 포함 여부
   const isSentence = s =>
@@ -67,7 +73,7 @@ document.getElementById('parseBtn').addEventListener('click', async () => {
     !/WRITE FROM DICTATION/i.test(s);
 
   /* 5. 한 줄 → 여러 문장 분리 + 마침표 보강 */
-  const pieces = mergedLines.flatMap(l => {
+  const pieces = cleanedLines.flatMap(l => {
     const line = /[.!?]$/.test(l) ? l : l + '.';
     return line.split(/(?<=[.!?])\s+(?=[A-Z])/);
   });
