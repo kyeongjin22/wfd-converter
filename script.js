@@ -59,8 +59,15 @@ document.getElementById('parseBtn').addEventListener('click', async () => {
   }
 
   // 3.5. 아포스트로피(') 앞뒤 공백 보정
-const cleanedLines = mergedLines.map(
-  l => l.replace(/(\w)\s+'\s+(\w)/g, "$1'$2")
+const cleanedLines = mergedLines.map(l =>
+  l
+    // 1. 공백+따옴표+공백 → 따옴표
+    .replace(/(\w)\s+'\s+(\w)/g, "$1'$2")
+    // 2. 따옴표 뒤 일반 단어는 띄어쓰기 (축약형 제외)
+    .replace(/([a-zA-Z]')([a-zA-Z]+)/g, (m, a, b) => {
+      if (/^(s|t|ve|re|ll|d|m)$/i.test(b)) return a + b;
+      return a + ' ' + b;
+    })
 );
 
 
