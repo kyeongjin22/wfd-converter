@@ -114,12 +114,23 @@ function preview() {
 }
 
 /* ───── JSON 다운로드 ───── */
+/* ───── JSON 다운로드: 영어+한글 쌍으로 저장 ───── */
 document.getElementById('downloadBtn').addEventListener('click', () => {
   const now = new Date().toISOString().slice(0, 10); // 'YYYY-MM-DD'
-  const output = {
-    date: now,
-    data: extractedSentences
-  };
+  let output;
+  if (autoTranslatedPairs.length === extractedSentences.length && autoTranslatedPairs.length > 0) {
+    // ★ 번역된 경우: en/ko 쌍으로 저장
+    output = {
+      date: now,
+      data: autoTranslatedPairs
+    };
+  } else {
+    // 번역 전: 영어만 저장 (기존 구조)
+    output = {
+      date: now,
+      data: extractedSentences
+    };
+  }
 
   const blob = new Blob(
     [JSON.stringify(output, null, 2)],
@@ -128,10 +139,12 @@ document.getElementById('downloadBtn').addEventListener('click', () => {
   const url = URL.createObjectURL(blob);
   Object.assign(document.createElement('a'), {
     href: url,
-    download: 'wfd.json'
+    // 파일명도 자동: 영어만 → wfd.json, 번역본 → wfd-ko.json
+    download: (output.data[0]?.ko ? 'wfd-ko.json' : 'wfd.json')
   }).click();
   URL.revokeObjectURL(url);
 });
+
 
 
 /* ───── GitHub 업로드 ───── */
