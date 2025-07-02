@@ -161,6 +161,14 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
 
   const apiURL = `https://api.github.com/repos/${githubInfo.username}/${githubInfo.repo}/contents/${githubInfo.filePath}`;
 
+  // ✅ 번역 쌍이 있으면 그걸, 없으면 영어만
+  let uploadData;
+  if (autoTranslatedPairs.length === extractedSentences.length && autoTranslatedPairs.length > 0) {
+    uploadData = autoTranslatedPairs;
+  } else {
+    uploadData = extractedSentences;
+  }
+
   /* 기존 파일 SHA 조회 */
   let sha = '';
   try {
@@ -168,14 +176,12 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
     if (infoRes.ok) sha = (await infoRes.json()).sha;
   } catch {}
 
-  /* ✅ 업로드할 JSON 구조 변경 */
   const now = new Date().toISOString().slice(0, 10);
   const output = {
     date: now,
-    data: extractedSentences
+    data: uploadData
   };
 
-  /* PUT 업로드 */
   const putRes = await fetch(apiURL, {
     method: 'PUT',
     headers: {
@@ -195,7 +201,6 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
       : '❌ 업로드 실패: ' + await putRes.text()
   );
 });
-
 
 /* ───── 상태 출력 ───── */
 function showStatus(msg) {
