@@ -190,3 +190,87 @@ function showStatus(msg) {
   if (statusEl) statusEl.textContent = msg;
 }
 /* ---------- 끝 ---------- */
+
+let GOOGLE_TRANSLATE_API_KEY = '';
+let autoTranslatedPairs = [];
+
+document.getElementById('apiKeyInput').addEventListener('change', function(e) {
+  GOOGLE_TRANSLATE_API_KEY = e.target.value.trim();
+});
+
+// 영어→한글 자동 번역 버튼
+document.getElementById('autoTranslateBtn').addEventListener('click', async () => {
+  if (!extractedSentences || !extractedSentences.length) {
+    showStatus('먼저 PDF를 변환하여 영어문장을 추출하세요!');
+    return;
+  }
+  if (!GOOGLE_TRANSLATE_API_KEY) {
+    showStatus('Google Translate API 키를 입력하세요!');
+    document.getElementById('apiKeyInput').focus();
+    return;
+  }
+
+  autoTranslatedPairs = [];
+  showStatus('영어→한글 자동 번역중...');
+  for (let i = 0; i < extractedSentences.length; i++) {
+    const en = typeof extractedSentences[i] === 'string' ? extractedSentences[i] : extractedSentences[i].en;
+    const ko = await translateENtoKO(en);
+    autoTranslatedPairs.push({ en, ko });
+    showStatus(`(${i+1}/${extractedSentences.length}) 번역중...`);
+  }
+  showStatus('자동 번역 완료! 다운로드 가능');
+  autoTranslatePreview();
+  document.getElementById('downloadKoBtn').style.display = 'inline-block';
+});
+
+// 실제 번역 함수
+async function translateENtoKO(en) {
+  const url = `https://translation.googleapis.com/language/translate/v2?key=${GOOGLE_TRANSLATE_API_KEY}`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({
+      q: en,
+      source: "en",
+      target: "ko",
+      format: "text"
+    })
+  });
+  const json = await res.json();
+  if (json.data && json.data.translations && json.data.translations[0]) {
+    return json.data.translations[0].translatedText;
+  }
+  return "";
+}
+
+// 번역 결과 미리보기(영어/한글 쌍)
+function autoTranslatePreview() {
+  const previewEl = document.getElementById('preview');
+  previewEl.innerHTML +=
+    `<hr><b>🔵 영어→한글 자동 번역 미리보기</b> (${autoTranslatedPairs.length}문장)<br><br>` +
+    autoTranslatedPairs.map((p, i) =>
+      `<div><b>${i + 1}.</b> ${p.en}<br>
+       <span style="color:#099">${p.ko}</span>
+      </div>`
+    ).join('');
+}
+
+// 한글포함 JSON 다운로드
+document.getElementById('downloadKoBtn').addEventListener('click', () => {
+  const now = new Date().toISOString().slice(0, 10);
+  const output = {
+    date: now,
+    data: autoTranslatedPairs
+  };
+  const blob = new Blob(
+    [JSON.stringify(output, null, 2)],
+    { type: 'application/json' }
+  );
+  const url = URL.createObjectURL(blob);
+  Object.assign(document.createElement('a'), {
+    href: url,
+    download: 'wfd-ko.json'
+  }).click();
+  URL.revokeObjectURL(url);
+});
+
