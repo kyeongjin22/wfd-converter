@@ -1,5 +1,5 @@
 {
-  "date": "2025-07-02",
+  "date": "2025-07-05",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -248,7 +248,7 @@
     },
     {
       "en": "The theater study course encourages students to exercise creativity.",
-      "ko": "연극학 과정은 학생들의 창의력을 발휘하도록 장려합니다.",
+      "ko": "연극학 과정은 학생들의 창의성을 발휘하도록 장려합니다.",
       "hash": "6cc4426752cf69977772cbdea73d861f"
     },
     {
@@ -338,7 +338,7 @@
     },
     {
       "en": "Many vocational courses at institutions are funded by private enterprises.",
-      "ko": "많은 직업 교육 기관은 민간 기업으로부터 자금 지원을 받습니다.",
+      "ko": "많은 직업 교육 과정은 민간 기업으로부터 자금 지원을 받습니다.",
       "hash": "ac8fdc1bf682260cd43eda14ab58922b"
     },
     {
@@ -748,7 +748,7 @@
     },
     {
       "en": "Building trust is not something that can be achieved overnight.",
-      "ko": "신뢰를 쌓는 일은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
+      "ko": "신뢰를 쌓는 것은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
       "hash": "0e1bef6bdcd5f6f0b4975f27cd1876fb"
     },
     {
@@ -1272,6 +1272,11 @@
       "hash": "4ca360cda7e56b7e53486ae785844045"
     },
     {
+      "en": "Science degrees are now offering different levels of specialization.",
+      "ko": "과학 학위는 이제 다양한 수준의 전문화를 제공하고 있습니다.",
+      "hash": "f5e87f93ec33e87939ed24b2603911e5"
+    },
+    {
       "en": "There must be planets in the universe that can support life.",
       "ko": "우주에는 생명체가 살 수 있는 행성이 있어야 합니다.",
       "hash": "b71771662f4e84a6b9e0b1834706ffb2"
@@ -1295,6 +1300,11 @@
       "en": "Studies showed there is a positive correlation between the two variables.",
       "ko": "연구에 따르면 두 변수 사이에는 양의 상관관계가 있는 것으로 나타났습니다.",
       "hash": "cb17c0276a056a388ff57caa39db6dcd"
+    },
+    {
+      "en": "You should have awareness of how the business operates globally.",
+      "ko": "전 세계적으로 사업이 어떻게 운영되는지 알고 있어야 합니다.",
+      "hash": "1f32bb29d3cd365e875e70e67947a36c"
     },
     {
       "en": "Student representatives will be visiting the classes with voting forms.",
@@ -1375,6 +1385,11 @@
       "en": "Computers used to be larger than they are now.",
       "ko": "옛날에는 컴퓨터가 지금보다 더 컸습니다.",
       "hash": "afbeaf7d656e9a07cc49dbdf0f3db989"
+    },
+    {
+      "en": "Formal conclusions could be established through rigorous experiments.",
+      "ko": "엄격한 실험을 통해 공식적인 결론을 도출할 수 있었습니다.",
+      "hash": "c38f5c2e5fa33f43de95c9a577b7ce17"
     },
     {
       "en": "It is important to plan your study time carefully.",
