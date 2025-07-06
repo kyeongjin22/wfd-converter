@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "en": "The celebrated theory is still the source of great controversy.",
+      "ko": "유명한 이론은 여전히 큰 논란의 원천입니다.",
+      "hash": "abcdef12345",
+      "added": "2025-07-04"
+    },
+    {
+      "en": "A good architectural structure should be useful, durable and beautiful.",
+      "ko": "좋은 건축 구조는 유용하고 내구성이 있으며 아름다워야 합니다.",
+      "hash": "xyz987",
+      "added": "2025-07-04"
+    },
+    {
+      "en": "We can all meet at my office after the lecture.",
+      "ko": "우리는 모두 강의가 끝난 후 내 사무실에서 만날 수 있습니다.",
+      "hash": "qwerty12345"
+    }
+  ]
+}
