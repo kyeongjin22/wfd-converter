@@ -1,5 +1,5 @@
 {
-  "date": "2025-07-11",
+  "date": "2025-07-12",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -81,7 +81,7 @@
     },
     {
       "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점에서 정의해 왔습니다.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
       "hash": "c6413cef31c2472731d344c643b20c02",
       "added": ""
     },
@@ -303,7 +303,7 @@
     },
     {
       "en": "Making mistakes is fine as long as you learn from them.",
-      "ko": "실수하는 것도 괜찮지만, 그로부터 교훈을 얻는다면 괜찮습니다.",
+      "ko": "실수하는 것도 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
       "hash": "1faa00c07cf17e4de8f0f33d416f5753",
       "added": ""
     },
@@ -483,7 +483,7 @@
     },
     {
       "en": "Studying medicine allows for a wide range of career opportunities.",
-      "ko": "의학을 공부하면 다양한 직업에 종사할 기회가 생깁니다.",
+      "ko": "의학을 공부하면 다양한 직업을 가질 수 있는 기회가 생깁니다.",
       "hash": "a1769c4f5e1817f4d4bae1f0ca6759c7",
       "added": ""
     },
@@ -873,7 +873,7 @@
     },
     {
       "en": "Building trust is not something that can be achieved overnight.",
-      "ko": "신뢰를 쌓는 일은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
+      "ko": "신뢰를 쌓는 것은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
       "hash": "0e1bef6bdcd5f6f0b4975f27cd1876fb",
       "added": ""
     },
@@ -1155,7 +1155,7 @@
     },
     {
       "en": "Some economists argue that the entire financial system is fatally flawed.",
-      "ko": "일부 경제학자들은 전체 금융 시스템에 치명적인 결함이 있다고 주장합니다.",
+      "ko": "일부 경제학자들은 금융 시스템 전체가 치명적인 결함을 가지고 있다고 주장합니다.",
       "hash": "9d93296f9bb79a517b872d7e843ec123",
       "added": ""
     },
@@ -1179,7 +1179,7 @@
     },
     {
       "en": "The digital revolution has changed the way we read.",
-      "ko": "디지털 혁명은 우리의 독서 방식을 바꾸었습니다.",
+      "ko": "디지털 혁명은 우리가 책을 읽는 방식을 바꾸었습니다.",
       "hash": "72a3a038c4a10b9b20a69c36b080808b",
       "added": ""
     },
@@ -1398,6 +1398,12 @@
       "ko": "이중 언어에 능통하다는 것은 반드시 언어를 분석할 수 있는 능력이 있다는 것을 의미하지 않습니다.",
       "hash": "2e7d40a17f37a184e899c9e324fbcce7",
       "added": ""
+    },
+    {
+      "en": "Social media is criticized for causing internet addiction.",
+      "ko": "소셜 미디어는 인터넷 중독을 유발한다는 비판을 받고 있다.",
+      "hash": "a56b38d42adf63c1446964a733062e3a",
+      "added": "NEW"
     },
     {
       "en": "Renovation works are currently being undertaken throughout the whole building.",
