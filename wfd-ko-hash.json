@@ -1,5 +1,5 @@
 {
-  "date": "2025-07-12",
+  "date": "2025-07-16",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -47,12 +47,6 @@
       "en": "Agenda items should be submitted by the end of the day.",
       "ko": "의제 항목은 당일 마감일까지 제출해야 합니다.",
       "hash": "85de8ce6d714a80133c3b6b413173826",
-      "added": ""
-    },
-    {
-      "en": "All industries are a system of inputs, processes, outputs and feedback.",
-      "ko": "모든 산업은 투입, 과정, 산출, 피드백으로 구성된 시스템입니다.",
-      "hash": "ab826405eed4d4ea9893b0f66392566f",
       "added": ""
     },
     {
@@ -176,12 +170,6 @@
       "added": ""
     },
     {
-      "en": "The university theater group will be performing in the concert hall.",
-      "ko": "대학 극단이 콘서트홀에서 공연을 펼칠 예정이다.",
-      "hash": "8a475033f10f1669b2119d215121ad58",
-      "added": ""
-    },
-    {
       "en": "Peer group pressure has a significant effect on young people.",
       "ko": "또래 집단의 압력은 청소년에게 상당한 영향을 미칩니다.",
       "hash": "720e241dafb98dd8ee58befabda3ed50",
@@ -191,12 +179,6 @@
       "en": "Please check the information on the website for the opening times.",
       "ko": "자세한 영업시간은 홈페이지에서 확인해주시기 바랍니다.",
       "hash": "dd44c3385d276df6198d9d5073d96d36",
-      "added": ""
-    },
-    {
-      "en": "The speaker began by giving an outline of her presentation.",
-      "ko": "발표자는 자신의 프레젠테이션 개요를 설명하면서 시작했습니다.",
-      "hash": "e1320ac00052bbb97720e6567d1e07a8",
       "added": ""
     },
     {
@@ -248,18 +230,6 @@
       "added": ""
     },
     {
-      "en": "There is a clear need for further research in this field.",
-      "ko": "이 분야에 대한 추가 연구가 분명히 필요합니다.",
-      "hash": "21fca5e72740dc24e5cc3f68e5573ca7",
-      "added": ""
-    },
-    {
-      "en": "There is clearly a need for further research in this field.",
-      "ko": "이 분야에 대한 추가 연구가 필요하다는 것은 분명합니다.",
-      "hash": "645f56955b94771a683c02d3d565153e",
-      "added": ""
-    },
-    {
       "en": "Our laboratory equipment is provided free of charge.",
       "ko": "당사의 실험실 장비는 무료로 제공됩니다.",
       "hash": "fe14541dc15c175720c69d0f7855b177",
@@ -275,12 +245,6 @@
       "en": "We can work together to achieve high educational standard.",
       "ko": "우리는 높은 교육 수준을 달성하기 위해 함께 노력할 수 있습니다.",
       "hash": "5e3c7601d83b8068df4e2a4f2b786ac4",
-      "added": ""
-    },
-    {
-      "en": "The essay is easy to write once the research is completed.",
-      "ko": "조사가 완료되면 에세이를 쓰기 쉽습니다.",
-      "hash": "b6a8be25e5966662d0c8c6e7cd369ddb",
       "added": ""
     },
     {
@@ -305,12 +269,6 @@
       "en": "Making mistakes is fine as long as you learn from them.",
       "ko": "실수하는 것도 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
       "hash": "1faa00c07cf17e4de8f0f33d416f5753",
-      "added": ""
-    },
-    {
-      "en": "Archeologists discovered tools and other artifacts near the ancient tomb.",
-      "ko": "고고학자들은 고대 무덤 근처에서 도구와 다른 유물을 발견했습니다.",
-      "hash": "9405fd39389d1717a3510deffdd8f7d8",
       "added": ""
     },
     {
@@ -446,39 +404,15 @@
       "added": ""
     },
     {
-      "en": "Purity is one feature that makes gold expensive.",
-      "ko": "순도는 금을 비싸게 만드는 특징 중 하나입니다.",
-      "hash": "d80a13eb51054d652ade8f37d978da54",
-      "added": ""
-    },
-    {
-      "en": "Even simple techniques need to be practiced to become better.",
-      "ko": "더 나은 기술을 얻으려면 간단한 기술도 연습해야 합니다.",
-      "hash": "65c337a355190b31c71efbe2b7393820",
-      "added": ""
-    },
-    {
       "en": "Studying history can help you better understand the present.",
       "ko": "역사를 공부하면 현재를 더 잘 이해하는 데 도움이 될 수 있습니다.",
       "hash": "872601abbc1fc102937801ba763e4ad8",
       "added": ""
     },
     {
-      "en": "Academic libraries across the world are steadily incorporating social media.",
-      "ko": "전 세계의 학술 도서관은 꾸준히 소셜 미디어를 통합하고 있습니다.",
-      "hash": "d07ec57c8c97ec4394642ab9e5f66a13",
-      "added": ""
-    },
-    {
       "en": "The course covers architecture planning and construction on the international scale.",
       "ko": "이 과정에서는 국제적 규모의 건축 계획 및 건설에 대한 내용을 다룹니다.",
       "hash": "e9f85c27bb07d6875265181175a6b146",
-      "added": ""
-    },
-    {
-      "en": "Imported default packages are likely to be used for most computers.",
-      "ko": "대부분의 컴퓨터에서는 가져온 기본 패키지가 사용될 가능성이 높습니다.",
-      "hash": "c6a2adb2d75c4e8e5fde0fb95d047844",
       "added": ""
     },
     {
@@ -698,12 +632,6 @@
       "added": ""
     },
     {
-      "en": "Our aim is to transmit mathematics teaching in the classroom.",
-      "ko": "우리의 목표는 교실에서 수학 교육을 전달하는 것입니다.",
-      "hash": "71c043b6d30a6f5e246495873e38d4df",
-      "added": ""
-    },
-    {
       "en": "The night sky has always involved mystery and wonder.",
       "ko": "밤하늘은 언제나 신비와 경이로움을 담고 있었습니다.",
       "hash": "3cf030d61c8bea9895a0f6ecc4287a10",
@@ -740,12 +668,6 @@
       "added": ""
     },
     {
-      "en": "British students must study mathematics at secondary schools.",
-      "ko": "영국 학생들은 중등 학교에서 수학을 공부해야 합니다.",
-      "hash": "d5bd65b7ab0cb21a7d3f032efd759951",
-      "added": ""
-    },
-    {
       "en": "He wrote poetry and plays as well as scientific papers.",
       "ko": "그는 과학 논문뿐만 아니라 시와 희곡도 썼습니다.",
       "hash": "f3e1d3cf2ecb8638c2491e7372b6977b",
@@ -761,18 +683,6 @@
       "en": "Scientific experiments should be repeated to verify the results.",
       "ko": "과학적 실험은 결과를 검증하기 위해 반복되어야 합니다.",
       "hash": "3b75c93e928a7d8dd4b135892ab0b11e",
-      "added": ""
-    },
-    {
-      "en": "We are more able to accommodate postgraduate students than previously possible.",
-      "ko": "우리는 이전보다 대학원생을 더 많이 수용할 수 있게 되었습니다.",
-      "hash": "71f8107ca464e7c0380c243a00c2f621",
-      "added": ""
-    },
-    {
-      "en": "Please click on the logo above to enter the site.",
-      "ko": "사이트에 들어가려면 위의 로고를 클릭해 주세요.",
-      "hash": "1fdfd1912b2c1bc698c9c7619bb3301b",
       "added": ""
     },
     {
@@ -806,12 +716,6 @@
       "added": ""
     },
     {
-      "en": "Optional tutorials are offered in the final week of the term.",
-      "ko": "학기 마지막 주에는 선택 튜토리얼이 제공됩니다.",
-      "hash": "8219ef11d564846a4a418e70cdd55140",
-      "added": ""
-    },
-    {
       "en": "Banks charge interest on the money they lend to customers.",
       "ko": "은행은 고객에게 대출하는 돈에 대해 이자를 부과합니다.",
       "hash": "37724227096b90b82a1b23d252b66b31",
@@ -821,12 +725,6 @@
       "en": "The aim of the course is to encourage students to develop their creativity.",
       "ko": "이 과정의 목적은 학생들의 창의성을 개발하도록 격려하는 것입니다.",
       "hash": "4decfa985bf543acc263e1a1dc0b42c3",
-      "added": ""
-    },
-    {
-      "en": "Scientists have founded all parts of society today.",
-      "ko": "과학자들은 오늘날 사회의 모든 부분을 건설했습니다.",
-      "hash": "7ebe274d050142e77d45814e3c398ef9",
       "added": ""
     },
     {
@@ -854,12 +752,6 @@
       "added": ""
     },
     {
-      "en": "The American astronomers made a plan for landing a spaceship on Mars.",
-      "ko": "미국의 천문학자들은 화성에 우주선을 착륙시키는 계획을 세웠다.",
-      "hash": "76019c49a1a851055235c6ac8a22c916",
-      "added": ""
-    },
-    {
       "en": "Students will focus on reporting news on changing the media world.",
       "ko": "학생들은 미디어 세계의 변화에 대한 뉴스 보도에 집중할 것입니다.",
       "hash": "6e3902377483676e9a36041a715ddcd0",
@@ -875,12 +767,6 @@
       "en": "Building trust is not something that can be achieved overnight.",
       "ko": "신뢰를 쌓는 것은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
       "hash": "0e1bef6bdcd5f6f0b4975f27cd1876fb",
-      "added": ""
-    },
-    {
-      "en": "An architect is required to have problem-solving skills and an eye for design.",
-      "ko": "건축가는 문제 해결 능력과 디자인 감각을 갖춰야 합니다.",
-      "hash": "507e442be970272550107b63b757db45",
       "added": ""
     },
     {
@@ -962,12 +848,6 @@
       "added": ""
     },
     {
-      "en": "The university library has a collection of early geography maps.",
-      "ko": "대학 도서관에는 초기 지리 지도 컬렉션이 소장되어 있습니다.",
-      "hash": "b9f14b97d1e2bb61dc8a0c4bcd286e56",
-      "added": ""
-    },
-    {
       "en": "Courses are assessed by group work and individual assignments.",
       "ko": "과목은 그룹 활동과 개별 과제를 통해 평가됩니다.",
       "hash": "7083dddc0cd8028c45dcbd8d7d827d9a",
@@ -1035,7 +915,7 @@
     },
     {
       "en": "We are continuing to provide postgraduate online learning resources.",
-      "ko": "우리는 대학원생을 위한 온라인 학습 자료를 지속적으로 제공하고 있습니다.",
+      "ko": "우리는 대학원생을 위한 온라인 학습 자료를 계속해서 제공하고 있습니다.",
       "hash": "304794abeafa1ad9e7bd8db35791afbc",
       "added": ""
     },
@@ -1067,12 +947,6 @@
       "en": "Extension requirement for the assignment must be submitted before the deadline.",
       "ko": "과제 연장 요청은 마감일 전에 제출해야 합니다.",
       "hash": "78e5033def174c110c37be8d509fb746",
-      "added": ""
-    },
-    {
-      "en": "Social policy is a study of social respondence for the government.",
-      "ko": "사회 정책은 정부의 사회적 대응에 대한 연구입니다.",
-      "hash": "8885b32f904080a6a720e09c82b22b40",
       "added": ""
     },
     {
@@ -1151,11 +1025,11 @@
       "en": "The supposed benefits of space exploration are frequently questioned.",
       "ko": "우주 탐사의 가정된 이점은 종종 의문시된다.",
       "hash": "ebe2bff544896a8972d2fbd26146da5c",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Some economists argue that the entire financial system is fatally flawed.",
-      "ko": "일부 경제학자들은 금융 시스템 전체가 치명적인 결함을 가지고 있다고 주장합니다.",
+      "ko": "일부 경제학자들은 전체 금융 시스템에 치명적인 결함이 있다고 주장합니다.",
       "hash": "9d93296f9bb79a517b872d7e843ec123",
       "added": ""
     },
@@ -1211,7 +1085,7 @@
       "en": "Coastal communities are particularly vulnerable to rising sea levels.",
       "ko": "해안 지역 사회는 해수면 상승에 특히 취약합니다.",
       "hash": "c49b1c69670ba211fedf9b709d961b58",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Safety glasses should be worn while doing experiments in the lab.",
@@ -1259,7 +1133,7 @@
       "en": "Parents' talk to children tends to be simplified.",
       "ko": "부모가 자녀에게 하는 말은 단순화되는 경향이 있습니다.",
       "hash": "cc00021915a1cee4e4b2a3f99fa1cd36",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "You can find a lot more information on the university website.",
@@ -1283,7 +1157,7 @@
       "en": "Manufacture can now employ more people than agriculture and fishing combined.",
       "ko": "제조업은 이제 농업과 어업을 합친 것보다 더 많은 사람을 고용할 수 있게 됐습니다.",
       "hash": "55dca9cd4dc30d74781a9e80133d8135",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Farming methods across the world have greatly developed recently.",
@@ -1295,7 +1169,7 @@
       "en": "Find out how to get resources before your research.",
       "ko": "연구를 시작하기 전에 자료를 얻는 방법을 알아보세요.",
       "hash": "51caabc0d423efa763b2783d3a6da5fb",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Mature students usually adapt to university life extremely well.",
@@ -1365,7 +1239,7 @@
     },
     {
       "en": "Students are encouraged to monitor their own attendance.",
-      "ko": "학생들은 자신의 출석을 직접 확인하는 것이 좋습니다.",
+      "ko": "학생들은 자신의 출석을 스스로 체크하는 것이 좋습니다.",
       "hash": "86e276f72203684e146b76fdb9353442",
       "added": ""
     },
@@ -1403,7 +1277,7 @@
       "en": "Social media is criticized for causing internet addiction.",
       "ko": "소셜 미디어는 인터넷 중독을 유발한다는 비판을 받고 있다.",
       "hash": "a56b38d42adf63c1446964a733062e3a",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Renovation works are currently being undertaken throughout the whole building.",
@@ -1610,14 +1484,20 @@
       "added": ""
     },
     {
+      "en": "All students can learn even though they have different speeds.",
+      "ko": "학생들의 학습 속도는 다르더라도 모든 학생이 학습할 수 있습니다.",
+      "hash": "880fd34459261afa7a8da4103f81bc27",
+      "added": ""
+    },
+    {
       "en": "Lectures are the oldest and the most formal teaching method at university.",
       "ko": "강의는 대학에서 가장 오래되고 가장 공식적인 교육 방법입니다.",
       "hash": "607b8cc45645eed618aaaa67d726f127",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Before you choose your university courses, you should consider your future career.",
-      "ko": "대학 과목을 선택하기 전에 미래 직업에 대해 생각해 보세요.",
+      "ko": "대학 과목을 선택하기 전에 미래의 직업에 대해 생각해 보세요.",
       "hash": "7c83d1af7acb930b47b55c0656c58ca4",
       "added": ""
     },
@@ -1724,12 +1604,6 @@
       "added": ""
     },
     {
-      "en": "The secretary of state is presently considering the proposal.",
-      "ko": "국무장관은 현재 이 제안을 고려하고 있습니다.",
-      "hash": "a96fedb588de33765f443f69911c4cae",
-      "added": ""
-    },
-    {
       "en": "The study of the economy is a tricky subject to research.",
       "ko": "경제 연구는 까다로운 주제이다.",
       "hash": "02f31c29f1594b683ab14e5f5ff64f99",
@@ -1805,12 +1679,54 @@
       "en": "Class participation is an important part of your final grade.",
       "ko": "수업 참여도는 최종 성적에 중요한 부분입니다.",
       "hash": "58fd22b5044054d309192d925df1fa58",
-      "added": "NEW"
+      "added": ""
+    },
+    {
+      "en": "All industries are a system of inputs, processes, outputs and feedback.",
+      "ko": "모든 산업은 투입, 과정, 산출, 피드백으로 구성된 시스템입니다.",
+      "hash": "ab826405eed4d4ea9893b0f66392566f",
+      "added": ""
+    },
+    {
+      "en": "The university theater group will be performing in the concert hall.",
+      "ko": "대학 극단이 콘서트홀에서 공연을 펼칠 예정이다.",
+      "hash": "8a475033f10f1669b2119d215121ad58",
+      "added": ""
+    },
+    {
+      "en": "The speaker began by giving an outline of her presentation.",
+      "ko": "발표자는 자신의 프레젠테이션 개요를 설명하면서 시작했습니다.",
+      "hash": "e1320ac00052bbb97720e6567d1e07a8",
+      "added": ""
     },
     {
       "en": "The archeologists were astonished by the previously overlooked foundations.",
       "ko": "고고학자들은 이전에 간과되었던 기초에 놀랐다.",
       "hash": "fce3fbacfa094dc8e2083cde4327cb61",
+      "added": ""
+    },
+    {
+      "en": "There is a clear need for further research in this field.",
+      "ko": "이 분야에 대한 추가 연구가 분명히 필요합니다.",
+      "hash": "21fca5e72740dc24e5cc3f68e5573ca7",
+      "added": ""
+    },
+    {
+      "en": "There is clearly a need for further research in this field.",
+      "ko": "이 분야에 대한 추가 연구가 필요하다는 것은 분명합니다.",
+      "hash": "645f56955b94771a683c02d3d565153e",
+      "added": ""
+    },
+    {
+      "en": "The essay is easy to write once the research is completed.",
+      "ko": "조사가 완료되면 에세이를 쓰기 쉽습니다.",
+      "hash": "b6a8be25e5966662d0c8c6e7cd369ddb",
+      "added": ""
+    },
+    {
+      "en": "Archeologists discovered tools and other artifacts near the ancient tomb.",
+      "ko": "고고학자들은 고대 무덤 근처에서 도구와 다른 유물을 발견했습니다.",
+      "hash": "9405fd39389d1717a3510deffdd8f7d8",
       "added": ""
     },
     {
@@ -1826,9 +1742,87 @@
       "added": ""
     },
     {
+      "en": "Purity is one feature that makes gold expensive.",
+      "ko": "순도는 금을 비싸게 만드는 특징 중 하나입니다.",
+      "hash": "d80a13eb51054d652ade8f37d978da54",
+      "added": ""
+    },
+    {
+      "en": "Even simple techniques need to be practiced to become better.",
+      "ko": "더 나은 기술을 얻으려면 간단한 기술도 연습해야 합니다.",
+      "hash": "65c337a355190b31c71efbe2b7393820",
+      "added": ""
+    },
+    {
+      "en": "Academic libraries across the world are steadily incorporating social media.",
+      "ko": "전 세계의 학술 도서관은 꾸준히 소셜 미디어를 통합하고 있습니다.",
+      "hash": "d07ec57c8c97ec4394642ab9e5f66a13",
+      "added": ""
+    },
+    {
+      "en": "Imported default packages are likely to be used for most computers.",
+      "ko": "대부분의 컴퓨터에서는 가져온 기본 패키지가 사용될 가능성이 높습니다.",
+      "hash": "c6a2adb2d75c4e8e5fde0fb95d047844",
+      "added": ""
+    },
+    {
       "en": "Undergraduates may pursue their specific interests within certificate programs.",
       "ko": "학부생은 자격증 프로그램을 통해 자신의 특정 관심사를 추구할 수 있습니다.",
       "hash": "5ab857ce87849e5c9846e01014100b24",
+      "added": ""
+    },
+    {
+      "en": "Our aim is to transmit mathematics teaching in the classroom.",
+      "ko": "우리의 목표는 교실에서 수학 교육을 전달하는 것입니다.",
+      "hash": "71c043b6d30a6f5e246495873e38d4df",
+      "added": ""
+    },
+    {
+      "en": "British students must study mathematics at secondary schools.",
+      "ko": "영국 학생들은 중등 학교에서 수학을 공부해야 합니다.",
+      "hash": "d5bd65b7ab0cb21a7d3f032efd759951",
+      "added": ""
+    },
+    {
+      "en": "We are more able to accommodate postgraduate students than previously possible.",
+      "ko": "우리는 이전보다 대학원생을 더 많이 수용할 수 있게 되었습니다.",
+      "hash": "71f8107ca464e7c0380c243a00c2f621",
+      "added": ""
+    },
+    {
+      "en": "Please click on the logo above to enter the site.",
+      "ko": "사이트에 들어가려면 위의 로고를 클릭해 주세요.",
+      "hash": "1fdfd1912b2c1bc698c9c7619bb3301b",
+      "added": ""
+    },
+    {
+      "en": "Optional tutorials are offered in the final week of the term.",
+      "ko": "학기 마지막 주에는 선택 튜토리얼이 제공됩니다.",
+      "hash": "8219ef11d564846a4a418e70cdd55140",
+      "added": ""
+    },
+    {
+      "en": "Scientists have founded all parts of society today.",
+      "ko": "과학자들은 오늘날 사회의 모든 부분을 건설했습니다.",
+      "hash": "7ebe274d050142e77d45814e3c398ef9",
+      "added": ""
+    },
+    {
+      "en": "The American astronomers made a plan for landing a spaceship on Mars.",
+      "ko": "미국의 천문학자들은 화성에 우주선을 착륙시키는 계획을 세웠다.",
+      "hash": "76019c49a1a851055235c6ac8a22c916",
+      "added": ""
+    },
+    {
+      "en": "An architect is required to have problem-solving skills and an eye for design.",
+      "ko": "건축가는 문제 해결 능력과 디자인 감각을 갖춰야 합니다.",
+      "hash": "507e442be970272550107b63b757db45",
+      "added": ""
+    },
+    {
+      "en": "The university library has a collection of early geography maps.",
+      "ko": "대학 도서관에는 초기 지리 지도 컬렉션이 소장되어 있습니다.",
+      "hash": "b9f14b97d1e2bb61dc8a0c4bcd286e56",
       "added": ""
     },
     {
@@ -1841,6 +1835,18 @@
       "en": "Some studies show the link between depression and social media.",
       "ko": "일부 연구에 따르면 우울증과 소셜 미디어 사이에는 연관성이 있는 것으로 나타났습니다.",
       "hash": "f90864f7c22bda57006a6761a788436a",
+      "added": ""
+    },
+    {
+      "en": "Social policy is a study of social respondence for the government.",
+      "ko": "사회 정책은 정부의 사회적 대응에 대한 연구입니다.",
+      "hash": "8885b32f904080a6a720e09c82b22b40",
+      "added": ""
+    },
+    {
+      "en": "The secretary of state is presently considering the proposal.",
+      "ko": "국무장관은 현재 이 제안을 고려하고 있습니다.",
+      "hash": "a96fedb588de33765f443f69911c4cae",
       "added": ""
     }
   ]
