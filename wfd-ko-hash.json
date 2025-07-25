@@ -1,5 +1,5 @@
 {
-  "date": "2025-07-23",
+  "date": "2025-07-25",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -429,7 +429,7 @@
     },
     {
       "en": "Parents' talk to children tends to be simplified.",
-      "ko": "부모가 자녀에게 하는 말은 대개 단순화되는 경향이 있습니다.",
+      "ko": "부모가 자녀에게 하는 말은 단순화되는 경향이 있습니다.",
       "hash": "cc00021915a1cee4e4b2a3f99fa1cd36",
       "added": ""
     },
@@ -495,7 +495,7 @@
     },
     {
       "en": "The theater study course encourages students to exercise creativity.",
-      "ko": "연극학 과정은 학생들의 창의성을 발휘하도록 장려합니다.",
+      "ko": "연극학 과정은 학생들의 창의력을 발휘하도록 장려합니다.",
       "hash": "6cc4426752cf69977772cbdea73d861f",
       "added": ""
     },
@@ -525,7 +525,7 @@
     },
     {
       "en": "Making mistakes is fine as long as you learn from them.",
-      "ko": "실수하는 것도 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
+      "ko": "실수하는 것도 괜찮지만, 그로부터 교훈을 얻는다면 괜찮습니다.",
       "hash": "1faa00c07cf17e4de8f0f33d416f5753",
       "added": ""
     },
@@ -555,7 +555,7 @@
     },
     {
       "en": "Students are encouraged to monitor their own attendance.",
-      "ko": "학생들은 자신의 출석을 스스로 체크하는 것이 좋습니다.",
+      "ko": "학생들은 자신의 출석을 직접 확인하는 것이 좋습니다.",
       "hash": "86e276f72203684e146b76fdb9353442",
       "added": ""
     },
@@ -603,7 +603,7 @@
     },
     {
       "en": "All medical students must clean their hands before entering the room.",
-      "ko": "모든 의대생은 강의실에 들어가기 전에 손을 씻어야 합니다.",
+      "ko": "모든 의대생은 진료실에 들어가기 전에 손을 씻어야 합니다.",
       "hash": "a91cae430419ee216a5f4e601f9255bd",
       "added": ""
     },
@@ -821,6 +821,12 @@
       "en": "Students should leave their bags on the table by the door.",
       "ko": "학생들은 문 옆 테이블에 가방을 놓아두어야 합니다.",
       "hash": "eebb229b4a346012b25114c9c7dee8a7",
+      "added": ""
+    },
+    {
+      "en": "New materials and techniques are changing the style of modern architecture.",
+      "ko": "새로운 재료와 기술이 현대 건축의 스타일을 변화시키고 있습니다.",
+      "hash": "3d4d3c611c95de0ee4356f100f2570ff",
       "added": ""
     },
     {
@@ -1509,7 +1515,7 @@
     },
     {
       "en": "We are continuing to provide postgraduate online learning resources.",
-      "ko": "우리는 대학원생을 위한 온라인 학습 자료를 계속해서 제공하고 있습니다.",
+      "ko": "우리는 대학원생을 위한 온라인 학습 자료를 지속적으로 제공하고 있습니다.",
       "hash": "304794abeafa1ad9e7bd8db35791afbc",
       "added": ""
     },
@@ -1661,6 +1667,12 @@
       "en": "The visiting speaker used to be a lecturer in this department.",
       "ko": "방문 강사는 이 학과의 강사였습니다.",
       "hash": "1e913dab74ea6c90aa4079c5cddfc678",
+      "added": "NEW"
+    },
+    {
+      "en": "There are some doubts about whether these events actually occurred.",
+      "ko": "이런 사건이 실제로 일어났는지에 대해서는 의문이 제기되고 있다.",
+      "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
       "added": "NEW"
     },
     {
@@ -1853,12 +1865,6 @@
       "en": "Imported default packages are likely to be used for most computers.",
       "ko": "대부분의 컴퓨터에서는 가져온 기본 패키지가 사용될 가능성이 높습니다.",
       "hash": "c6a2adb2d75c4e8e5fde0fb95d047844",
-      "added": ""
-    },
-    {
-      "en": "New materials and techniques are changing the style of modern architecture.",
-      "ko": "새로운 재료와 기술이 현대 건축의 스타일을 변화시키고 있습니다.",
-      "hash": "3d4d3c611c95de0ee4356f100f2570ff",
       "added": ""
     },
     {
