@@ -1,5 +1,5 @@
 {
-  "date": "2025-08-14",
+  "date": "2025-08-16",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -81,7 +81,7 @@
     },
     {
       "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점으로 정의해 왔습니다.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
       "hash": "c6413cef31c2472731d344c643b20c02",
       "added": ""
     },
@@ -273,7 +273,7 @@
     },
     {
       "en": "Some economists argue that the entire financial system is fatally flawed.",
-      "ko": "일부 경제학자들은 금융 시스템 전체가 치명적인 결함을 가지고 있다고 주장합니다.",
+      "ko": "일부 경제학자들은 전체 금융 시스템에 치명적인 결함이 있다고 주장합니다.",
       "hash": "9d93296f9bb79a517b872d7e843ec123",
       "added": ""
     },
@@ -567,7 +567,7 @@
     },
     {
       "en": "Making mistakes is fine as long as you learn from them.",
-      "ko": "실수하는 것도 괜찮지만, 그로부터 교훈을 얻는다면 괜찮습니다.",
+      "ko": "실수하는 것도 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
       "hash": "1faa00c07cf17e4de8f0f33d416f5753",
       "added": ""
     },
@@ -1161,7 +1161,7 @@
     },
     {
       "en": "Parents are financially responsible for their children right up until they reach adulthood.",
-      "ko": "부모는 자녀가 성인이 될 때까지 재정적으로 책임을 져야 합니다.",
+      "ko": "부모는 자녀가 성인이 될 때까지 자녀에 대한 재정적 책임을 져야 합니다.",
       "hash": "934e766e3b437efda8bb6cbe1387e5d5",
       "added": ""
     },
@@ -1701,7 +1701,7 @@
     },
     {
       "en": "It is quite clear that our facial expressions are different across the world.",
-      "ko": "우리의 얼굴 표정이 전 세계마다 다르다는 것은 매우 분명한 사실입니다.",
+      "ko": "전 세계 사람들의 얼굴 표정이 다르다는 것은 매우 분명한 사실입니다.",
       "hash": "38bace7ae86db2e98ecfb6cfd7c5a80e",
       "added": ""
     },
@@ -1778,6 +1778,12 @@
       "added": "NEW"
     },
     {
+      "en": "Food that contains antibiotics provides little or no nutritional value.",
+      "ko": "항생제가 함유된 음식은 영양가가 거의 없거나 전혀 없습니다.",
+      "hash": "8af46b63ef979c5812a755116b16ea5f",
+      "added": "NEW"
+    },
+    {
       "en": "The business policy seminar includes an internship with a local firm.",
       "ko": "경영 정책 세미나에는 지역 회사에서의 인턴십이 포함되어 있습니다.",
       "hash": "1f0f354c0c792fcae1234d795aa3390d",
@@ -1793,6 +1799,12 @@
       "en": "The key difference between courses is the kind of assessment.",
       "ko": "과목 간 주요 차이점은 평가 유형입니다.",
       "hash": "5afcd55d8d907ae294aa35643b68c013",
+      "added": "NEW"
+    },
+    {
+      "en": "The library holds a substantial collection of materials on the economic history.",
+      "ko": "이 도서관은 경제사에 관한 상당한 양의 자료를 소장하고 있습니다.",
+      "hash": "3b512f002b23457e31d289e7a09014cc",
       "added": "NEW"
     },
     {
@@ -1982,6 +1994,12 @@
       "added": "NEW"
     },
     {
+      "en": "There is a great deal of debate on that topic.",
+      "ko": "그 주제에 대해서는 많은 논쟁이 있습니다.",
+      "hash": "e214be37bd62a16d302bf9b7fdfae072",
+      "added": "NEW"
+    },
+    {
       "en": "The marketing budget has been doubled since the beginning of the year.",
       "ko": "올해 초에 비해 마케팅 예산이 두 배로 늘었습니다.",
       "hash": "9ed21632515392191b396874385a2583",
@@ -2003,6 +2021,12 @@
       "en": "The student shop sells a range of stationery.",
       "ko": "학생 매점에서는 다양한 문구류를 판매합니다.",
       "hash": "b5468dadaf497233deec43047afa98e7",
+      "added": "NEW"
+    },
+    {
+      "en": "It is a debate about the value of knowledge.",
+      "ko": "이는 지식의 가치에 대한 논쟁이다.",
+      "hash": "ea39847ba6ad71ff1d915ce6d211fbad",
       "added": "NEW"
     },
     {
