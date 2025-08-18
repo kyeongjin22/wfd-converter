@@ -1,5 +1,5 @@
 {
-  "date": "2025-08-16",
+  "date": "2025-08-18",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -81,7 +81,7 @@
     },
     {
       "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점으로 정의해 왔습니다.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
       "hash": "c6413cef31c2472731d344c643b20c02",
       "added": ""
     },
@@ -861,7 +861,7 @@
     },
     {
       "en": "Studying medicine allows for a wide range of career opportunities.",
-      "ko": "의학을 공부하면 다양한 직업을 가질 수 있는 기회가 생깁니다.",
+      "ko": "의학을 공부하면 다양한 직업에 종사할 기회가 생깁니다.",
       "hash": "a1769c4f5e1817f4d4bae1f0ca6759c7",
       "added": ""
     },
@@ -1701,7 +1701,7 @@
     },
     {
       "en": "It is quite clear that our facial expressions are different across the world.",
-      "ko": "전 세계 사람들의 얼굴 표정이 다르다는 것은 매우 분명한 사실입니다.",
+      "ko": "우리의 얼굴 표정이 전 세계마다 다르다는 것은 매우 분명한 사실입니다.",
       "hash": "38bace7ae86db2e98ecfb6cfd7c5a80e",
       "added": ""
     },
@@ -2007,7 +2007,7 @@
     },
     {
       "en": "We encourage students to complete their applications before the deadline .",
-      "ko": "학생들에게는 마감일 전에 지원서를 완료할 것을 권장합니다.",
+      "ko": "학생들에게는 마감일 전에 지원서를 완료하도록 권장합니다.",
       "hash": "9c92acd2b150138bdc000ba3e1740e4e",
       "added": "NEW"
     },
@@ -2057,6 +2057,12 @@
       "en": "Plants are able to continue growing throughout their lives.",
       "ko": "식물은 평생 동안 계속해서 자랄 수 있습니다.",
       "hash": "d69a19b7b1bd74676bc23b829c76b1bf",
+      "added": "NEW"
+    },
+    {
+      "en": "Animal behavior appears to contain both similar and distinct aspects to that of humans.",
+      "ko": "동물의 행동은 인간의 행동과 유사한 측면과 독특한 측면을 모두 포함하는 것으로 보입니다.",
+      "hash": "3f27c8c731506e52aef938688387d5d1",
       "added": "NEW"
     },
     {
