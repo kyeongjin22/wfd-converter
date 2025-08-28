@@ -1,5 +1,5 @@
 {
-  "date": "2025-08-21",
+  "date": "2025-08-28",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -81,7 +81,7 @@
     },
     {
       "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점으로 정의해 왔습니다.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
       "hash": "c6413cef31c2472731d344c643b20c02",
       "added": ""
     },
@@ -236,12 +236,6 @@
       "added": ""
     },
     {
-      "en": "Politics is not usually a safe topic of conversation.",
-      "ko": "정치는 일반적으로 안전한 대화 주제가 아니다.",
-      "hash": "cc88bdbc5d6772bd85be8b04a29e58f2",
-      "added": ""
-    },
-    {
       "en": "Public perception about biotechnology is crucial for developing scientific consensus.",
       "ko": "과학적 합의를 이끌어내기 위해서는 생명공학에 대한 대중의 인식이 중요합니다.",
       "hash": "971337fee8a992bf812491c1eb27d789",
@@ -273,7 +267,7 @@
     },
     {
       "en": "Some economists argue that the entire financial system is fatally flawed.",
-      "ko": "일부 경제학자들은 금융 시스템 전체가 치명적인 결함을 가지고 있다고 주장합니다.",
+      "ko": "일부 경제학자들은 전체 금융 시스템에 치명적인 결함이 있다고 주장합니다.",
       "hash": "9d93296f9bb79a517b872d7e843ec123",
       "added": ""
     },
@@ -380,21 +374,9 @@
       "added": ""
     },
     {
-      "en": "There are some doubts about whether these events actually occurred.",
-      "ko": "이런 사건이 실제로 일어났는지에 대해서는 의문이 제기되고 있다.",
-      "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
-      "added": ""
-    },
-    {
       "en": "There is a clear need for further research in this field.",
       "ko": "이 분야에 대한 추가 연구가 분명히 필요합니다.",
       "hash": "21fca5e72740dc24e5cc3f68e5573ca7",
-      "added": ""
-    },
-    {
-      "en": "There is clearly a need for further research in this field.",
-      "ko": "이 분야에 대한 추가 연구가 필요하다는 것은 분명합니다.",
-      "hash": "645f56955b94771a683c02d3d565153e",
       "added": ""
     },
     {
@@ -452,12 +434,6 @@
       "added": ""
     },
     {
-      "en": "We can work together to achieve high educational standard.",
-      "ko": "우리는 높은 교육 수준을 달성하기 위해 함께 노력할 수 있습니다.",
-      "hash": "5e3c7601d83b8068df4e2a4f2b786ac4",
-      "added": ""
-    },
-    {
       "en": "We can't consider any increase in our price at this stage.",
       "ko": "이 단계에서는 가격 인상을 고려할 수 없습니다.",
       "hash": "44dce2a25f6c6f79dcff945c1f302acd",
@@ -467,12 +443,6 @@
       "en": "We were able to contact a number of research subjects.",
       "ko": "우리는 다수의 연구 대상자들과 접촉할 수 있었습니다.",
       "hash": "51fb8af6660f1a4ee30ce7e46c778d26",
-      "added": ""
-    },
-    {
-      "en": "The essay is easy to write once the research is completed.",
-      "ko": "조사가 완료되면 에세이를 쓰기 쉽습니다.",
-      "hash": "b6a8be25e5966662d0c8c6e7cd369ddb",
       "added": ""
     },
     {
@@ -597,7 +567,7 @@
     },
     {
       "en": "Students are encouraged to monitor their own attendance.",
-      "ko": "학생들은 자신의 출석을 직접 확인하는 것이 좋습니다.",
+      "ko": "학생들은 자신의 출석을 스스로 체크하는 것이 좋습니다.",
       "hash": "86e276f72203684e146b76fdb9353442",
       "added": ""
     },
@@ -663,7 +633,7 @@
     },
     {
       "en": "All medical students must clean their hands before entering the room.",
-      "ko": "모든 의대생은 진료실에 들어가기 전에 손을 씻어야 합니다.",
+      "ko": "모든 의대생은 강의실에 들어가기 전에 손을 씻어야 합니다.",
       "hash": "a91cae430419ee216a5f4e601f9255bd",
       "added": ""
     },
@@ -761,12 +731,6 @@
       "en": "You should provide examples to support your ideas and arguments.",
       "ko": "당신의 아이디어와 주장을 뒷받침하는 예를 제공해야 합니다.",
       "hash": "3adae9ce90c0da00cda21b2718d8847a",
-      "added": ""
-    },
-    {
-      "en": "Growing population has posed a challenge to many governments.",
-      "ko": "인구 증가는 많은 정부에 과제로 다가왔습니다.",
-      "hash": "4a1f923ff24d8cddcd69c580244a0cd8",
       "added": ""
     },
     {
@@ -968,12 +932,6 @@
       "added": ""
     },
     {
-      "en": "The disease that was serious has now been eradicated.",
-      "ko": "심각했던 질병은 이제 근절되었습니다.",
-      "hash": "5ef83a2f75d366532362f72b85fdbcb9",
-      "added": ""
-    },
-    {
       "en": "Air pollution is a serious problem all over the world.",
       "ko": "대기 오염은 전 세계적으로 심각한 문제입니다.",
       "hash": "cfc59899e053ed596e69d3b725041a1e",
@@ -1124,12 +1082,6 @@
       "added": ""
     },
     {
-      "en": "These words recognized the excellence of the undergraduates' research projects.",
-      "ko": "이 말은 학부생들의 연구 프로젝트의 우수성을 인정한 것입니다.",
-      "hash": "a15fe9a9daacb233d9a729d185da6a41",
-      "added": ""
-    },
-    {
       "en": "For the purpose of the research, data should be collected and analyzed.",
       "ko": "연구 목적을 위해서는 데이터를 수집하고 분석해야 합니다.",
       "hash": "73402d8cdd59b177e8b78cde6acc8012",
@@ -1157,12 +1109,6 @@
       "en": "Summer school programs allow some students to accelerate their studies.",
       "ko": "여름방학 학교 프로그램을 통해 일부 학생들은 학업을 빨리 마칠 수 있습니다.",
       "hash": "f4bfdf471ce20d50564754c03a031b09",
-      "added": ""
-    },
-    {
-      "en": "The sociology exam will take place in Week 13.",
-      "ko": "사회학 시험은 13주차에 치러집니다.",
-      "hash": "044864f504191452388ab2fbc2d47ab0",
       "added": ""
     },
     {
@@ -1269,14 +1215,8 @@
     },
     {
       "en": "Building trust is not something that can be achieved overnight.",
-      "ko": "신뢰를 쌓는 일은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
+      "ko": "신뢰를 쌓는 것은 하룻밤 사이에 이룰 수 있는 일이 아닙니다.",
       "hash": "0e1bef6bdcd5f6f0b4975f27cd1876fb",
-      "added": ""
-    },
-    {
-      "en": "An architect is required to have problem-solving skills and an eye for design.",
-      "ko": "건축가는 문제 해결 능력과 디자인 감각을 갖춰야 합니다.",
-      "hash": "507e442be970272550107b63b757db45",
       "added": ""
     },
     {
@@ -1307,12 +1247,6 @@
       "en": "Students must present a valid identification to enroll in this course.",
       "ko": "이 과목에 등록하려면 학생은 유효한 신분증을 제시해야 합니다.",
       "hash": "09ce8c31167a6af2ca9c96ae982b3a9f",
-      "added": ""
-    },
-    {
-      "en": "Newspapers across the country have been reporting stories of the president.",
-      "ko": "전국의 신문들이 대통령에 대한 기사를 보도하고 있습니다.",
-      "hash": "5e09aaf078252293e5d47dbdedb878ea",
       "added": ""
     },
     {
@@ -1353,7 +1287,7 @@
     },
     {
       "en": "Before you choose your university courses, you should consider your future career.",
-      "ko": "대학 과목을 선택하기 전에 미래 직업에 대해 생각해 보세요.",
+      "ko": "대학 과목을 선택하기 전에 미래의 직업에 대해 생각해 보세요.",
       "hash": "7c83d1af7acb930b47b55c0656c58ca4",
       "added": ""
     },
@@ -1547,12 +1481,6 @@
       "en": "Employment figures will decrease in the next few years.",
       "ko": "향후 몇 년 동안 취업자 수는 감소할 것으로 예상된다.",
       "hash": "e2941c40b3c40ed14e05befd7bf8a31f",
-      "added": ""
-    },
-    {
-      "en": "Artists, other than politicians, played their own roles as critics of the culture.",
-      "ko": "정치인 외에도 예술가들은 문화 비평가로서 그들만의 역할을 수행했습니다.",
-      "hash": "7a0267b0b7e85a2a42ba8b9055a36223",
       "added": ""
     },
     {
@@ -1808,16 +1736,28 @@
       "added": ""
     },
     {
+      "en": "The school's summer programs help students to accelerate their studies.",
+      "ko": "학교의 여름 프로그램은 학생들이 학업을 가속화하는 데 도움이 됩니다.",
+      "hash": "ddd0c716a6ea7e8551beb3b84bdf1633",
+      "added": "NEW"
+    },
+    {
       "en": "We study science to understand and appreciate the world around us.",
       "ko": "우리는 주변 세계를 이해하고 감상하기 위해 과학을 공부합니다.",
       "hash": "9ae2f0aa196091d3e2ba83e2393c3ee3",
       "added": ""
     },
     {
+      "en": "This course will teach engineering students practical skills and concepts.",
+      "ko": "이 과정에서는 공학 전공 학생들에게 실용적인 기술과 개념을 가르칩니다.",
+      "hash": "38fabdfaab811fc8f5835298c695b022",
+      "added": "NEW"
+    },
+    {
       "en": "Students are advised that the lecture today has been canceled.",
       "ko": "오늘 강의는 취소되었음을 학생들에게 알려드립니다.",
       "hash": "3607c0143037ab5dc5ab417c03fc7202",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Experts are now able to forecast weather over a much longer period.",
@@ -1854,6 +1794,12 @@
       "ko": "설탕은 탄소, 산소, 수소 원자로 구성된 화합물입니다.",
       "hash": "87d91cc7aeef435761e4d163a08b689e",
       "added": ""
+    },
+    {
+      "en": "The shipwreck of this year ruined some artifacts which were interested by historians.",
+      "ko": "올해의 난파선 사고로 일부 유물이 파손되었고, 역사가들은 이에 관심을 가졌습니다.",
+      "hash": "123f0912dc8ba9bbc9ad2463d86a6e26",
+      "added": "NEW"
     },
     {
       "en": "Food containing ample calories provides little or no nutritional value.",
@@ -2007,7 +1953,7 @@
     },
     {
       "en": "We encourage students to complete their applications before the deadline .",
-      "ko": "학생들에게는 마감일 전에 지원서를 완료하도록 권장합니다.",
+      "ko": "학생들에게는 마감일 전에 지원서를 완료할 것을 권장합니다.",
       "hash": "9c92acd2b150138bdc000ba3e1740e4e",
       "added": ""
     },
@@ -2066,9 +2012,15 @@
       "added": ""
     },
     {
-      "en": "Career opportunities in this field are quite limited.",
-      "ko": "이 분야의 취업 기회는 매우 제한적입니다.",
-      "hash": "72c16b7f406a5eb9d2cc1e0c5613c099",
+      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
+      "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
+      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
+      "added": "NEW"
+    },
+    {
+      "en": "Politics is not usually a safe topic of conversation.",
+      "ko": "정치는 일반적으로 안전한 대화 주제가 아니다.",
+      "hash": "cc88bdbc5d6772bd85be8b04a29e58f2",
       "added": ""
     },
     {
@@ -2078,39 +2030,63 @@
       "added": ""
     },
     {
-      "en": "There are opportunities to receive grants in most artistic fields.",
-      "ko": "대부분의 예술 분야에서 보조금을 받을 수 있는 기회가 있습니다.",
-      "hash": "5d9b8407104c175f47bad62623ac33e5",
+      "en": "There are some doubts about whether these events actually occurred.",
+      "ko": "이런 사건이 실제로 일어났는지에 대해서는 의문이 제기되고 있다.",
+      "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
       "added": ""
     },
     {
-      "en": "There is no economic reason why public borrowing is necessarily bad.",
-      "ko": "공공차입이 반드시 나쁘다는 경제적 이유는 없습니다.",
-      "hash": "aae906f98ccae1acf43be23bcf3c0318",
+      "en": "There is clearly a need for further research in this field.",
+      "ko": "이 분야에 대한 추가 연구가 필요하다는 것은 분명합니다.",
+      "hash": "645f56955b94771a683c02d3d565153e",
       "added": ""
     },
     {
-      "en": "Science degrees are now offering different levels of specialization.",
-      "ko": "과학 학위는 이제 다양한 수준의 전문화를 제공하고 있습니다.",
-      "hash": "f5e87f93ec33e87939ed24b2603911e5",
+      "en": "We can work together to achieve high educational standard.",
+      "ko": "우리는 높은 교육 수준을 달성하기 위해 함께 노력할 수 있습니다.",
+      "hash": "5e3c7601d83b8068df4e2a4f2b786ac4",
       "added": ""
     },
     {
-      "en": "Music students will have great opportunities to work with musical professionals.",
-      "ko": "음악 학생들은 음악 전문가들과 함께 일할 수 있는 좋은 기회를 얻게 됩니다.",
-      "hash": "75b50ecea79e89e556ac6be377507541",
+      "en": "The essay is easy to write once the research is completed.",
+      "ko": "조사가 완료되면 에세이를 쓰기 쉽습니다.",
+      "hash": "b6a8be25e5966662d0c8c6e7cd369ddb",
       "added": ""
     },
     {
-      "en": "Globalization has been an overwhelming urbanization phenomenon.",
-      "ko": "세계화는 압도적인 도시화 현상이었습니다.",
-      "hash": "17ee2d9460798e6d0deb01bc4c7b8254",
+      "en": "Growing population has posed a challenge to many governments.",
+      "ko": "인구 증가는 많은 정부에 과제로 다가왔습니다.",
+      "hash": "4a1f923ff24d8cddcd69c580244a0cd8",
       "added": ""
     },
     {
-      "en": "All students can learn even though they have different speeds.",
-      "ko": "학생들의 학습 속도는 다르더라도 모든 학생이 학습할 수 있습니다.",
-      "hash": "880fd34459261afa7a8da4103f81bc27",
+      "en": "The disease that was serious has now been eradicated.",
+      "ko": "심각했던 질병은 이제 근절되었습니다.",
+      "hash": "5ef83a2f75d366532362f72b85fdbcb9",
+      "added": ""
+    },
+    {
+      "en": "These words recognized the excellence of the undergraduates' research projects.",
+      "ko": "이 말은 학부생들의 연구 프로젝트의 우수성을 인정한 것입니다.",
+      "hash": "a15fe9a9daacb233d9a729d185da6a41",
+      "added": ""
+    },
+    {
+      "en": "The sociology exam will take place in Week 13.",
+      "ko": "사회학 시험은 13주차에 치러집니다.",
+      "hash": "044864f504191452388ab2fbc2d47ab0",
+      "added": ""
+    },
+    {
+      "en": "An architect is required to have problem-solving skills and an eye for design.",
+      "ko": "건축가는 문제 해결 능력과 디자인 감각을 갖춰야 합니다.",
+      "hash": "507e442be970272550107b63b757db45",
+      "added": ""
+    },
+    {
+      "en": "Newspapers across the country have been reporting stories of the president.",
+      "ko": "전국의 신문들이 대통령에 대한 기사를 보도하고 있습니다.",
+      "hash": "5e09aaf078252293e5d47dbdedb878ea",
       "added": ""
     },
     {
@@ -2120,9 +2096,9 @@
       "added": ""
     },
     {
-      "en": "Music has the ability to shape our emotions.",
-      "ko": "음악은 우리의 감정을 형성하는 능력이 있습니다.",
-      "hash": "cd3b0efc7cc120250cda28cc249d4a12",
+      "en": "Artists, other than politicians, played their own roles as critics of the culture.",
+      "ko": "정치인 외에도 예술가들은 문화 비평가로서 그들만의 역할을 수행했습니다.",
+      "hash": "7a0267b0b7e85a2a42ba8b9055a36223",
       "added": ""
     },
     {
