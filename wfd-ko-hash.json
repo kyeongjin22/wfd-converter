@@ -1,5 +1,5 @@
 {
-  "date": "2025-08-28",
+  "date": "2025-09-04",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -81,7 +81,7 @@
     },
     {
       "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점으로 정의해 왔습니다.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
       "hash": "c6413cef31c2472731d344c643b20c02",
       "added": ""
     },
@@ -237,7 +237,7 @@
     },
     {
       "en": "Public perception about biotechnology is crucial for developing scientific consensus.",
-      "ko": "과학적 합의를 이끌어내기 위해서는 생명공학에 대한 대중의 인식이 중요합니다.",
+      "ko": "과학적 합의를 도출하기 위해서는 생명공학에 대한 대중의 인식이 매우 중요합니다.",
       "hash": "971337fee8a992bf812491c1eb27d789",
       "added": ""
     },
@@ -309,7 +309,7 @@
     },
     {
       "en": "The digital revolution has changed the way we read.",
-      "ko": "디지털 혁명은 우리의 독서 방식을 바꾸었습니다.",
+      "ko": "디지털 혁명은 우리가 책을 읽는 방식을 바꾸었습니다.",
       "hash": "72a3a038c4a10b9b20a69c36b080808b",
       "added": ""
     },
@@ -537,7 +537,7 @@
     },
     {
       "en": "Making mistakes is fine as long as you learn from them.",
-      "ko": "실수하는 것도 괜찮지만, 그로부터 교훈을 얻는다면 괜찮습니다.",
+      "ko": "실수하는 것도 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
       "hash": "1faa00c07cf17e4de8f0f33d416f5753",
       "added": ""
     },
@@ -567,7 +567,7 @@
     },
     {
       "en": "Students are encouraged to monitor their own attendance.",
-      "ko": "학생들은 자신의 출석을 스스로 체크하는 것이 좋습니다.",
+      "ko": "학생들은 자신의 출석을 직접 확인하는 것이 좋습니다.",
       "hash": "86e276f72203684e146b76fdb9353442",
       "added": ""
     },
@@ -998,18 +998,6 @@
       "added": ""
     },
     {
-      "en": "Scholarships are available for both local and international students.",
-      "ko": "장학금은 국내 학생과 해외 학생 모두에게 제공됩니다.",
-      "hash": "b7cb683faa58ca0a62a74ddb4b386706",
-      "added": ""
-    },
-    {
-      "en": "The research shows that spending time outdoors has a range of benefits.",
-      "ko": "연구에 따르면 야외에서 시간을 보내는 것에는 여러 가지 이점이 있는 것으로 나타났습니다.",
-      "hash": "b7b723988b2d817df0f5c803de9cb92d",
-      "added": ""
-    },
-    {
       "en": "The amount of time spent on configuration varies considerably.",
       "ko": "구성에 소요되는 시간은 상당히 다양합니다.",
       "hash": "ac38d929336da52c788a6cdf72d9b925",
@@ -1155,7 +1143,7 @@
     },
     {
       "en": "Students who study environmental biology need to do fieldwork.",
-      "ko": "환경생물학을 공부하는 학생들은 현장 조사를 해야 합니다.",
+      "ko": "환경생물학을 공부하는 학생들은 현장실습을 해야 합니다.",
       "hash": "baf37d7cd68a04bc48ea51766fedb902",
       "added": ""
     },
@@ -1287,7 +1275,7 @@
     },
     {
       "en": "Before you choose your university courses, you should consider your future career.",
-      "ko": "대학 과목을 선택하기 전에 미래의 직업에 대해 생각해 보세요.",
+      "ko": "대학 과목을 선택하기 전에 미래 직업에 대해 생각해 보세요.",
       "hash": "7c83d1af7acb930b47b55c0656c58ca4",
       "added": ""
     },
@@ -1413,7 +1401,7 @@
     },
     {
       "en": "It is interesting to observe the development of the language skills of toddlers.",
-      "ko": "유아들의 언어 능력 발달을 관찰하는 것은 흥미로운 일이다.",
+      "ko": "유아들의 언어 능력 발달을 관찰하는 것은 흥미롭습니다.",
       "hash": "c8fc452aba50bd97d7fcb685a7f204cc",
       "added": ""
     },
@@ -1623,7 +1611,7 @@
     },
     {
       "en": "It is quite clear that our facial expressions are different across the world.",
-      "ko": "우리의 얼굴 표정이 전 세계마다 다르다는 것은 매우 분명한 사실입니다.",
+      "ko": "전 세계 사람들의 얼굴 표정이 다르다는 것은 매우 분명한 사실입니다.",
       "hash": "38bace7ae86db2e98ecfb6cfd7c5a80e",
       "added": ""
     },
@@ -1680,6 +1668,12 @@
       "ko": "많은 새들이 겨울 동안 따뜻한 지역으로 이동합니다.",
       "hash": "7822fe2511eb164e44b668a5a5c3962e",
       "added": ""
+    },
+    {
+      "en": "Most of these features were part of the previous system.",
+      "ko": "이러한 기능의 대부분은 이전 시스템에 포함되어 있었습니다.",
+      "hash": "26f4ef3f2c7ec4b4b516e648b4c7c9e6",
+      "added": "NEW"
     },
     {
       "en": "No more than four people can be in the lab at once.",
@@ -1739,7 +1733,7 @@
       "en": "The school's summer programs help students to accelerate their studies.",
       "ko": "학교의 여름 프로그램은 학생들이 학업을 가속화하는 데 도움이 됩니다.",
       "hash": "ddd0c716a6ea7e8551beb3b84bdf1633",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "We study science to understand and appreciate the world around us.",
@@ -1751,7 +1745,7 @@
       "en": "This course will teach engineering students practical skills and concepts.",
       "ko": "이 과정에서는 공학 전공 학생들에게 실용적인 기술과 개념을 가르칩니다.",
       "hash": "38fabdfaab811fc8f5835298c695b022",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Students are advised that the lecture today has been canceled.",
@@ -1799,7 +1793,7 @@
       "en": "The shipwreck of this year ruined some artifacts which were interested by historians.",
       "ko": "올해의 난파선 사고로 일부 유물이 파손되었고, 역사가들은 이에 관심을 가졌습니다.",
       "hash": "123f0912dc8ba9bbc9ad2463d86a6e26",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Food containing ample calories provides little or no nutritional value.",
@@ -1872,6 +1866,12 @@
       "ko": "이는 여러 가지 주요 요소를 갖춘 통합 과정입니다.",
       "hash": "7d69f2ef767d2b6649746fa5e305c050",
       "added": ""
+    },
+    {
+      "en": "Before preparing food, please make sure to wash your hands.",
+      "ko": "음식을 준비하기 전에 반드시 손을 씻으세요.",
+      "hash": "66dac37599429100ddab81fd3df2cd8c",
+      "added": "NEW"
     },
     {
       "en": "These two regions are both areas of economic development.",
@@ -2015,18 +2015,12 @@
       "en": "Meteorology is the detailed study of the Earth's atmosphere.",
       "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
       "hash": "5ed40824b5a29e35dd8911a7a81a3530",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Politics is not usually a safe topic of conversation.",
       "ko": "정치는 일반적으로 안전한 대화 주제가 아니다.",
       "hash": "cc88bdbc5d6772bd85be8b04a29e58f2",
-      "added": ""
-    },
-    {
-      "en": "Review all your sources before drawing any definitive conclusions.",
-      "ko": "확실한 결론을 내리기 전에 모든 출처를 검토하세요.",
-      "hash": "439aa1702ac1524dd0e2f89c809f9f47",
       "added": ""
     },
     {
@@ -2066,6 +2060,18 @@
       "added": ""
     },
     {
+      "en": "Scholarships are available for both local and international students.",
+      "ko": "장학금은 국내 학생과 해외 학생 모두에게 제공됩니다.",
+      "hash": "b7cb683faa58ca0a62a74ddb4b386706",
+      "added": ""
+    },
+    {
+      "en": "The research shows that spending time outdoors has a range of benefits.",
+      "ko": "연구에 따르면 야외에서 시간을 보내는 것에는 여러 가지 이점이 있는 것으로 나타났습니다.",
+      "hash": "b7b723988b2d817df0f5c803de9cb92d",
+      "added": ""
+    },
+    {
       "en": "These words recognized the excellence of the undergraduates' research projects.",
       "ko": "이 말은 학부생들의 연구 프로젝트의 우수성을 인정한 것입니다.",
       "hash": "a15fe9a9daacb233d9a729d185da6a41",
@@ -2090,27 +2096,9 @@
       "added": ""
     },
     {
-      "en": "The university library has a collection of early geography maps.",
-      "ko": "대학 도서관에는 초기 지리 지도 컬렉션이 소장되어 있습니다.",
-      "hash": "b9f14b97d1e2bb61dc8a0c4bcd286e56",
-      "added": ""
-    },
-    {
       "en": "Artists, other than politicians, played their own roles as critics of the culture.",
       "ko": "정치인 외에도 예술가들은 문화 비평가로서 그들만의 역할을 수행했습니다.",
       "hash": "7a0267b0b7e85a2a42ba8b9055a36223",
-      "added": ""
-    },
-    {
-      "en": "Extension requirement for the assignment must be submitted before the deadline.",
-      "ko": "과제 연장 요청은 마감일 전에 제출해야 합니다.",
-      "hash": "78e5033def174c110c37be8d509fb746",
-      "added": ""
-    },
-    {
-      "en": "This course begins by tracing the historical evolution of architecture.",
-      "ko": "이 과정은 건축의 역사적 진화를 추적하는 것으로 시작됩니다.",
-      "hash": "2a8167116d9986ab0a0dfd8ea134209d",
       "added": ""
     }
   ]
