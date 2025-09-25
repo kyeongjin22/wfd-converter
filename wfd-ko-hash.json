@@ -1,5 +1,5 @@
 {
-  "date": "2025-09-19",
+  "date": "2025-09-25",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -93,7 +93,7 @@
     },
     {
       "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점으로 정의해 왔습니다.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
       "hash": "c6413cef31c2472731d344c643b20c02",
       "added": ""
     },
@@ -125,12 +125,6 @@
       "en": "Climate change is now an acceptable phenomenon among a group of reputable scientists.",
       "ko": "기후 변화는 이제 명성 있는 과학자 그룹 사이에서 용인될 수 있는 현상이 되었습니다.",
       "hash": "37e0aaa9b3d3ab2a0c4a82fa227aa340",
-      "added": ""
-    },
-    {
-      "en": "Clinical placements in nursing prepare students for professional practice.",
-      "ko": "간호학의 임상실습은 학생들에게 전문적인 실무를 준비시켜줍니다.",
-      "hash": "386c91992b4316e1c52c6898789db623",
       "added": ""
     },
     {
@@ -195,7 +189,7 @@
     },
     {
       "en": "The supposed benefits of space exploration are frequently questioned.",
-      "ko": "우주 탐사의 가정된 이점은 종종 의문시된다.",
+      "ko": "우주 탐사의 가정된 이점에 대해서는 종종 의문이 제기됩니다.",
       "hash": "ebe2bff544896a8972d2fbd26146da5c",
       "added": ""
     },
@@ -221,12 +215,6 @@
       "en": "Statistical results should be expressed in different ways depending on the circumstances.",
       "ko": "통계적 결과는 상황에 따라 다른 방식으로 표현되어야 합니다.",
       "hash": "e5e1776cf46d57904ba652deb58c44bc",
-      "added": ""
-    },
-    {
-      "en": "You are advised to use multiple research methods for this project.",
-      "ko": "이 프로젝트에서는 다양한 연구 방법을 사용하는 것이 좋습니다.",
-      "hash": "9bbdebfff4fa52510d3b50847eb7deed",
       "added": ""
     },
     {
@@ -275,12 +263,6 @@
       "en": "The key difference between courses is the kind of assessment.",
       "ko": "과목 간의 주요 차이점은 평가 유형입니다.",
       "hash": "5afcd55d8d907ae294aa35643b68c013",
-      "added": ""
-    },
-    {
-      "en": "The most important details in this argument are missing.",
-      "ko": "이 주장에서 가장 중요한 세부 사항이 빠져 있습니다.",
-      "hash": "e882cd5a6773e170cd7cfff1a6bae826",
       "added": ""
     },
     {
@@ -347,6 +329,12 @@
       "en": "This guy is qualified to lead the groups into the mountain.",
       "ko": "이 사람은 산으로 그룹을 이끌 자격이 있습니다.",
       "hash": "812855fb5724eb555d4dc218a2f03221",
+      "added": ""
+    },
+    {
+      "en": "To achieve full marks, an appropriate bibliography is required.",
+      "ko": "만점을 받으려면 적절한 참고문헌이 필요합니다.",
+      "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
       "added": ""
     },
     {
@@ -482,12 +470,6 @@
       "added": ""
     },
     {
-      "en": "Making mistakes is fine as long as you learn from them.",
-      "ko": "실수하는 것은 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
-      "hash": "1faa00c07cf17e4de8f0f33d416f5753",
-      "added": ""
-    },
-    {
       "en": "One of the election promises is to decrease income taxes.",
       "ko": "선거 공약 중 하나는 소득세 인하입니다.",
       "hash": "0ce070055e24e1b2fb4eee63c63ee164",
@@ -536,6 +518,12 @@
       "added": ""
     },
     {
+      "en": "The students will meet their new teachers after the summer vacation.",
+      "ko": "학생들은 여름방학이 끝나면 새로운 선생님을 만날 것입니다.",
+      "hash": "1502163b9b22d75304bfdc0faccf7a1f",
+      "added": ""
+    },
+    {
       "en": "We have a lecture in the morning on Thursday.",
       "ko": "목요일 오전에 강의가 있습니다.",
       "hash": "b3236de18c85b1e0030cc17919421d99",
@@ -563,12 +551,6 @@
       "en": "Digital gadgets are an excellent addition to any outdoor venture.",
       "ko": "디지털 가젯은 야외 활동에 매우 유용한 도구입니다.",
       "hash": "450a159d102d3b3007ada3de1c2bbbdc",
-      "added": ""
-    },
-    {
-      "en": "Mechanical engineering first became prominent during the Industrial Revolution.",
-      "ko": "기계공학은 산업혁명 때 처음으로 두각을 나타냈습니다.",
-      "hash": "7b0c5aa08982be3fd27f76715f5b7035",
       "added": ""
     },
     {
@@ -611,12 +593,6 @@
       "en": "The shipwreck of this year ruined some artifacts which were interested by historians.",
       "ko": "올해의 난파선 사고로 역사가들의 관심을 끌었던 몇몇 유물이 파손되었습니다.",
       "hash": "123f0912dc8ba9bbc9ad2463d86a6e26",
-      "added": ""
-    },
-    {
-      "en": "Renovation works are currently being undertaken throughout the whole building.",
-      "ko": "현재 건물 전체에서 리노베이션 공사가 진행 중입니다.",
-      "hash": "a14bdfdf4ddc959dd37cfbf61e998c56",
       "added": ""
     },
     {
@@ -665,7 +641,7 @@
       "en": "The tutorial timetable can be found on the course website.",
       "ko": "튜토리얼 시간표는 강좌 웹사이트에서 확인할 수 있습니다.",
       "hash": "434fbba27185d9b48395529aade61965",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Eating fish twice a week is recommended for a healthy diet.",
@@ -785,7 +761,7 @@
       "en": "When launching a product, investigating and marketing are very crucial.",
       "ko": "제품을 출시할 때 조사와 마케팅은 매우 중요합니다.",
       "hash": "a4a71228e9ab896d1d752ebae9ad9cb7",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "The other book isn't thorough, but it's more insightful.",
@@ -809,12 +785,6 @@
       "en": "New media have transcended traditional national boundaries.",
       "ko": "새로운 미디어는 전통적인 국가적 경계를 넘어섰습니다.",
       "hash": "e614fc741067fd8abe4910757c252c7b",
-      "added": ""
-    },
-    {
-      "en": "One student representative will be selected from each class.",
-      "ko": "각 학급에서 학생 대표 한 명이 선출됩니다.",
-      "hash": "34fd6edbd5cca855de51620d34d2776f",
       "added": ""
     },
     {
@@ -902,6 +872,12 @@
       "added": ""
     },
     {
+      "en": "Criminal charges will be brought against all of the men.",
+      "ko": "모든 남자에 대해 형사고발이 이루어질 것입니다.",
+      "hash": "cfd92a280b5caa4cdece535cb8db6d14",
+      "added": ""
+    },
+    {
       "en": "Mathematics provides a foundation for understanding and analyzing data.",
       "ko": "수학은 데이터를 이해하고 분석하는 데 필요한 기초를 제공합니다.",
       "hash": "6e6271a8ca3b73a06e295a953e58e7a9",
@@ -914,33 +890,21 @@
       "added": ""
     },
     {
-      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
-      "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
-      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
-      "added": ""
-    },
-    {
-      "en": "To achieve full marks, an appropriate bibliography is required.",
-      "ko": "만점을 받으려면 적절한 참고문헌이 필요합니다.",
-      "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
-      "added": "NEW"
-    },
-    {
-      "en": "The students will meet their new teachers after the summer vacation.",
-      "ko": "학생들은 여름방학이 끝나면 새로운 선생님을 만날 것입니다.",
-      "hash": "1502163b9b22d75304bfdc0faccf7a1f",
-      "added": "NEW"
-    },
-    {
-      "en": "Criminal charges will be brought against all of the men.",
-      "ko": "모든 남자에 대해 형사고발이 이루어질 것입니다.",
-      "hash": "cfd92a280b5caa4cdece535cb8db6d14",
+      "en": "The archeologist's new discoveries stand out in the previously overlooked foundations.",
+      "ko": "고고학자의 새로운 발견은 이전에 간과되었던 기초에서 두드러진다.",
+      "hash": "3a40240628557160b80c946778aacf1f",
       "added": "NEW"
     },
     {
       "en": "Certain scientific principles must be learned verbally or by logical deduction.",
       "ko": "어떤 과학적 원리는 말로 배우거나 논리적 추론을 통해 배워야 합니다.",
       "hash": "545aaa85952eb301155d8a85fe8ef882",
+      "added": ""
+    },
+    {
+      "en": "Clinical placements in nursing prepare students for professional practice.",
+      "ko": "간호학의 임상실습은 학생들에게 전문적인 실무를 준비시켜줍니다.",
+      "hash": "386c91992b4316e1c52c6898789db623",
       "added": ""
     },
     {
@@ -980,6 +944,12 @@
       "added": ""
     },
     {
+      "en": "You are advised to use multiple research methods for this project.",
+      "ko": "이 프로젝트에서는 다양한 연구 방법을 사용하는 것이 좋습니다.",
+      "hash": "9bbdebfff4fa52510d3b50847eb7deed",
+      "added": ""
+    },
+    {
       "en": "The assessment of this course will begin next week.",
       "ko": "이 과목에 대한 평가는 다음 주부터 시작됩니다.",
       "hash": "02725b3f4eb185a9a4b0bc3269fb3275",
@@ -998,6 +968,12 @@
       "added": ""
     },
     {
+      "en": "The most important details in this argument are missing.",
+      "ko": "이 주장에서 가장 중요한 세부 사항이 빠져 있습니다.",
+      "hash": "e882cd5a6773e170cd7cfff1a6bae826",
+      "added": ""
+    },
+    {
       "en": "The visiting speaker used to be a lecturer in this department.",
       "ko": "방문 강사는 이 학과의 강사였습니다.",
       "hash": "1e913dab74ea6c90aa4079c5cddfc678",
@@ -1005,7 +981,7 @@
     },
     {
       "en": "This morning's lecture on economic policy has been canceled.",
-      "ko": "오늘 아침의 경제 정책 강의는 취소되었습니다.",
+      "ko": "오늘 아침 경제 정책 강의는 취소되었습니다.",
       "hash": "1696419a7879d305ab0d99f814ebf5ee",
       "added": ""
     },
@@ -1046,9 +1022,27 @@
       "added": ""
     },
     {
+      "en": "Making mistakes is fine as long as you learn from them.",
+      "ko": "실수하는 것은 괜찮지만, 실수로부터 배우는 것이 중요합니다.",
+      "hash": "1faa00c07cf17e4de8f0f33d416f5753",
+      "added": ""
+    },
+    {
       "en": "The site is designed to be highly interactive.",
       "ko": "이 사이트는 높은 상호작용성을 갖도록 설계되었습니다.",
       "hash": "a98e5ebc88a4d6f9375b008fcd03dd1d",
+      "added": ""
+    },
+    {
+      "en": "Mechanical engineering first became prominent during the Industrial Revolution.",
+      "ko": "기계공학은 산업혁명 때 처음으로 두각을 나타냈습니다.",
+      "hash": "7b0c5aa08982be3fd27f76715f5b7035",
+      "added": ""
+    },
+    {
+      "en": "Renovation works are currently being undertaken throughout the whole building.",
+      "ko": "현재 건물 전체에서 리노베이션 공사가 진행 중입니다.",
+      "hash": "a14bdfdf4ddc959dd37cfbf61e998c56",
       "added": ""
     },
     {
@@ -1136,6 +1130,12 @@
       "added": ""
     },
     {
+      "en": "One student representative will be selected from each class.",
+      "ko": "각 학급에서 학생 대표 한 명이 선출됩니다.",
+      "hash": "34fd6edbd5cca855de51620d34d2776f",
+      "added": ""
+    },
+    {
       "en": "Scientists recognize different ice types according to the water molecule content.",
       "ko": "과학자들은 물 분자 함량에 따라 다양한 얼음 유형을 구분합니다.",
       "hash": "d7f5a734a010dca11b1414e04d67299b",
@@ -1145,6 +1145,12 @@
       "en": "More research is required in the field of food science.",
       "ko": "식품과학 분야에서는 더 많은 연구가 필요합니다.",
       "hash": "0bc9d1546ade8f6d184e98e8b08ab7c4",
+      "added": ""
+    },
+    {
+      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
+      "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
+      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
       "added": ""
     }
   ]
