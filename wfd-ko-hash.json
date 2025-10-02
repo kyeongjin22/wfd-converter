@@ -1,5 +1,5 @@
 {
-  "date": "2025-09-25",
+  "date": "2025-10-02",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -20,12 +20,6 @@
       "added": ""
     },
     {
-      "en": "A number of students have volunteer jobs.",
-      "ko": "많은 학생들이 자원봉사 활동을 하고 있습니다.",
-      "hash": "60cf62f06fe3ea6176232c361bef4d83",
-      "added": ""
-    },
-    {
       "en": "Educational level is found to be related to social and economic background.",
       "ko": "교육 수준은 사회적, 경제적 배경과 관련이 있는 것으로 나타났습니다.",
       "hash": "2a497df44e50cc51d6732a48af6aeb85",
@@ -41,12 +35,6 @@
       "en": "Tutorials are scheduled in the final week of the term.",
       "ko": "튜토리얼은 학기 마지막 주에 예정되어 있습니다.",
       "hash": "d3ac9703f0f68b05b794566f4d65bf58",
-      "added": ""
-    },
-    {
-      "en": "Agenda items should be submitted by the end of the day.",
-      "ko": "의제 항목은 당일 마감일까지 제출해야 합니다.",
-      "hash": "85de8ce6d714a80133c3b6b413173826",
       "added": ""
     },
     {
@@ -92,12 +80,6 @@
       "added": ""
     },
     {
-      "en": "Americans have typically defined the process of plant growth in quantitative terms.",
-      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 관점으로 정의해 왔습니다.",
-      "hash": "c6413cef31c2472731d344c643b20c02",
-      "added": ""
-    },
-    {
       "en": "An introduction is an essential element of presentation.",
       "ko": "서론은 프레젠테이션의 필수적인 요소입니다.",
       "hash": "de74373d7eee129197def334e7c4341d",
@@ -107,12 +89,6 @@
       "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
       "ko": "그리고 그 측면에서뿐만 아니라 다른 측면에서도 그것은 중요한 기여로 여겨집니다.",
       "hash": "88d343512b07feb13f947bb8c91ed827",
-      "added": ""
-    },
-    {
-      "en": "The assignments should be submitted to the department office before the deadlines.",
-      "ko": "과제는 마감일 전에 학과 사무실에 제출해야 합니다.",
-      "hash": "3a4f7ab8b6845b3dcb01f917480b324c",
       "added": ""
     },
     {
@@ -131,12 +107,6 @@
       "en": "Consumer confidence has a direct influence on sales.",
       "ko": "소비자 신뢰도는 매출에 직접적인 영향을 미칩니다.",
       "hash": "b3021c41fd23cdc0723a0d6a947ecaf0",
-      "added": ""
-    },
-    {
-      "en": "Convincing evidence to support this theory is hard to obtain.",
-      "ko": "이 이론을 뒷받침할 만한 설득력 있는 증거를 얻는 것은 어렵습니다.",
-      "hash": "477d68d1ca766b5fd5fd042694439455",
       "added": ""
     },
     {
@@ -332,6 +302,12 @@
       "added": ""
     },
     {
+      "en": "This morning's lecture on economic policy has been canceled.",
+      "ko": "오늘 아침 경제 정책 강의는 취소되었습니다.",
+      "hash": "1696419a7879d305ab0d99f814ebf5ee",
+      "added": ""
+    },
+    {
       "en": "To achieve full marks, an appropriate bibliography is required.",
       "ko": "만점을 받으려면 적절한 참고문헌이 필요합니다.",
       "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
@@ -471,7 +447,7 @@
     },
     {
       "en": "One of the election promises is to decrease income taxes.",
-      "ko": "선거 공약 중 하나는 소득세 인하입니다.",
+      "ko": "선거 공약 중 하나는 소득세를 낮추는 것입니다.",
       "hash": "0ce070055e24e1b2fb4eee63c63ee164",
       "added": ""
     },
@@ -519,7 +495,7 @@
     },
     {
       "en": "The students will meet their new teachers after the summer vacation.",
-      "ko": "학생들은 여름방학이 끝나면 새로운 선생님을 만날 것입니다.",
+      "ko": "학생들은 여름방학이 끝난 후 새로운 선생님을 만날 것입니다.",
       "hash": "1502163b9b22d75304bfdc0faccf7a1f",
       "added": ""
     },
@@ -545,18 +521,6 @@
       "en": "The economy is now showing the first sign of recovery.",
       "ko": "경제는 이제 회복의 첫 조짐을 보이고 있습니다.",
       "hash": "61feaefe8009a7ca73313301c648799f",
-      "added": ""
-    },
-    {
-      "en": "Digital gadgets are an excellent addition to any outdoor venture.",
-      "ko": "디지털 가젯은 야외 활동에 매우 유용한 도구입니다.",
-      "hash": "450a159d102d3b3007ada3de1c2bbbdc",
-      "added": ""
-    },
-    {
-      "en": "The lecture tomorrow will discuss the educational policy of the United States.",
-      "ko": "내일 강의에서는 미국의 교육 정책에 대해 논의할 것입니다.",
-      "hash": "ea397fa4cd4fe2675ca1c126b404a4f4",
       "added": ""
     },
     {
@@ -596,12 +560,6 @@
       "added": ""
     },
     {
-      "en": "Consumer confidence tends to increase as the economy expands.",
-      "ko": "경제가 확대됨에 따라 소비자 신뢰도는 높아지는 경향이 있습니다.",
-      "hash": "6034bdb556f01b9092d1340b798b62ff",
-      "added": ""
-    },
-    {
       "en": "Food containing ample calories provides little or no nutritional value.",
       "ko": "칼로리가 높은 음식은 영양가가 거의 없거나 전혀 없습니다.",
       "hash": "bfdb7098e4ee9ebebb691324c7367d4d",
@@ -611,6 +569,12 @@
       "en": "Blue whales are the largest animals that have ever lived.",
       "ko": "푸른 고래는 지금까지 살았던 동물 중 가장 큰 동물입니다.",
       "hash": "98a7ca6152f9e5afca52640db6fd6bc2",
+      "added": ""
+    },
+    {
+      "en": "Muscle cells bring parts of the body closer together.",
+      "ko": "근육 세포는 신체 부위를 더 가깝게 연결합니다.",
+      "hash": "8e71fbd49124597afdca4c5190582cff",
       "added": ""
     },
     {
@@ -692,21 +656,9 @@
       "added": ""
     },
     {
-      "en": "The course will start with the history of architecture.",
-      "ko": "이 과정은 건축의 역사부터 시작합니다.",
-      "hash": "e702bdc81368274be9c6ea04c1da3610",
-      "added": ""
-    },
-    {
       "en": "It is an integrated course with several main elements.",
       "ko": "이는 여러 가지 주요 요소를 갖춘 통합 과정입니다.",
       "hash": "7d69f2ef767d2b6649746fa5e305c050",
-      "added": ""
-    },
-    {
-      "en": "Before preparing food, please make sure to wash your hands.",
-      "ko": "음식을 준비하기 전에 반드시 손을 씻으세요.",
-      "hash": "66dac37599429100ddab81fd3df2cd8c",
       "added": ""
     },
     {
@@ -890,10 +842,46 @@
       "added": ""
     },
     {
+      "en": "Plants are the living things that can grow on land or in water.",
+      "ko": "식물은 땅이나 물에서 자랄 수 있는 생명체입니다.",
+      "hash": "ffe7b2fa456fc8ef9a259a5a553a89ef",
+      "added": "NEW"
+    },
+    {
+      "en": "Field trips are an essential part of geography courses.",
+      "ko": "현장 학습은 지리 수업의 필수적인 부분입니다.",
+      "hash": "dd5bf9b52f63150be5e6957cca95c1d8",
+      "added": "NEW"
+    },
+    {
       "en": "The archeologist's new discoveries stand out in the previously overlooked foundations.",
       "ko": "고고학자의 새로운 발견은 이전에 간과되었던 기초에서 두드러진다.",
       "hash": "3a40240628557160b80c946778aacf1f",
-      "added": "NEW"
+      "added": ""
+    },
+    {
+      "en": "A number of students have volunteer jobs.",
+      "ko": "많은 학생들이 자원봉사 활동을 하고 있습니다.",
+      "hash": "60cf62f06fe3ea6176232c361bef4d83",
+      "added": ""
+    },
+    {
+      "en": "Agenda items should be submitted by the end of the day.",
+      "ko": "의제 항목은 당일 마감일까지 제출해야 합니다.",
+      "hash": "85de8ce6d714a80133c3b6b413173826",
+      "added": ""
+    },
+    {
+      "en": "Americans have typically defined the process of plant growth in quantitative terms.",
+      "ko": "미국인들은 일반적으로 식물 성장 과정을 양적 용어로 정의해 왔습니다.",
+      "hash": "c6413cef31c2472731d344c643b20c02",
+      "added": ""
+    },
+    {
+      "en": "The assignments should be submitted to the department office before the deadlines.",
+      "ko": "과제는 마감일 전에 학과 사무실에 제출해야 합니다.",
+      "hash": "3a4f7ab8b6845b3dcb01f917480b324c",
+      "added": ""
     },
     {
       "en": "Certain scientific principles must be learned verbally or by logical deduction.",
@@ -905,6 +893,12 @@
       "en": "Clinical placements in nursing prepare students for professional practice.",
       "ko": "간호학의 임상실습은 학생들에게 전문적인 실무를 준비시켜줍니다.",
       "hash": "386c91992b4316e1c52c6898789db623",
+      "added": ""
+    },
+    {
+      "en": "Convincing evidence to support this theory is hard to obtain.",
+      "ko": "이 이론을 뒷받침할 만한 설득력 있는 증거를 얻는 것은 어렵습니다.",
+      "hash": "477d68d1ca766b5fd5fd042694439455",
       "added": ""
     },
     {
@@ -980,12 +974,6 @@
       "added": ""
     },
     {
-      "en": "This morning's lecture on economic policy has been canceled.",
-      "ko": "오늘 아침 경제 정책 강의는 취소되었습니다.",
-      "hash": "1696419a7879d305ab0d99f814ebf5ee",
-      "added": ""
-    },
-    {
       "en": "Our laboratory equipment is provided free of charge.",
       "ko": "당사의 실험실 장비는 무료로 제공됩니다.",
       "hash": "fe14541dc15c175720c69d0f7855b177",
@@ -1028,6 +1016,12 @@
       "added": ""
     },
     {
+      "en": "Digital gadgets are an excellent addition to any outdoor venture.",
+      "ko": "디지털 가젯은 야외 활동에 매우 유용한 도구입니다.",
+      "hash": "450a159d102d3b3007ada3de1c2bbbdc",
+      "added": ""
+    },
+    {
       "en": "The site is designed to be highly interactive.",
       "ko": "이 사이트는 높은 상호작용성을 갖도록 설계되었습니다.",
       "hash": "a98e5ebc88a4d6f9375b008fcd03dd1d",
@@ -1040,21 +1034,27 @@
       "added": ""
     },
     {
+      "en": "The lecture tomorrow will discuss the educational policy of the United States.",
+      "ko": "내일 강의에서는 미국의 교육 정책에 대해 논의할 것입니다.",
+      "hash": "ea397fa4cd4fe2675ca1c126b404a4f4",
+      "added": ""
+    },
+    {
       "en": "Renovation works are currently being undertaken throughout the whole building.",
       "ko": "현재 건물 전체에서 리노베이션 공사가 진행 중입니다.",
       "hash": "a14bdfdf4ddc959dd37cfbf61e998c56",
       "added": ""
     },
     {
-      "en": "Castles were designed to intimidate both local people and enemies.",
-      "ko": "성은 지역 주민과 적 모두에게 위협을 주기 위해 설계되었습니다.",
-      "hash": "0b79baae973a9034394c1df8bf21938d",
+      "en": "Consumer confidence tends to increase as the economy expands.",
+      "ko": "경제가 확대됨에 따라 소비자 신뢰도는 높아지는 경향이 있습니다.",
+      "hash": "6034bdb556f01b9092d1340b798b62ff",
       "added": ""
     },
     {
-      "en": "Muscle cells bring parts of the body closer together.",
-      "ko": "근육 세포는 신체 부위를 더 가깝게 연결합니다.",
-      "hash": "8e71fbd49124597afdca4c5190582cff",
+      "en": "Castles were designed to intimidate both local people and enemies.",
+      "ko": "성은 지역 주민과 적 모두에게 위협을 주기 위해 설계되었습니다.",
+      "hash": "0b79baae973a9034394c1df8bf21938d",
       "added": ""
     },
     {
@@ -1082,6 +1082,12 @@
       "added": ""
     },
     {
+      "en": "The course will start with the history of architecture.",
+      "ko": "이 과정은 건축의 역사부터 시작합니다.",
+      "hash": "e702bdc81368274be9c6ea04c1da3610",
+      "added": ""
+    },
+    {
       "en": "The deadline for this assignment is next Wednesday.",
       "ko": "이 과제의 마감일은 다음 주 수요일입니다.",
       "hash": "8cbd11d4c07d8b2cdee96641be17fb35",
@@ -1091,6 +1097,12 @@
       "en": "The closing date of applications for travel scholarships is next Monday.",
       "ko": "여행 장학금 신청 마감일은 다음 주 월요일입니다.",
       "hash": "cbf470fe72c267af594e1e85cc37918d",
+      "added": ""
+    },
+    {
+      "en": "Before preparing food, please make sure to wash your hands.",
+      "ko": "음식을 준비하기 전에 반드시 손을 씻으세요.",
+      "hash": "66dac37599429100ddab81fd3df2cd8c",
       "added": ""
     },
     {
