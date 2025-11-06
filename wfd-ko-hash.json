@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-30",
+  "date": "2025-11-06",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -50,12 +50,6 @@
       "added": ""
     },
     {
-      "en": "All of your assignments are due by tomorrow.",
-      "ko": "모든 과제는 내일까지 제출해야 합니다.",
-      "hash": "4d046dd952e6e2076d2566e50deedf3e",
-      "added": ""
-    },
-    {
       "en": "All students are expected to attend ten lab sessions per semester.",
       "ko": "모든 학생은 학기당 10회의 실험 세션에 참석해야 합니다.",
       "hash": "6cbac93623affe97f242d44a269c98be",
@@ -77,6 +71,12 @@
       "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
       "ko": "그리고 그 측면에서뿐만 아니라 다른 측면에서도 그것은 중요한 기여로 여겨집니다.",
       "hash": "88d343512b07feb13f947bb8c91ed827",
+      "added": ""
+    },
+    {
+      "en": "Animals raised in captivity behave differently than their wild counterparts.",
+      "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
+      "hash": "e146fa900dff4a3b908fb29cde21b7d4",
       "added": ""
     },
     {
@@ -113,6 +113,12 @@
       "en": "He landed a job in a very prestigious law firm.",
       "ko": "그는 매우 명망 있는 로펌에 취직했습니다.",
       "hash": "2f33ca1e4b6807df35e265f0630affb7",
+      "added": ""
+    },
+    {
+      "en": "Library reference desks hold a lot of materials on academic history.",
+      "ko": "도서관 참고 데스크에는 학술 역사에 관한 자료가 많이 보관되어 있습니다.",
+      "hash": "0640e7052d48b65ddef0676bcfe5ec28",
       "added": ""
     },
     {
@@ -182,6 +188,12 @@
       "added": ""
     },
     {
+      "en": "Coastal communities are particularly vulnerable to rising sea levels.",
+      "ko": "해안 지역 사회는 해수면 상승에 특히 취약합니다.",
+      "hash": "c49b1c69670ba211fedf9b709d961b58",
+      "added": ""
+    },
+    {
       "en": "The school's summer programs help students to accelerate their studies.",
       "ko": "학교의 여름 프로그램은 학생들의 학업을 가속화하는 데 도움이 됩니다.",
       "hash": "ddd0c716a6ea7e8551beb3b84bdf1633",
@@ -191,12 +203,6 @@
       "en": "There are some doubts about whether these events actually occurred.",
       "ko": "이런 사건이 실제로 일어났는지에 대해서는 의심의 여지가 있습니다.",
       "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
-      "added": ""
-    },
-    {
-      "en": "This class will look at the structure of an essay.",
-      "ko": "이 수업에서는 에세이의 구조를 살펴보겠습니다.",
-      "hash": "67e00d8253d62a42c264ec5af90c3fc6",
       "added": ""
     },
     {
@@ -293,12 +299,6 @@
       "en": "The shipwreck of this year ruined some artifacts which were interested by historians.",
       "ko": "올해의 난파선 사고로 역사가들의 관심을 끌었던 몇몇 유물이 파손되었습니다.",
       "hash": "123f0912dc8ba9bbc9ad2463d86a6e26",
-      "added": ""
-    },
-    {
-      "en": "Consumer confidence tends to increase as the economy expands.",
-      "ko": "경제가 확대됨에 따라 소비자 신뢰도는 높아지는 경향이 있습니다.",
-      "hash": "6034bdb556f01b9092d1340b798b62ff",
       "added": ""
     },
     {
@@ -407,7 +407,7 @@
       "en": "You can get your coffee and tea in the lounge. (.",
       "ko": "라운지에서 커피와 차를 즐기실 수 있습니다.",
       "hash": "bb3822461fa917cf9eca3bc308f66f67",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "A world expert in financial management will give a guest lecture.",
@@ -530,12 +530,6 @@
       "added": ""
     },
     {
-      "en": "The museum is closed on the third Monday of every month.",
-      "ko": "박물관은 매월 셋째 주 월요일에 문을 닫습니다.",
-      "hash": "04bbd88c58545b4eed29e33b3d77aff2",
-      "added": ""
-    },
-    {
       "en": "You must be able to work in a team.",
       "ko": "팀에서 일할 수 있어야 합니다.",
       "hash": "b81c72ff68ea16a416be64ec0a512f04",
@@ -566,12 +560,6 @@
       "added": ""
     },
     {
-      "en": "Animal behavior appears to contain both similar and distinct aspects to that of humans.",
-      "ko": "동물의 행동은 인간의 행동과 유사한 측면과 독특한 측면을 모두 포함하는 것으로 보인다.",
-      "hash": "3f27c8c731506e52aef938688387d5d1",
-      "added": ""
-    },
-    {
       "en": "We will discuss these two pictures in the next lecture.",
       "ko": "다음 강의에서 이 두 그림에 대해 논의하겠습니다.",
       "hash": "c95d81af963a9cbcf7276641e0ce2334",
@@ -584,21 +572,21 @@
       "added": ""
     },
     {
-      "en": "Animals raised in captivity behave differently than their wild counterparts.",
-      "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
-      "hash": "e146fa900dff4a3b908fb29cde21b7d4",
+      "en": "The garden behind the university is open to the public in summer.",
+      "ko": "대학 뒤편의 정원은 여름에 대중에게 공개됩니다.",
+      "hash": "6d22962b3ff582c593fbef7d2057a1ce",
       "added": "NEW"
     },
     {
-      "en": "Library reference desks hold a lot of materials on academic history.",
-      "ko": "도서관 참고 데스크에는 학술 역사에 관한 자료가 많이 보관되어 있습니다.",
-      "hash": "0640e7052d48b65ddef0676bcfe5ec28",
+      "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
+      "ko": "이 과목에 등록하려면 학생은 생물학 학사 학위를 취득해야 합니다.",
+      "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
       "added": "NEW"
     },
     {
-      "en": "Educational level is found to be related to social and economic background.",
-      "ko": "교육 수준은 사회적, 경제적 배경과 관련이 있는 것으로 나타났습니다.",
-      "hash": "2a497df44e50cc51d6732a48af6aeb85",
+      "en": "All of your assignments are due by tomorrow.",
+      "ko": "모든 과제는 내일까지 제출해야 합니다.",
+      "hash": "4d046dd952e6e2076d2566e50deedf3e",
       "added": ""
     },
     {
@@ -614,21 +602,9 @@
       "added": ""
     },
     {
-      "en": "New developments in technology are influencing current research.",
-      "ko": "기술의 새로운 발전은 현재의 연구에 영향을 미치고 있습니다.",
-      "hash": "d60f9558d4fb4cccb7a70f25d44fd65e",
-      "added": ""
-    },
-    {
-      "en": "The history of the university is a long and interesting one.",
-      "ko": "이 대학의 역사는 길고 흥미롭습니다.",
-      "hash": "256a782ea9d298eda782ac877a319d04",
-      "added": ""
-    },
-    {
-      "en": "Coastal communities are particularly vulnerable to rising sea levels.",
-      "ko": "해안 지역 사회는 해수면 상승에 특히 취약합니다.",
-      "hash": "c49b1c69670ba211fedf9b709d961b58",
+      "en": "This class will look at the structure of an essay.",
+      "ko": "이 수업에서는 에세이의 구조를 살펴보겠습니다.",
+      "hash": "67e00d8253d62a42c264ec5af90c3fc6",
       "added": ""
     },
     {
@@ -638,33 +614,9 @@
       "added": ""
     },
     {
-      "en": "We can't consider any increase in our price at this stage.",
-      "ko": "이 단계에서는 가격 인상을 고려할 수 없습니다.",
-      "hash": "44dce2a25f6c6f79dcff945c1f302acd",
-      "added": ""
-    },
-    {
       "en": "They developed a unique approach to training their employees.",
       "ko": "그들은 직원 교육에 대한 독특한 접근 방식을 개발했습니다.",
       "hash": "c912ffa40570461a90725927d7bf4a45",
-      "added": ""
-    },
-    {
-      "en": "The ability to work with fellow students cannot be stressed enough.",
-      "ko": "동료 학생들과 함께 일할 수 있는 능력은 얼마나 강조해도 지나치지 않습니다.",
-      "hash": "2f74c8b327b1dc65b2a8abdbea857e66",
-      "added": ""
-    },
-    {
-      "en": "Continuing students will be sent the necessary application forms.",
-      "ko": "재학생에게는 필요한 지원서가 발송됩니다.",
-      "hash": "5bbb2c29af98cbf287a7a128ca21e41d",
-      "added": ""
-    },
-    {
-      "en": "All medical students must clean their hands before entering the room.",
-      "ko": "모든 의대생은 강의실에 들어가기 전에 손을 씻어야 합니다.",
-      "hash": "a91cae430419ee216a5f4e601f9255bd",
       "added": ""
     },
     {
@@ -674,9 +626,27 @@
       "added": ""
     },
     {
+      "en": "Consumer confidence tends to increase as the economy expands.",
+      "ko": "경제가 확대됨에 따라 소비자 신뢰도는 높아지는 경향이 있습니다.",
+      "hash": "6034bdb556f01b9092d1340b798b62ff",
+      "added": ""
+    },
+    {
       "en": "Muscle cells bring parts of the body closer together.",
       "ko": "근육 세포는 신체 부위를 더 가깝게 연결합니다.",
       "hash": "8e71fbd49124597afdca4c5190582cff",
+      "added": ""
+    },
+    {
+      "en": "The museum is closed on the third Monday of every month.",
+      "ko": "박물관은 매월 셋째 주 월요일에 문을 닫습니다.",
+      "hash": "04bbd88c58545b4eed29e33b3d77aff2",
+      "added": ""
+    },
+    {
+      "en": "Animal behavior appears to contain both similar and distinct aspects to that of humans.",
+      "ko": "동물의 행동은 인간의 행동과 유사한 측면과 독특한 측면을 모두 포함하는 것으로 보인다.",
+      "hash": "3f27c8c731506e52aef938688387d5d1",
       "added": ""
     },
     {
