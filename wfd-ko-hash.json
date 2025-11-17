@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-06",
+  "date": "2025-11-17",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -176,6 +176,12 @@
       "added": ""
     },
     {
+      "en": "The garden behind the university is open to the public in summer.",
+      "ko": "대학 뒤편의 정원은 여름에 대중에게 공개됩니다.",
+      "hash": "6d22962b3ff582c593fbef7d2057a1ce",
+      "added": "NEW"
+    },
+    {
       "en": "The key difference between courses is the kind of assessment.",
       "ko": "과목 간의 주요 차이점은 평가 유형입니다.",
       "hash": "5afcd55d8d907ae294aa35643b68c013",
@@ -203,12 +209,6 @@
       "en": "There are some doubts about whether these events actually occurred.",
       "ko": "이런 사건이 실제로 일어났는지에 대해서는 의심의 여지가 있습니다.",
       "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
-      "added": ""
-    },
-    {
-      "en": "This guy is qualified to lead the groups into the mountain.",
-      "ko": "이 사람은 산으로 그룹을 이끌 자격이 있습니다.",
-      "hash": "812855fb5724eb555d4dc218a2f03221",
       "added": ""
     },
     {
@@ -302,6 +302,12 @@
       "added": ""
     },
     {
+      "en": "Consumer confidence tends to increase as the economy expands.",
+      "ko": "경제가 확대됨에 따라 소비자 신뢰도는 높아지는 경향이 있습니다.",
+      "hash": "6034bdb556f01b9092d1340b798b62ff",
+      "added": ""
+    },
+    {
       "en": "Food containing ample calories provides little or no nutritional value.",
       "ko": "칼로리가 높은 음식은 영양가가 거의 없거나 전혀 없습니다.",
       "hash": "bfdb7098e4ee9ebebb691324c7367d4d",
@@ -356,6 +362,12 @@
       "added": ""
     },
     {
+      "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
+      "ko": "이 과목에 등록하려면 학생은 생물학 학사 학위를 취득해야 합니다.",
+      "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
+      "added": "NEW"
+    },
+    {
       "en": "Field trips are an essential part of geography courses.",
       "ko": "현장 학습은 지리 수업의 필수적인 부분입니다.",
       "hash": "dd5bf9b52f63150be5e6957cca95c1d8",
@@ -383,12 +395,6 @@
       "en": "It is an integrated course with several main elements.",
       "ko": "이는 여러 가지 주요 요소를 갖춘 통합 과정입니다.",
       "hash": "7d69f2ef767d2b6649746fa5e305c050",
-      "added": ""
-    },
-    {
-      "en": "For the purpose of the research, data should be collected and analyzed.",
-      "ko": "연구 목적을 위해서는 데이터를 수집하고 분석해야 합니다.",
-      "hash": "73402d8cdd59b177e8b78cde6acc8012",
       "added": ""
     },
     {
@@ -530,12 +536,6 @@
       "added": ""
     },
     {
-      "en": "You must be able to work in a team.",
-      "ko": "팀에서 일할 수 있어야 합니다.",
-      "hash": "b81c72ff68ea16a416be64ec0a512f04",
-      "added": ""
-    },
-    {
       "en": "A series of observations were carried out in the classroom.",
       "ko": "교실에서 일련의 관찰이 수행되었습니다.",
       "hash": "38730b9c209ea6dff3ed66754520866e",
@@ -566,39 +566,9 @@
       "added": ""
     },
     {
-      "en": "Students should take their time to study.",
-      "ko": "학생들은 공부할 시간을 가져야 합니다.",
-      "hash": "fbe8e0c6f48d143625763803fbbd3143",
-      "added": ""
-    },
-    {
-      "en": "The garden behind the university is open to the public in summer.",
-      "ko": "대학 뒤편의 정원은 여름에 대중에게 공개됩니다.",
-      "hash": "6d22962b3ff582c593fbef7d2057a1ce",
-      "added": "NEW"
-    },
-    {
-      "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
-      "ko": "이 과목에 등록하려면 학생은 생물학 학사 학위를 취득해야 합니다.",
-      "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
-      "added": "NEW"
-    },
-    {
       "en": "All of your assignments are due by tomorrow.",
       "ko": "모든 과제는 내일까지 제출해야 합니다.",
       "hash": "4d046dd952e6e2076d2566e50deedf3e",
-      "added": ""
-    },
-    {
-      "en": "Leaving valuable possessions unattended in public place is risky.",
-      "ko": "귀중한 소지품을 공공장소에 방치하는 것은 위험합니다.",
-      "hash": "82003c9f83a912b4408c609ecaba1f7c",
-      "added": ""
-    },
-    {
-      "en": "Most of these features were part of the previous system.",
-      "ko": "이러한 기능의 대부분은 이전 시스템에 포함되어 있었습니다.",
-      "hash": "26f4ef3f2c7ec4b4b516e648b4c7c9e6",
       "added": ""
     },
     {
@@ -608,33 +578,15 @@
       "added": ""
     },
     {
-      "en": "This morning's lecture on economic policy has been canceled.",
-      "ko": "오늘 아침 경제 정책 강의는 취소되었습니다.",
-      "hash": "1696419a7879d305ab0d99f814ebf5ee",
+      "en": "This guy is qualified to lead the groups into the mountain.",
+      "ko": "이 사람은 산으로 그룹을 이끌 자격이 있습니다.",
+      "hash": "812855fb5724eb555d4dc218a2f03221",
       "added": ""
     },
     {
-      "en": "They developed a unique approach to training their employees.",
-      "ko": "그들은 직원 교육에 대한 독특한 접근 방식을 개발했습니다.",
-      "hash": "c912ffa40570461a90725927d7bf4a45",
-      "added": ""
-    },
-    {
-      "en": "Being bilingual does not necessarily mean having the ability to analyze the languages.",
-      "ko": "이중 언어에 능통하다는 것은 반드시 언어를 분석할 수 있는 능력이 있다는 것을 의미하지 않습니다.",
-      "hash": "2e7d40a17f37a184e899c9e324fbcce7",
-      "added": ""
-    },
-    {
-      "en": "Consumer confidence tends to increase as the economy expands.",
-      "ko": "경제가 확대됨에 따라 소비자 신뢰도는 높아지는 경향이 있습니다.",
-      "hash": "6034bdb556f01b9092d1340b798b62ff",
-      "added": ""
-    },
-    {
-      "en": "Muscle cells bring parts of the body closer together.",
-      "ko": "근육 세포는 신체 부위를 더 가깝게 연결합니다.",
-      "hash": "8e71fbd49124597afdca4c5190582cff",
+      "en": "For the purpose of the research, data should be collected and analyzed.",
+      "ko": "연구 목적을 위해서는 데이터를 수집하고 분석해야 합니다.",
+      "hash": "73402d8cdd59b177e8b78cde6acc8012",
       "added": ""
     },
     {
@@ -644,15 +596,21 @@
       "added": ""
     },
     {
+      "en": "You must be able to work in a team.",
+      "ko": "팀에서 일할 수 있어야 합니다.",
+      "hash": "b81c72ff68ea16a416be64ec0a512f04",
+      "added": ""
+    },
+    {
       "en": "Animal behavior appears to contain both similar and distinct aspects to that of humans.",
       "ko": "동물의 행동은 인간의 행동과 유사한 측면과 독특한 측면을 모두 포함하는 것으로 보인다.",
       "hash": "3f27c8c731506e52aef938688387d5d1",
       "added": ""
     },
     {
-      "en": "The archeologist's new discoveries stand out in the previously overlooked foundations.",
-      "ko": "고고학자의 새로운 발견은 이전에 간과되었던 기초에서 두드러진다.",
-      "hash": "3a40240628557160b80c946778aacf1f",
+      "en": "Students should take their time to study.",
+      "ko": "학생들은 공부할 시간을 가져야 합니다.",
+      "hash": "fbe8e0c6f48d143625763803fbbd3143",
       "added": ""
     }
   ]
