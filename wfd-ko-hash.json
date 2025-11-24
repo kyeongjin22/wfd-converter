@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-17",
+  "date": "2025-11-24",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -44,12 +44,6 @@
       "added": ""
     },
     {
-      "en": "Economic development needs to be supported by the government.",
-      "ko": "경제개발은 정부의 지원이 필요합니다.",
-      "hash": "261914c5ea91bb21ceeace3e29bba718",
-      "added": ""
-    },
-    {
       "en": "All students are expected to attend ten lab sessions per semester.",
       "ko": "모든 학생은 학기당 10회의 실험 세션에 참석해야 합니다.",
       "hash": "6cbac93623affe97f242d44a269c98be",
@@ -68,21 +62,9 @@
       "added": ""
     },
     {
-      "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
-      "ko": "그리고 그 측면에서뿐만 아니라 다른 측면에서도 그것은 중요한 기여로 여겨집니다.",
-      "hash": "88d343512b07feb13f947bb8c91ed827",
-      "added": ""
-    },
-    {
       "en": "Animals raised in captivity behave differently than their wild counterparts.",
       "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
       "hash": "e146fa900dff4a3b908fb29cde21b7d4",
-      "added": ""
-    },
-    {
-      "en": "The assignments should be submitted to the department office before the deadlines.",
-      "ko": "과제는 마감일 전에 학과 사무실에 제출해야 합니다.",
-      "hash": "3a4f7ab8b6845b3dcb01f917480b324c",
       "added": ""
     },
     {
@@ -141,7 +123,7 @@
     },
     {
       "en": "Plants are the living things that can grow on land or in water.",
-      "ko": "식물은 땅이나 물에서 자랄 수 있는 생명체입니다.",
+      "ko": "식물은 땅이나 물에서 자랄 수 있는 살아있는 생물입니다.",
       "hash": "ffe7b2fa456fc8ef9a259a5a553a89ef",
       "added": ""
     },
@@ -206,12 +188,6 @@
       "added": ""
     },
     {
-      "en": "There are some doubts about whether these events actually occurred.",
-      "ko": "이런 사건이 실제로 일어났는지에 대해서는 의심의 여지가 있습니다.",
-      "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
-      "added": ""
-    },
-    {
       "en": "To achieve full marks, an appropriate bibliography is required.",
       "ko": "만점을 받으려면 적절한 참고문헌이 필요합니다.",
       "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
@@ -249,7 +225,7 @@
     },
     {
       "en": "One of the election promises is to decrease income taxes.",
-      "ko": "선거 공약 중 하나는 소득세 인하입니다.",
+      "ko": "선거 공약 중 하나는 소득세를 낮추는 것입니다.",
       "hash": "0ce070055e24e1b2fb4eee63c63ee164",
       "added": ""
     },
@@ -257,12 +233,6 @@
       "en": "Our courses help improve critical thinking and independent learning skills.",
       "ko": "우리의 과정은 비판적 사고력과 독립적인 학습 능력을 향상시키는 데 도움이 됩니다.",
       "hash": "995367ed77792b3d4d613a020f2cdf56",
-      "added": ""
-    },
-    {
-      "en": "Students are encouraged to monitor their own attendance.",
-      "ko": "학생들은 자신의 출석을 스스로 확인하는 것이 좋습니다.",
-      "hash": "86e276f72203684e146b76fdb9353442",
       "added": ""
     },
     {
@@ -554,27 +524,45 @@
       "added": ""
     },
     {
-      "en": "Online courses allow students to work at their own pace.",
-      "ko": "온라인 과정을 통해 학생들은 자신의 속도에 맞춰 공부할 수 있습니다.",
-      "hash": "45827fda9b0b3c80c7cd9e25c2cf75b4",
-      "added": ""
-    },
-    {
       "en": "We will discuss these two pictures in the next lecture.",
       "ko": "다음 강의에서 이 두 그림에 대해 논의하겠습니다.",
       "hash": "c95d81af963a9cbcf7276641e0ce2334",
       "added": ""
     },
     {
-      "en": "All of your assignments are due by tomorrow.",
-      "ko": "모든 과제는 내일까지 제출해야 합니다.",
-      "hash": "4d046dd952e6e2076d2566e50deedf3e",
+      "en": "Blue whales are the largest animals that have ever lived.",
+      "ko": "푸른 고래는 지금까지 살았던 동물 중 가장 큰 동물입니다.",
+      "hash": "98a7ca6152f9e5afca52640db6fd6bc2",
+      "added": "NEW"
+    },
+    {
+      "en": "New developments in manufacturing are changing the way we live.",
+      "ko": "제조업의 새로운 발전은 우리의 삶의 방식을 바꾸고 있습니다.",
+      "hash": "84a6a10b20e4820086f075303c674848",
+      "added": "NEW"
+    },
+    {
+      "en": "Economic development needs to be supported by the government.",
+      "ko": "경제개발은 정부의 지원이 필요합니다.",
+      "hash": "261914c5ea91bb21ceeace3e29bba718",
       "added": ""
     },
     {
-      "en": "This class will look at the structure of an essay.",
-      "ko": "이 수업에서는 에세이의 구조를 살펴보겠습니다.",
-      "hash": "67e00d8253d62a42c264ec5af90c3fc6",
+      "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
+      "ko": "그리고 그 측면에서뿐만 아니라 다른 측면에서도 그것은 중요한 기여로 여겨집니다.",
+      "hash": "88d343512b07feb13f947bb8c91ed827",
+      "added": ""
+    },
+    {
+      "en": "The assignments should be submitted to the department office before the deadlines.",
+      "ko": "과제는 마감일 전에 학과 사무실에 제출해야 합니다.",
+      "hash": "3a4f7ab8b6845b3dcb01f917480b324c",
+      "added": ""
+    },
+    {
+      "en": "There are some doubts about whether these events actually occurred.",
+      "ko": "이런 사건이 실제로 일어났는지에 대해서는 의심의 여지가 있습니다.",
+      "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
       "added": ""
     },
     {
@@ -584,15 +572,15 @@
       "added": ""
     },
     {
-      "en": "For the purpose of the research, data should be collected and analyzed.",
-      "ko": "연구 목적을 위해서는 데이터를 수집하고 분석해야 합니다.",
-      "hash": "73402d8cdd59b177e8b78cde6acc8012",
+      "en": "Students are encouraged to monitor their own attendance.",
+      "ko": "학생들은 자신의 출석을 스스로 확인하는 것이 좋습니다.",
+      "hash": "86e276f72203684e146b76fdb9353442",
       "added": ""
     },
     {
-      "en": "The museum is closed on the third Monday of every month.",
-      "ko": "박물관은 매월 셋째 주 월요일에 문을 닫습니다.",
-      "hash": "04bbd88c58545b4eed29e33b3d77aff2",
+      "en": "For the purpose of the research, data should be collected and analyzed.",
+      "ko": "연구 목적을 위해서는 데이터를 수집하고 분석해야 합니다.",
+      "hash": "73402d8cdd59b177e8b78cde6acc8012",
       "added": ""
     },
     {
@@ -602,9 +590,9 @@
       "added": ""
     },
     {
-      "en": "Animal behavior appears to contain both similar and distinct aspects to that of humans.",
-      "ko": "동물의 행동은 인간의 행동과 유사한 측면과 독특한 측면을 모두 포함하는 것으로 보인다.",
-      "hash": "3f27c8c731506e52aef938688387d5d1",
+      "en": "Online courses allow students to work at their own pace.",
+      "ko": "온라인 과정을 통해 학생들은 자신의 속도에 맞춰 공부할 수 있습니다.",
+      "hash": "45827fda9b0b3c80c7cd9e25c2cf75b4",
       "added": ""
     },
     {
