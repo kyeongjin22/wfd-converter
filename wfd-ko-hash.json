@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-24",
+  "date": "2025-11-29",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -44,6 +44,12 @@
       "added": ""
     },
     {
+      "en": "Economic development needs to be supported by the government.",
+      "ko": "경제개발은 정부의 지원이 필요합니다.",
+      "hash": "261914c5ea91bb21ceeace3e29bba718",
+      "added": ""
+    },
+    {
       "en": "All students are expected to attend ten lab sessions per semester.",
       "ko": "모든 학생은 학기당 10회의 실험 세션에 참석해야 합니다.",
       "hash": "6cbac93623affe97f242d44a269c98be",
@@ -65,6 +71,12 @@
       "en": "Animals raised in captivity behave differently than their wild counterparts.",
       "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
       "hash": "e146fa900dff4a3b908fb29cde21b7d4",
+      "added": ""
+    },
+    {
+      "en": "The assignments should be submitted to the department office before the deadlines.",
+      "ko": "과제는 마감일 전에 학과 사무실에 제출해야 합니다.",
+      "hash": "3a4f7ab8b6845b3dcb01f917480b324c",
       "added": ""
     },
     {
@@ -95,12 +107,6 @@
       "en": "He landed a job in a very prestigious law firm.",
       "ko": "그는 매우 명망 있는 로펌에 취직했습니다.",
       "hash": "2f33ca1e4b6807df35e265f0630affb7",
-      "added": ""
-    },
-    {
-      "en": "Library reference desks hold a lot of materials on academic history.",
-      "ko": "도서관 참고 데스크에는 학술 역사에 관한 자료가 많이 보관되어 있습니다.",
-      "hash": "0640e7052d48b65ddef0676bcfe5ec28",
       "added": ""
     },
     {
@@ -135,7 +141,7 @@
     },
     {
       "en": "The supposed benefits of space exploration are frequently questioned.",
-      "ko": "우주 탐사의 가정된 이점에 대해서는 종종 의문이 제기됩니다.",
+      "ko": "우주 탐사의 가정된 이점은 종종 의문시된다.",
       "hash": "ebe2bff544896a8972d2fbd26146da5c",
       "added": ""
     },
@@ -161,18 +167,12 @@
       "en": "The garden behind the university is open to the public in summer.",
       "ko": "대학 뒤편의 정원은 여름에 대중에게 공개됩니다.",
       "hash": "6d22962b3ff582c593fbef7d2057a1ce",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "The key difference between courses is the kind of assessment.",
       "ko": "과목 간의 주요 차이점은 평가 유형입니다.",
       "hash": "5afcd55d8d907ae294aa35643b68c013",
-      "added": ""
-    },
-    {
-      "en": "The railway makes long-distance travel possible for everyone.",
-      "ko": "철도는 모든 사람이 장거리 여행을 할 수 있게 해줍니다.",
-      "hash": "682ed61529b15716c9e8eab42dd06c9a",
       "added": ""
     },
     {
@@ -225,14 +225,8 @@
     },
     {
       "en": "One of the election promises is to decrease income taxes.",
-      "ko": "선거 공약 중 하나는 소득세를 낮추는 것입니다.",
+      "ko": "선거 공약 중 하나는 소득세 인하입니다.",
       "hash": "0ce070055e24e1b2fb4eee63c63ee164",
-      "added": ""
-    },
-    {
-      "en": "Our courses help improve critical thinking and independent learning skills.",
-      "ko": "우리의 과정은 비판적 사고력과 독립적인 학습 능력을 향상시키는 데 도움이 됩니다.",
-      "hash": "995367ed77792b3d4d613a020f2cdf56",
       "added": ""
     },
     {
@@ -284,6 +278,12 @@
       "added": ""
     },
     {
+      "en": "Blue whales are the largest animals that have ever lived.",
+      "ko": "푸른 고래는 지금까지 살았던 동물 중 가장 큰 동물입니다.",
+      "hash": "98a7ca6152f9e5afca52640db6fd6bc2",
+      "added": ""
+    },
+    {
       "en": "Photography can be very useful to geographical research.",
       "ko": "사진은 지리 연구에 매우 유용할 수 있습니다.",
       "hash": "1097b49e7bf11b84200eed7d012c5c47",
@@ -299,6 +299,12 @@
       "en": "Academic libraries across the world are steadily incorporating social media.",
       "ko": "전 세계의 학술 도서관은 꾸준히 소셜 미디어를 통합하고 있습니다.",
       "hash": "d07ec57c8c97ec4394642ab9e5f66a13",
+      "added": ""
+    },
+    {
+      "en": "New developments in manufacturing are changing the way we live.",
+      "ko": "제조업의 새로운 발전은 우리의 삶의 방식을 바꾸고 있습니다.",
+      "hash": "84a6a10b20e4820086f075303c674848",
       "added": ""
     },
     {
@@ -335,7 +341,7 @@
       "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
       "ko": "이 과목에 등록하려면 학생은 생물학 학사 학위를 취득해야 합니다.",
       "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Field trips are an essential part of geography courses.",
@@ -530,22 +536,40 @@
       "added": ""
     },
     {
-      "en": "Blue whales are the largest animals that have ever lived.",
-      "ko": "푸른 고래는 지금까지 살았던 동물 중 가장 큰 동물입니다.",
-      "hash": "98a7ca6152f9e5afca52640db6fd6bc2",
-      "added": "NEW"
-    },
-    {
-      "en": "New developments in manufacturing are changing the way we live.",
-      "ko": "제조업의 새로운 발전은 우리의 삶의 방식을 바꾸고 있습니다.",
-      "hash": "84a6a10b20e4820086f075303c674848",
-      "added": "NEW"
-    },
-    {
-      "en": "Economic development needs to be supported by the government.",
-      "ko": "경제개발은 정부의 지원이 필요합니다.",
-      "hash": "261914c5ea91bb21ceeace3e29bba718",
+      "en": "Students should take their time to study.",
+      "ko": "학생들은 공부할 시간을 가져야 합니다.",
+      "hash": "fbe8e0c6f48d143625763803fbbd3143",
       "added": ""
+    },
+    {
+      "en": "Nurses can specialize in clinical work or management.",
+      "ko": "간호사는 임상 업무나 관리를 전문으로 할 수 있습니다.",
+      "hash": "e666f3ad19e416b4fa842c3fb987e7be",
+      "added": "NEW"
+    },
+    {
+      "en": "The placement test of mathematics and statistics is offered every semester.",
+      "ko": "수학과 통계학의 배치고사는 매 학기마다 실시됩니다.",
+      "hash": "3d05cb58119c5952ce5262fa0cdf3f13",
+      "added": "NEW"
+    },
+    {
+      "en": "Strangely, people are simultaneously impressed by and skeptical about statistics.",
+      "ko": "이상하게도 사람들은 통계에 대해 동시에 감명을 받는 동시에 회의적인 태도를 보입니다.",
+      "hash": "f49f7755a1754cd160ae8b59e1d76f38",
+      "added": "NEW"
+    },
+    {
+      "en": "It is argued that students can learn more by collaboration rather than as individuals.",
+      "ko": "학생들은 개인적으로 학습하는 것보다 협력을 통해 더 많은 것을 배울 수 있다는 주장이 있습니다.",
+      "hash": "5618ba136e2c101c2b6be22a6c3839b4",
+      "added": "NEW"
+    },
+    {
+      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
+      "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
+      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
+      "added": "NEW"
     },
     {
       "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
@@ -554,9 +578,15 @@
       "added": ""
     },
     {
-      "en": "The assignments should be submitted to the department office before the deadlines.",
-      "ko": "과제는 마감일 전에 학과 사무실에 제출해야 합니다.",
-      "hash": "3a4f7ab8b6845b3dcb01f917480b324c",
+      "en": "Library reference desks hold a lot of materials on academic history.",
+      "ko": "도서관 참고 데스크에는 학술 역사에 관한 자료가 많이 보관되어 있습니다.",
+      "hash": "0640e7052d48b65ddef0676bcfe5ec28",
+      "added": ""
+    },
+    {
+      "en": "The railway makes long-distance travel possible for everyone.",
+      "ko": "철도는 모든 사람이 장거리 여행을 할 수 있게 해줍니다.",
+      "hash": "682ed61529b15716c9e8eab42dd06c9a",
       "added": ""
     },
     {
@@ -566,9 +596,9 @@
       "added": ""
     },
     {
-      "en": "This guy is qualified to lead the groups into the mountain.",
-      "ko": "이 사람은 산으로 그룹을 이끌 자격이 있습니다.",
-      "hash": "812855fb5724eb555d4dc218a2f03221",
+      "en": "Our courses help improve critical thinking and independent learning skills.",
+      "ko": "우리의 과정은 비판적 사고력과 독립적인 학습 능력을 향상시키는 데 도움이 됩니다.",
+      "hash": "995367ed77792b3d4d613a020f2cdf56",
       "added": ""
     },
     {
@@ -578,27 +608,9 @@
       "added": ""
     },
     {
-      "en": "For the purpose of the research, data should be collected and analyzed.",
-      "ko": "연구 목적을 위해서는 데이터를 수집하고 분석해야 합니다.",
-      "hash": "73402d8cdd59b177e8b78cde6acc8012",
-      "added": ""
-    },
-    {
-      "en": "You must be able to work in a team.",
-      "ko": "팀에서 일할 수 있어야 합니다.",
-      "hash": "b81c72ff68ea16a416be64ec0a512f04",
-      "added": ""
-    },
-    {
       "en": "Online courses allow students to work at their own pace.",
       "ko": "온라인 과정을 통해 학생들은 자신의 속도에 맞춰 공부할 수 있습니다.",
       "hash": "45827fda9b0b3c80c7cd9e25c2cf75b4",
-      "added": ""
-    },
-    {
-      "en": "Students should take their time to study.",
-      "ko": "학생들은 공부할 시간을 가져야 합니다.",
-      "hash": "fbe8e0c6f48d143625763803fbbd3143",
       "added": ""
     }
   ]
