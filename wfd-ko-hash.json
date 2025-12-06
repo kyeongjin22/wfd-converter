@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-29",
+  "date": "2025-12-06",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -68,9 +68,9 @@
       "added": ""
     },
     {
-      "en": "Animals raised in captivity behave differently than their wild counterparts.",
-      "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
-      "hash": "e146fa900dff4a3b908fb29cde21b7d4",
+      "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
+      "ko": "그리고 그 측면에서뿐만 아니라 다른 측면에서도 그것은 중요한 기여로 여겨집니다.",
+      "hash": "88d343512b07feb13f947bb8c91ed827",
       "added": ""
     },
     {
@@ -116,6 +116,12 @@
       "added": ""
     },
     {
+      "en": "Nurses can specialize in clinical work or management.",
+      "ko": "간호사는 임상 업무나 관리를 전문으로 할 수 있습니다.",
+      "hash": "e666f3ad19e416b4fa842c3fb987e7be",
+      "added": ""
+    },
+    {
       "en": "Our professor is hosting the business development conference.",
       "ko": "우리 교수님이 사업 개발 컨퍼런스를 주최하고 계십니다.",
       "hash": "ffa353cbab693915c71bb14779812f7a",
@@ -129,7 +135,7 @@
     },
     {
       "en": "Plants are the living things that can grow on land or in water.",
-      "ko": "식물은 땅이나 물에서 자랄 수 있는 살아있는 생물입니다.",
+      "ko": "식물은 땅이나 물에서 자랄 수 있는 생명체입니다.",
       "hash": "ffe7b2fa456fc8ef9a259a5a553a89ef",
       "added": ""
     },
@@ -141,7 +147,7 @@
     },
     {
       "en": "The supposed benefits of space exploration are frequently questioned.",
-      "ko": "우주 탐사의 가정된 이점은 종종 의문시된다.",
+      "ko": "우주 탐사의 가정된 이점에 대해서는 종종 의문이 제기됩니다.",
       "hash": "ebe2bff544896a8972d2fbd26146da5c",
       "added": ""
     },
@@ -176,6 +182,12 @@
       "added": ""
     },
     {
+      "en": "The placement test of mathematics and statistics is offered every semester.",
+      "ko": "수학과 통계학의 배치고사는 매 학기마다 실시됩니다.",
+      "hash": "3d05cb58119c5952ce5262fa0cdf3f13",
+      "added": ""
+    },
+    {
       "en": "Coastal communities are particularly vulnerable to rising sea levels.",
       "ko": "해안 지역 사회는 해수면 상승에 특히 취약합니다.",
       "hash": "c49b1c69670ba211fedf9b709d961b58",
@@ -197,12 +209,6 @@
       "en": "We study science to understand and appreciate the world around us.",
       "ko": "우리는 주변 세계를 이해하고 감상하기 위해 과학을 공부합니다.",
       "hash": "9ae2f0aa196091d3e2ba83e2393c3ee3",
-      "added": ""
-    },
-    {
-      "en": "You can find a lot more information on the university website.",
-      "ko": "더 많은 정보는 대학 홈페이지에서 확인하실 수 있습니다.",
-      "hash": "7e64cdfb1bec4a235e62b4c8bfc6a6bc",
       "added": ""
     },
     {
@@ -338,18 +344,6 @@
       "added": ""
     },
     {
-      "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
-      "ko": "이 과목에 등록하려면 학생은 생물학 학사 학위를 취득해야 합니다.",
-      "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
-      "added": ""
-    },
-    {
-      "en": "Field trips are an essential part of geography courses.",
-      "ko": "현장 학습은 지리 수업의 필수적인 부분입니다.",
-      "hash": "dd5bf9b52f63150be5e6957cca95c1d8",
-      "added": ""
-    },
-    {
       "en": "Marine environments have been destroyed through pollution and unsustainable development.",
       "ko": "해양 환경은 오염과 지속 불가능한 개발로 인해 파괴되었습니다.",
       "hash": "02261f650b026147fe49da88d03499fa",
@@ -383,12 +377,6 @@
       "en": "Parents are financially responsible for their children right up until they reach adulthood.",
       "ko": "부모는 자녀가 성인이 될 때까지 자녀에 대한 재정적 책임을 져야 합니다.",
       "hash": "934e766e3b437efda8bb6cbe1387e5d5",
-      "added": ""
-    },
-    {
-      "en": "You can get your coffee and tea in the lounge. (.",
-      "ko": "라운지에서 커피와 차를 즐기실 수 있습니다.",
-      "hash": "bb3822461fa917cf9eca3bc308f66f67",
       "added": ""
     },
     {
@@ -494,6 +482,12 @@
       "added": ""
     },
     {
+      "en": "Strangely, people are simultaneously impressed by and skeptical about statistics.",
+      "ko": "이상하게도 사람들은 통계에 대해 동시에 감명을 받는 동시에 회의적인 태도를 보입니다.",
+      "hash": "f49f7755a1754cd160ae8b59e1d76f38",
+      "added": ""
+    },
+    {
       "en": "Vocabulary that is peculiar in a special field is called jargon.",
       "ko": "특정 분야에서만 쓰이는 어휘를 전문 용어라고 합니다.",
       "hash": "dd5d34afcb8df9cf043fc95f5838fd07",
@@ -530,6 +524,18 @@
       "added": ""
     },
     {
+      "en": "It is argued that students can learn more by collaboration rather than as individuals.",
+      "ko": "학생들은 개인적으로 학습하는 것보다 협력을 통해 더 많은 것을 배울 수 있다는 주장이 있습니다.",
+      "hash": "5618ba136e2c101c2b6be22a6c3839b4",
+      "added": ""
+    },
+    {
+      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
+      "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
+      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
+      "added": ""
+    },
+    {
       "en": "We will discuss these two pictures in the next lecture.",
       "ko": "다음 강의에서 이 두 그림에 대해 논의하겠습니다.",
       "hash": "c95d81af963a9cbcf7276641e0ce2334",
@@ -542,39 +548,9 @@
       "added": ""
     },
     {
-      "en": "Nurses can specialize in clinical work or management.",
-      "ko": "간호사는 임상 업무나 관리를 전문으로 할 수 있습니다.",
-      "hash": "e666f3ad19e416b4fa842c3fb987e7be",
-      "added": "NEW"
-    },
-    {
-      "en": "The placement test of mathematics and statistics is offered every semester.",
-      "ko": "수학과 통계학의 배치고사는 매 학기마다 실시됩니다.",
-      "hash": "3d05cb58119c5952ce5262fa0cdf3f13",
-      "added": "NEW"
-    },
-    {
-      "en": "Strangely, people are simultaneously impressed by and skeptical about statistics.",
-      "ko": "이상하게도 사람들은 통계에 대해 동시에 감명을 받는 동시에 회의적인 태도를 보입니다.",
-      "hash": "f49f7755a1754cd160ae8b59e1d76f38",
-      "added": "NEW"
-    },
-    {
-      "en": "It is argued that students can learn more by collaboration rather than as individuals.",
-      "ko": "학생들은 개인적으로 학습하는 것보다 협력을 통해 더 많은 것을 배울 수 있다는 주장이 있습니다.",
-      "hash": "5618ba136e2c101c2b6be22a6c3839b4",
-      "added": "NEW"
-    },
-    {
-      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
-      "ko": "기상학은 지구 대기에 대한 자세한 연구입니다.",
-      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
-      "added": "NEW"
-    },
-    {
-      "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
-      "ko": "그리고 그 측면에서뿐만 아니라 다른 측면에서도 그것은 중요한 기여로 여겨집니다.",
-      "hash": "88d343512b07feb13f947bb8c91ed827",
+      "en": "Animals raised in captivity behave differently than their wild counterparts.",
+      "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
+      "hash": "e146fa900dff4a3b908fb29cde21b7d4",
       "added": ""
     },
     {
@@ -590,9 +566,9 @@
       "added": ""
     },
     {
-      "en": "There are some doubts about whether these events actually occurred.",
-      "ko": "이런 사건이 실제로 일어났는지에 대해서는 의심의 여지가 있습니다.",
-      "hash": "5c6a4f1a2438bc97d4436590c9180bd4",
+      "en": "You can find a lot more information on the university website.",
+      "ko": "더 많은 정보는 대학 홈페이지에서 확인하실 수 있습니다.",
+      "hash": "7e64cdfb1bec4a235e62b4c8bfc6a6bc",
       "added": ""
     },
     {
@@ -602,15 +578,15 @@
       "added": ""
     },
     {
-      "en": "Students are encouraged to monitor their own attendance.",
-      "ko": "학생들은 자신의 출석을 스스로 확인하는 것이 좋습니다.",
-      "hash": "86e276f72203684e146b76fdb9353442",
+      "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
+      "ko": "이 과목에 등록하려면 학생은 생물학 학사 학위를 취득해야 합니다.",
+      "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
       "added": ""
     },
     {
-      "en": "Online courses allow students to work at their own pace.",
-      "ko": "온라인 과정을 통해 학생들은 자신의 속도에 맞춰 공부할 수 있습니다.",
-      "hash": "45827fda9b0b3c80c7cd9e25c2cf75b4",
+      "en": "Field trips are an essential part of geography courses.",
+      "ko": "현장 학습은 지리 수업의 필수적인 부분입니다.",
+      "hash": "dd5bf9b52f63150be5e6957cca95c1d8",
       "added": ""
     }
   ]
