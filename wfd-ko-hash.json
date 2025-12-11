@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-06",
+  "date": "2025-12-11",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -159,7 +159,7 @@
     },
     {
       "en": "The business policy seminar includes an internship with a local firm.",
-      "ko": "경영 정책 세미나에는 지역 회사에서의 인턴십이 포함되어 있습니다.",
+      "ko": "비즈니스 정책 세미나에는 지역 기업에서의 인턴십이 포함되어 있습니다.",
       "hash": "1f0f354c0c792fcae1234d795aa3390d",
       "added": ""
     },
@@ -167,12 +167,6 @@
       "en": "The course will help students to improve their pronunciation skills.",
       "ko": "이 과정은 학생들의 발음 능력을 향상시키는 데 도움이 될 것입니다.",
       "hash": "d65c49d0d190a7bf8e1810491d0cea68",
-      "added": ""
-    },
-    {
-      "en": "The garden behind the university is open to the public in summer.",
-      "ko": "대학 뒤편의 정원은 여름에 대중에게 공개됩니다.",
-      "hash": "6d22962b3ff582c593fbef7d2057a1ce",
       "added": ""
     },
     {
@@ -200,14 +194,8 @@
       "added": ""
     },
     {
-      "en": "To achieve full marks, an appropriate bibliography is required.",
-      "ko": "만점을 받으려면 적절한 참고문헌이 필요합니다.",
-      "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
-      "added": ""
-    },
-    {
       "en": "We study science to understand and appreciate the world around us.",
-      "ko": "우리는 주변 세계를 이해하고 감상하기 위해 과학을 공부합니다.",
+      "ko": "우리는 우리 주변의 세상을 이해하고 소중히 여기기 위해 과학을 공부합니다.",
       "hash": "9ae2f0aa196091d3e2ba83e2393c3ee3",
       "added": ""
     },
@@ -303,7 +291,7 @@
     },
     {
       "en": "Academic libraries across the world are steadily incorporating social media.",
-      "ko": "전 세계의 학술 도서관은 꾸준히 소셜 미디어를 통합하고 있습니다.",
+      "ko": "전 세계의 대학 도서관들이 소셜 미디어를 꾸준히 도입하고 있습니다.",
       "hash": "d07ec57c8c97ec4394642ab9e5f66a13",
       "added": ""
     },
@@ -315,7 +303,7 @@
     },
     {
       "en": "New materials and techniques are changing the style of modern architecture.",
-      "ko": "새로운 재료와 기술이 현대 건축의 스타일을 변화시키고 있습니다.",
+      "ko": "새로운 재료와 기술이 현대 건축의 스타일을 바꾸고 있다.",
       "hash": "3d4d3c611c95de0ee4356f100f2570ff",
       "added": ""
     },
@@ -351,7 +339,7 @@
     },
     {
       "en": "A visit to the designed museum is of great value.",
-      "ko": "설계된 박물관을 방문하는 것은 매우 가치 있는 일입니다.",
+      "ko": "이 박물관을 방문하는 것은 매우 가치 있는 일입니다.",
       "hash": "c700d49a1d35dc66449aa1a3056bd035",
       "added": ""
     },
@@ -548,33 +536,39 @@
       "added": ""
     },
     {
+      "en": "At that time, few people moved from towns to villages.",
+      "ko": "그 당시에는 도시에서 마을로 이주하는 사람이 거의 없었다.",
+      "hash": "b7326a81018fc3cfc160734583c9845b",
+      "added": "NEW"
+    },
+    {
+      "en": "Peer review is an essential part of scientific methods.",
+      "ko": "동료 평가는 과학적 방법론의 필수적인 부분입니다.",
+      "hash": "a9c1620164c967410a20f6d886cc1215",
+      "added": "NEW"
+    },
+    {
       "en": "Animals raised in captivity behave differently than their wild counterparts.",
       "ko": "사육된 동물은 야생 동물과 다르게 행동합니다.",
       "hash": "e146fa900dff4a3b908fb29cde21b7d4",
       "added": ""
     },
     {
-      "en": "Library reference desks hold a lot of materials on academic history.",
-      "ko": "도서관 참고 데스크에는 학술 역사에 관한 자료가 많이 보관되어 있습니다.",
-      "hash": "0640e7052d48b65ddef0676bcfe5ec28",
+      "en": "The garden behind the university is open to the public in summer.",
+      "ko": "대학 뒤편의 정원은 여름에 대중에게 공개됩니다.",
+      "hash": "6d22962b3ff582c593fbef7d2057a1ce",
       "added": ""
     },
     {
-      "en": "The railway makes long-distance travel possible for everyone.",
-      "ko": "철도는 모든 사람이 장거리 여행을 할 수 있게 해줍니다.",
-      "hash": "682ed61529b15716c9e8eab42dd06c9a",
+      "en": "To achieve full marks, an appropriate bibliography is required.",
+      "ko": "만점을 받으려면 적절한 참고문헌이 필요합니다.",
+      "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
       "added": ""
     },
     {
       "en": "You can find a lot more information on the university website.",
       "ko": "더 많은 정보는 대학 홈페이지에서 확인하실 수 있습니다.",
       "hash": "7e64cdfb1bec4a235e62b4c8bfc6a6bc",
-      "added": ""
-    },
-    {
-      "en": "Our courses help improve critical thinking and independent learning skills.",
-      "ko": "우리의 과정은 비판적 사고력과 독립적인 학습 능력을 향상시키는 데 도움이 됩니다.",
-      "hash": "995367ed77792b3d4d613a020f2cdf56",
       "added": ""
     },
     {
