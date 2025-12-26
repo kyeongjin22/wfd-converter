@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-22",
+  "date": "2025-12-26",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -116,12 +116,6 @@
       "added": ""
     },
     {
-      "en": "Nurses can specialize in clinical work or management.",
-      "ko": "간호사는 임상 업무 또는 관리 분야에서 전문성을 키울 수 있습니다.",
-      "hash": "e666f3ad19e416b4fa842c3fb987e7be",
-      "added": ""
-    },
-    {
       "en": "Our professor is hosting the business development conference.",
       "ko": "우리 교수님께서 사업 개발 컨퍼런스를 주최하십니다.",
       "hash": "ffa353cbab693915c71bb14779812f7a",
@@ -206,6 +200,12 @@
       "added": ""
     },
     {
+      "en": "The theater study course encourages students to exercise creativity.",
+      "ko": "연극학 수업은 학생들이 창의력을 발휘하도록 장려합니다.",
+      "hash": "6cc4426752cf69977772cbdea73d861f",
+      "added": ""
+    },
+    {
       "en": "Experts are now able to forecast weather over much longer periods.",
       "ko": "전문가들은 이제 훨씬 더 긴 기간에 걸쳐 날씨를 예측할 수 있게 되었습니다.",
       "hash": "eee09e020e980c04cd3e52321f0599e3",
@@ -248,10 +248,10 @@
       "added": ""
     },
     {
-      "en": "The shipwreck of this year ruined some artifacts which were interested by historians.",
-      "ko": "올해 발생한 난파 사고로 역사학자들이 관심을 갖고 있던 유물들이 일부 파손되었습니다.",
-      "hash": "123f0912dc8ba9bbc9ad2463d86a6e26",
-      "added": ""
+      "en": "The shipwreck yielded some artifacts which were greatly interested by historians.",
+      "ko": "난파선에서는 역사학자들의 큰 관심을 끄는 유물들이 몇 점 발견되었습니다.",
+      "hash": "f0ff707b9abe36d6713480f266a3ebe1",
+      "added": "NEW"
     },
     {
       "en": "Consumer confidence tends to increase as the economy expands.",
@@ -287,6 +287,12 @@
       "en": "Academic libraries across the world are steadily incorporating social media.",
       "ko": "전 세계의 대학 도서관들이 소셜 미디어를 꾸준히 도입하고 있습니다.",
       "hash": "d07ec57c8c97ec4394642ab9e5f66a13",
+      "added": ""
+    },
+    {
+      "en": "New developments in manufacturing are changing the way we live.",
+      "ko": "제조업의 새로운 발전은 우리의 삶의 방식을 바꾸고 있습니다.",
+      "hash": "84a6a10b20e4820086f075303c674848",
       "added": ""
     },
     {
@@ -512,18 +518,6 @@
       "added": ""
     },
     {
-      "en": "It is argued that students can learn more by collaboration rather than as individuals.",
-      "ko": "학생들은 개별적으로 학습하기보다 협력하여 학습할 때 더 많은 것을 배울 수 있다는 주장이 제기되고 있다.",
-      "hash": "5618ba136e2c101c2b6be22a6c3839b4",
-      "added": ""
-    },
-    {
-      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
-      "ko": "기상학은 지구 대기에 대한 상세한 연구입니다.",
-      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
-      "added": ""
-    },
-    {
       "en": "We will discuss these two pictures in the next lecture.",
       "ko": "다음 강의에서 이 두 그림에 대해 논의하겠습니다.",
       "hash": "c95d81af963a9cbcf7276641e0ce2334",
@@ -536,9 +530,21 @@
       "added": ""
     },
     {
-      "en": "The theater study course encourages students to exercise creativity.",
-      "ko": "연극학 수업은 학생들이 창의력을 발휘하도록 장려합니다.",
-      "hash": "6cc4426752cf69977772cbdea73d861f",
+      "en": "Some people regarded this as eyewash, whereas some people asked for the status of their complaints and actions taken.",
+      "ko": "일부 사람들은 이를 눈속임으로 여겼고, 다른 사람들은 자신들의 불만 사항에 대한 진행 상황과 취해진 조치에 대해 문의했습니다.",
+      "hash": "a4ae34a6a5bc43e5313c7770b4641954",
+      "added": "NEW"
+    },
+    {
+      "en": "The tutorial timetable can be found on the course website.",
+      "ko": "강의 시간표는 강좌 웹사이트에서 확인할 수 있습니다.",
+      "hash": "434fbba27185d9b48395529aade61965",
+      "added": "NEW"
+    },
+    {
+      "en": "Experts said reading and listening to music can reduce stress.",
+      "ko": "전문가들은 독서와 음악 감상이 스트레스를 줄여줄 수 있다고 말했다.",
+      "hash": "7922e04dc5bf4ae44c097491b074e9dc",
       "added": "NEW"
     },
     {
@@ -548,9 +554,9 @@
       "added": ""
     },
     {
-      "en": "The garden behind the university is open to the public in summer.",
-      "ko": "대학교 뒤편 정원은 여름철에 일반인에게 개방됩니다.",
-      "hash": "6d22962b3ff582c593fbef7d2057a1ce",
+      "en": "Nurses can specialize in clinical work or management.",
+      "ko": "간호사는 임상 업무 또는 관리 분야에서 전문성을 키울 수 있습니다.",
+      "hash": "e666f3ad19e416b4fa842c3fb987e7be",
       "added": ""
     },
     {
@@ -560,15 +566,15 @@
       "added": ""
     },
     {
-      "en": "To achieve full marks, an appropriate bibliography is required.",
-      "ko": "만점을 받으려면 적절한 참고문헌 목록이 필요합니다.",
-      "hash": "3b5d9f0c06f77adbc270ac6712c84b31",
+      "en": "It is argued that students can learn more by collaboration rather than as individuals.",
+      "ko": "학생들은 개별적으로 학습하기보다 협력하여 학습할 때 더 많은 것을 배울 수 있다는 주장이 제기되고 있다.",
+      "hash": "5618ba136e2c101c2b6be22a6c3839b4",
       "added": ""
     },
     {
-      "en": "New developments in manufacturing are changing the way we live.",
-      "ko": "제조업의 새로운 발전은 우리의 삶의 방식을 바꾸고 있습니다.",
-      "hash": "84a6a10b20e4820086f075303c674848",
+      "en": "Meteorology is the detailed study of the Earth's atmosphere.",
+      "ko": "기상학은 지구 대기에 대한 상세한 연구입니다.",
+      "hash": "5ed40824b5a29e35dd8911a7a81a3530",
       "added": ""
     }
   ]
