@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29",
+  "date": "2026-01-30",
   "data": [
     {
       "en": "A group meeting will be held tomorrow in the library conference room.",
@@ -333,7 +333,7 @@
     },
     {
       "en": "Speak to your tutor if you need further assistance.",
-      "ko": "더 도움이 필요하시면 담당 교수님께 문의하세요.",
+      "ko": "더 자세한 도움이 필요하시면 담당 교수님께 문의하세요.",
       "hash": "5732288f98795ffad38792baa789e070",
       "added": ""
     },
@@ -555,7 +555,7 @@
     },
     {
       "en": "The transformation of media has changed the way information is both used and studied.",
-      "ko": "미디어의 변화는 정보의 활용 방식과 연구 방식을 모두 바꿔놓았다.",
+      "ko": "미디어의 변화는 정보의 활용 방식과 연구 방식을 모두 바꿔놓았습니다.",
       "hash": "9ffee5abf6581ef6c78d6d5528e198e4",
       "added": ""
     },
@@ -999,7 +999,7 @@
     },
     {
       "en": "The reception staff can give advice on renting private accommodation.",
-      "ko": "프런트 직원들이 개인 숙소 임대에 대한 조언을 제공해 드릴 수 있습니다.",
+      "ko": "프런트 직원들이 개인 숙소 임대에 대한 조언을 드릴 수 있습니다.",
       "hash": "2752adea9f954f6caa9dfb2cde70793f",
       "added": ""
     },
@@ -1175,7 +1175,7 @@
       "en": "The celebrated theory is still the source of great controversy.",
       "ko": "널리 알려진 이 이론은 여전히 큰 논란의 대상이다.",
       "hash": "cbf3d3e438775f9b257b165a688532aa",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Educational level is found to be related to social and economic background.",
@@ -1187,13 +1187,13 @@
       "en": "Before attending classes, you must register online or by post.",
       "ko": "수업에 참석하기 전에 온라인 또는 우편으로 등록해야 합니다.",
       "hash": "f3975723716c8f0de3cf46921da5f10f",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Consumer confidence has a direct influence on sales.",
       "ko": "소비자 신뢰도는 매출에 직접적인 영향을 미칩니다.",
       "hash": "b3021c41fd23cdc0723a0d6a947ecaf0",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Good research delivers practical benefits for real people.",
@@ -1217,31 +1217,37 @@
       "en": "Our professor is hosting the business development conference.",
       "ko": "우리 교수님께서 사업 개발 컨퍼런스를 주최하십니다.",
       "hash": "ffa353cbab693915c71bb14779812f7a",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "The paper challenged many previously accepted theories.",
       "ko": "이 논문은 기존에 받아들여졌던 많은 이론들에 이의를 제기했다.",
       "hash": "646ad320d7c113f0ad44c4b97884e277",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Our new medical students must attend the talk about optional courses.",
       "ko": "우리 의대 신입생들은 선택 과목에 대한 설명회에 반드시 참석해야 합니다.",
       "hash": "efa342e3175569b8a5b0d81ea9436b72",
+      "added": ""
+    },
+    {
+      "en": "Sugar is a compound including carbon, oxygen, and hydrogen atoms.",
+      "ko": "설탕은 탄소, 산소, 수소 원자로 이루어진 화합물입니다.",
+      "hash": "87d91cc7aeef435761e4d163a08b689e",
       "added": "NEW"
     },
     {
       "en": "Request for late applications will not be accepted under any circumstances.",
       "ko": "어떠한 경우에도 마감일 이후의 신청서는 접수되지 않습니다.",
       "hash": "b71035b59e2f15f640d1c5c0d1ada8a1",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Our study program equips students with essential skills for university.",
       "ko": "저희 교육 프로그램은 학생들이 대학 생활에 필요한 필수적인 역량을 갖추도록 도와줍니다.",
       "hash": "90542b100043778e0e70012d91ef830c",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "The commissioner will apportion the funds among all the authorities.",
@@ -1260,6 +1266,12 @@
       "ko": "여러분은 지속적인 평가와 시험을 통해 평가받게 될 것입니다.",
       "hash": "50b640588eb78d974330e2183869ba8f",
       "added": ""
+    },
+    {
+      "en": "Scientists have founded all parts of society today.",
+      "ko": "과학자들은 오늘날 사회의 모든 부분을 형성해 왔습니다.",
+      "hash": "7ebe274d050142e77d45814e3c398ef9",
+      "added": "NEW"
     },
     {
       "en": "The financial market reacts wildly during the period of uncertainty.",
@@ -1283,13 +1295,19 @@
       "en": "All answers must be thoroughly researched and supported by relevant theories.",
       "ko": "모든 답변은 철저한 연구를 바탕으로 관련 이론에 의해 뒷받침되어야 합니다.",
       "hash": "52c30a15268ea71fce71602c7b063d14",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Accountancy students have to hand in their dissertations this week.",
       "ko": "회계학과 학생들은 이번 주에 논문을 제출해야 합니다.",
       "hash": "cf8aa5f61c051674eed541d67a4f7ab5",
       "added": ""
+    },
+    {
+      "en": "Visual aid can be really helpful when you are revising.",
+      "ko": "복습할 때 시각 자료는 정말 도움이 될 수 있습니다.",
+      "hash": "9d0084bdc34536cc429f827d8aba247b",
+      "added": "NEW"
     },
     {
       "en": "Plastic pollution is very dangerous for ocean lives.",
@@ -1313,25 +1331,25 @@
       "en": "Application forms should be submitted in one week.",
       "ko": "신청서는 일주일 이내에 제출해야 합니다.",
       "hash": "f736b6e8f55b2e5603de82012336a715",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Farming is affected by changes in seasonal patterns.",
       "ko": "농업은 계절 변화의 영향을 받습니다.",
       "hash": "0f9e3a2ab6eb96d8c99ebd95ed35d806",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "The fitness gym is next to the student center.",
       "ko": "피트니스 센터는 학생회관 옆에 있습니다.",
       "hash": "32cae859ee57a6a74a7826e37cdfb415",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "The rise in sea level indicates climate change.",
       "ko": "해수면 상승은 기후 변화를 나타냅니다.",
       "hash": "bbea2df2bdcee23881d1dddb56d071a3",
-      "added": "NEW"
+      "added": ""
     }
   ]
 }
