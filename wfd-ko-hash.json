@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05",
+  "date": "2026-03-14",
   "data": [
     {
       "en": "The celebrated theory is still the source of great controversy.",
@@ -135,7 +135,7 @@
     },
     {
       "en": "It may not be possible to solve the problem easily.",
-      "ko": "이 문제를 쉽게 해결할 수 없을지도 모릅니다.",
+      "ko": "그 문제를 쉽게 해결할 수 없을지도 모릅니다.",
       "hash": "0f80d954b91cb83ba71e245f8722e004",
       "added": ""
     },
@@ -167,12 +167,6 @@
       "en": "Organizational failure is considered from various perspectives in academic literature.",
       "ko": "학술 문헌에서는 조직 실패를 다양한 관점에서 고찰한다.",
       "hash": "89fc6b80f1d9ba8cdec8250f1e7b5a1a",
-      "added": ""
-    },
-    {
-      "en": "Our professor is hosting the business development conference.",
-      "ko": "우리 교수님께서 사업 개발 컨퍼런스를 주최하십니다.",
-      "hash": "ffa353cbab693915c71bb14779812f7a",
       "added": ""
     },
     {
@@ -315,7 +309,7 @@
     },
     {
       "en": "There is clearly a need for further research in this field.",
-      "ko": "이 분야에 대한 추가 연구가 분명히 필요하다.",
+      "ko": "이 분야에 대한 추가 연구가 절실히 필요하다는 것은 분명하다.",
       "hash": "645f56955b94771a683c02d3d565153e",
       "added": ""
     },
@@ -459,7 +453,7 @@
     },
     {
       "en": "Our new medical students must attend the talk about optional courses.",
-      "ko": "새로 입학한 의대생들은 선택 과목에 대한 설명회에 반드시 참석해야 합니다.",
+      "ko": "우리 의대 신입생들은 선택 과목에 대한 설명회에 반드시 참석해야 합니다.",
       "hash": "efa342e3175569b8a5b0d81ea9436b72",
       "added": ""
     },
@@ -614,12 +608,6 @@
       "added": ""
     },
     {
-      "en": "New materials and techniques are changing the style of modern architecture.",
-      "ko": "새로운 재료와 기술이 현대 건축의 스타일을 바꾸고 있다.",
-      "hash": "3d4d3c611c95de0ee4356f100f2570ff",
-      "added": ""
-    },
-    {
       "en": "Sea levels are expected to rise during the next century.",
       "ko": "향후 100년 동안 해수면은 상승할 것으로 예상됩니다.",
       "hash": "27a22d61a7be34f1a6c667fd4d897cf5",
@@ -734,12 +722,6 @@
       "added": ""
     },
     {
-      "en": "It is an integrated course with several main elements.",
-      "ko": "이 과정은 여러 주요 요소로 구성된 통합 과정입니다.",
-      "hash": "7d69f2ef767d2b6649746fa5e305c050",
-      "added": ""
-    },
-    {
       "en": "Rising sea temperatures are a sign of climate change.",
       "ko": "해수 온도 상승은 기후 변화의 징후입니다.",
       "hash": "c22651184524842854166bf4eba779e1",
@@ -770,21 +752,15 @@
       "added": ""
     },
     {
-      "en": "Parents are financially responsible for their children right up until they reach adulthood.",
-      "ko": "부모는 자녀가 성인이 될 때까지 재정적으로 책임을 져야 합니다.",
-      "hash": "934e766e3b437efda8bb6cbe1387e5d5",
-      "added": ""
-    },
-    {
       "en": "More research is needed before any definitive conclusion can be drawn.",
       "ko": "확정적인 결론을 내리기 전에 더 많은 연구가 필요합니다.",
       "hash": "b638f2931ba5f177f10cd1f48f034054",
       "added": ""
     },
     {
-      "en": "A world expert in financial management will give a guest lecture.",
-      "ko": "세계적인 재무 관리 전문가가 특별 강연을 할 예정입니다.",
-      "hash": "9cbdc511f5b6ae4eb9ef7b27277ee5d3",
+      "en": "The north campus car park could be closed on Sunday.",
+      "ko": "북쪽 캠퍼스 주차장은 일요일에 폐쇄될 수 있습니다.",
+      "hash": "1ee186075266ef789c8eeb098aefed5c",
       "added": ""
     },
     {
@@ -797,12 +773,6 @@
       "en": "The study center in the library has all the latest technologies.",
       "ko": "도서관 내 학습센터에는 최신 기술이 모두 갖춰져 있습니다.",
       "hash": "6d731604e072678301c5679d83bf4e74",
-      "added": ""
-    },
-    {
-      "en": "At university students can make friends for life.",
-      "ko": "대학에서 학생들은 평생 친구를 사귈 수 있습니다.",
-      "hash": "efa1397b633521e42664a9fd4d7df0ad",
       "added": ""
     },
     {
@@ -938,12 +908,6 @@
       "added": ""
     },
     {
-      "en": "Research shows that exercising makes us feel better.",
-      "ko": "연구 결과에 따르면 운동은 기분을 좋게 해줍니다.",
-      "hash": "552e5859dfb95260a67312b1564c79bb",
-      "added": ""
-    },
-    {
       "en": "A few journalism students write for the school newspaper.",
       "ko": "몇몇 언론학과 학생들이 학교 신문에 글을 씁니다.",
       "hash": "3345eb1f8ae580e6f7c51698f6fbf6ec",
@@ -1010,12 +974,6 @@
       "added": ""
     },
     {
-      "en": "A series of observations were carried out in the classroom.",
-      "ko": "교실에서 일련의 관찰이 수행되었습니다.",
-      "hash": "38730b9c209ea6dff3ed66754520866e",
-      "added": ""
-    },
-    {
       "en": "The reception staff can give advice on renting private accommodation.",
       "ko": "프런트 직원들이 개인 숙소 임대에 대한 조언을 제공해 드릴 수 있습니다.",
       "hash": "2752adea9f954f6caa9dfb2cde70793f",
@@ -1040,24 +998,6 @@
       "added": ""
     },
     {
-      "en": "Students should take their time to study.",
-      "ko": "학생들은 서두르지 않고 충분한 시간을 갖고 공부해야 합니다.",
-      "hash": "fbe8e0c6f48d143625763803fbbd3143",
-      "added": ""
-    },
-    {
-      "en": "The art course has been canceled due to the new policy.",
-      "ko": "새 정책으로 인해 미술 강좌가 취소되었습니다.",
-      "hash": "5634b24a28c5034bde5b45ec3343f0ec",
-      "added": ""
-    },
-    {
-      "en": "Enrolling in a double major can provide you with better career opportunities.",
-      "ko": "복수 전공을 선택하면 더 나은 취업 기회를 얻을 수 있습니다.",
-      "hash": "aff397853b1b4991a3bc511c7966a48d",
-      "added": ""
-    },
-    {
       "en": "Please return the textbooks to the correct bookshelves in the library.",
       "ko": "교재는 도서관의 지정된 책장에 반납해 주십시오.",
       "hash": "145615b8afba3b51c9dec8638f5eaec0",
@@ -1073,12 +1013,6 @@
       "en": "The glittering of the lake surface camouflages the fish.",
       "ko": "호수 표면의 반짝임이 물고기를 위장한다.",
       "hash": "d4b5538ef85f2cad8e6b7059c12db41b",
-      "added": ""
-    },
-    {
-      "en": "Having enough sleep has many positive benefits.",
-      "ko": "충분한 수면은 여러 가지 긍정적인 효과를 가져옵니다.",
-      "hash": "e574fc1f084388755bff4113637fa735",
       "added": ""
     },
     {
@@ -1103,12 +1037,6 @@
       "en": "The article illustrates the intricate relationship of culture and language.",
       "ko": "이 글은 문화와 언어의 복잡한 관계를 보여줍니다.",
       "hash": "9abacf6afaf265c220aabdcf5d07e897",
-      "added": ""
-    },
-    {
-      "en": "The field of social development includes description of social behavior.",
-      "ko": "사회 발달 분야는 사회적 행동에 대한 설명을 포함한다.",
-      "hash": "5687ff2d7faf8107c5e87972473715b6",
       "added": ""
     },
     {
@@ -1142,6 +1070,12 @@
       "added": ""
     },
     {
+      "en": "The content is to define the combination of math and philosophy.",
+      "ko": "이 글의 목적은 수학과 철학의 결합을 정의하는 것입니다.",
+      "hash": "e9cdc673d821aaee67915929b4ba5882",
+      "added": ""
+    },
+    {
       "en": "Students often conduct research to enhance their knowledge.",
       "ko": "학생들은 지식을 향상시키기 위해 종종 연구를 수행합니다.",
       "hash": "ecb91c007cfdccd6d34b49eb33f89251",
@@ -1157,12 +1091,6 @@
       "en": "Farming is affected by changes in seasonal patterns.",
       "ko": "농업은 계절 변화의 영향을 받습니다.",
       "hash": "0f9e3a2ab6eb96d8c99ebd95ed35d806",
-      "added": ""
-    },
-    {
-      "en": "The fitness gym is next to the student center.",
-      "ko": "피트니스 센터는 학생회관 옆에 있습니다.",
-      "hash": "32cae859ee57a6a74a7826e37cdfb415",
       "added": ""
     },
     {
@@ -1190,16 +1118,10 @@
       "added": ""
     },
     {
-      "en": "We were talking about ways of committing crimes.",
-      "ko": "우리는 범죄를 저지르는 방법에 대해 이야기하고 있었어요.",
-      "hash": "80a9d86604e4089467cbe4e7f06e18ff",
-      "added": ""
-    },
-    {
       "en": "We were discussing the methods used by criminals to commit crimes.",
       "ko": "우리는 범죄자들이 범행을 저지르는 데 사용하는 수법에 대해 이야기하고 있었습니다.",
       "hash": "c00da4b334054023fd3db3487927f9d2",
-      "added": "NEW"
+      "added": ""
     },
     {
       "en": "Maths uses numbers and shapes to solve problems.",
@@ -1209,21 +1131,15 @@
     },
     {
       "en": "The employment rate has steadily increased over the last year.",
-      "ko": "지난 한 해 동안 고용률이 꾸준히 증가했습니다.",
+      "ko": "고용률은 지난 한 해 동안 꾸준히 증가했습니다.",
       "hash": "1908cf19179117a30556b157ca489b4f",
       "added": ""
     },
     {
-      "en": "And in that regard, as well as in other regards, it stands as an important contribution.",
-      "ko": "그러한 점을 비롯한 여러 면에서 이는 중요한 공헌으로 평가됩니다.",
-      "hash": "88d343512b07feb13f947bb8c91ed827",
-      "added": ""
-    },
-    {
-      "en": "Consumer confidence has a direct influence on sales.",
-      "ko": "소비자 신뢰도는 매출에 직접적인 영향을 미칩니다.",
-      "hash": "b3021c41fd23cdc0723a0d6a947ecaf0",
-      "added": ""
+      "en": "The professor said biology is not the only subject on the exam.",
+      "ko": "교수님은 시험에 생물학만 나오는 게 아니라고 말씀하셨다.",
+      "hash": "dfd8a25a50ee270013e6ebec64ec6a04",
+      "added": "NEW"
     },
     {
       "en": "At that time, few people moved from towns to villages.",
@@ -1232,9 +1148,9 @@
       "added": ""
     },
     {
-      "en": "Packaging is very important to attract the attention of a buyer.",
-      "ko": "구매자의 관심을 끌기 위해서는 포장이 매우 중요합니다.",
-      "hash": "c0fbb525ad0ea9f66cb6136b197cc0a5",
+      "en": "Our professor is hosting the business development conference.",
+      "ko": "우리 교수님께서 사업 개발 컨퍼런스를 주최하십니다.",
+      "hash": "ffa353cbab693915c71bb14779812f7a",
       "added": ""
     },
     {
@@ -1262,33 +1178,45 @@
       "added": ""
     },
     {
+      "en": "New materials and techniques are changing the style of modern architecture.",
+      "ko": "새로운 재료와 기술이 현대 건축의 스타일을 바꾸고 있다.",
+      "hash": "3d4d3c611c95de0ee4356f100f2570ff",
+      "added": ""
+    },
+    {
       "en": "Please close the door behind you when you leave the room.",
       "ko": "방을 나가실 때는 문을 꼭 닫아주세요.",
       "hash": "6d46c88c2c2a2bf36eac185adc6ed4d6",
       "added": ""
     },
     {
-      "en": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
-      "ko": "본 강좌에 등록하려면 학생들은 생물학 학사 학위를 소지해야 합니다.",
-      "hash": "be0f9b709d986d6c89e8a6b0fd9de111",
+      "en": "It is an integrated course with several main elements.",
+      "ko": "이 과정은 여러 주요 요소로 구성된 통합 과정입니다.",
+      "hash": "7d69f2ef767d2b6649746fa5e305c050",
       "added": ""
     },
     {
-      "en": "The north campus car park could be closed on Sunday.",
-      "ko": "북쪽 캠퍼스 주차장은 일요일에 폐쇄될 수 있습니다.",
-      "hash": "1ee186075266ef789c8eeb098aefed5c",
+      "en": "Parents are financially responsible for their children right up until they reach adulthood.",
+      "ko": "부모는 자녀가 성인이 될 때까지 재정적으로 책임을 져야 합니다.",
+      "hash": "934e766e3b437efda8bb6cbe1387e5d5",
+      "added": ""
+    },
+    {
+      "en": "A world expert in financial management will give a guest lecture.",
+      "ko": "세계적인 재무 관리 전문가가 특별 강연을 할 예정입니다.",
+      "hash": "9cbdc511f5b6ae4eb9ef7b27277ee5d3",
+      "added": ""
+    },
+    {
+      "en": "At university students can make friends for life.",
+      "ko": "대학에서 학생들은 평생 친구를 사귈 수 있습니다.",
+      "hash": "efa1397b633521e42664a9fd4d7df0ad",
       "added": ""
     },
     {
       "en": "There are still some tickets available for the concert next Wednesday.",
       "ko": "다음 주 수요일 콘서트 티켓이 아직 몇 장 남아 있습니다.",
       "hash": "f2daad8874ed53504c9ebde9489e37f3",
-      "added": ""
-    },
-    {
-      "en": "The financial market reacts wildly during the period of uncertainty.",
-      "ko": "불확실성이 커지는 시기에 금융 시장은 격렬하게 반응합니다.",
-      "hash": "c3c4c8debf2ad066669484d2262bbf6b",
       "added": ""
     },
     {
@@ -1304,21 +1232,69 @@
       "added": ""
     },
     {
+      "en": "Research shows that exercising makes us feel better.",
+      "ko": "연구 결과에 따르면 운동은 기분을 좋게 해줍니다.",
+      "hash": "552e5859dfb95260a67312b1564c79bb",
+      "added": ""
+    },
+    {
       "en": "The museum is closed on the third Monday of every month.",
       "ko": "박물관은 매달 셋째 주 월요일에 휴관합니다.",
       "hash": "04bbd88c58545b4eed29e33b3d77aff2",
       "added": ""
     },
     {
-      "en": "The content is to define the combination of math and philosophy.",
-      "ko": "이 글의 목적은 수학과 철학의 결합을 정의하는 것입니다.",
-      "hash": "e9cdc673d821aaee67915929b4ba5882",
+      "en": "A series of observations were carried out in the classroom.",
+      "ko": "교실에서 일련의 관찰이 수행되었습니다.",
+      "hash": "38730b9c209ea6dff3ed66754520866e",
+      "added": ""
+    },
+    {
+      "en": "Students should take their time to study.",
+      "ko": "학생들은 서두르지 않고 충분한 시간을 갖고 공부해야 합니다.",
+      "hash": "fbe8e0c6f48d143625763803fbbd3143",
+      "added": ""
+    },
+    {
+      "en": "The art course has been canceled due to the new policy.",
+      "ko": "새 정책으로 인해 미술 강좌가 취소되었습니다.",
+      "hash": "5634b24a28c5034bde5b45ec3343f0ec",
+      "added": ""
+    },
+    {
+      "en": "Enrolling in a double major can provide you with better career opportunities.",
+      "ko": "복수 전공을 선택하면 더 나은 취업 기회를 얻을 수 있습니다.",
+      "hash": "aff397853b1b4991a3bc511c7966a48d",
+      "added": ""
+    },
+    {
+      "en": "Having enough sleep has many positive benefits.",
+      "ko": "충분한 수면은 여러 가지 긍정적인 효과를 가져옵니다.",
+      "hash": "e574fc1f084388755bff4113637fa735",
+      "added": ""
+    },
+    {
+      "en": "The field of social development includes description of social behavior.",
+      "ko": "사회 발달 분야는 사회적 행동에 대한 설명을 포함한다.",
+      "hash": "5687ff2d7faf8107c5e87972473715b6",
+      "added": ""
+    },
+    {
+      "en": "The fitness gym is next to the student center.",
+      "ko": "피트니스 센터는 학생회관 옆에 있습니다.",
+      "hash": "32cae859ee57a6a74a7826e37cdfb415",
       "added": ""
     },
     {
       "en": "The meeting seemed minor, occurring in just a small room.",
       "ko": "그 회의는 작은 방에서 열렸기 때문에 사소해 보였다.",
       "hash": "bb72019190ec6ba44457c237ff4f7a69",
+      "added": ""
+    },
+    {
+      "en": "We were talking about ways of committing crimes.",
+      "ko": "우리는 범죄를 저지르는 방법에 대해 이야기하고 있었어요.",
+      "hash": "80a9d86604e4089467cbe4e7f06e18ff",
       "added": ""
     }
   ]
